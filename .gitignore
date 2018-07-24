@@ -1,5 +1,5 @@
 *.wav
 *.flac
 *.mp3
-*.lock
-*.log
+**/*.lock
+**/*.log
