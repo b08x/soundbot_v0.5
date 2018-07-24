@@ -20,3 +20,7 @@ Also, some custom scripts for Jack management and Sonic Pi integration.
 # goals? aspirations? desires?
 
 enhanced enjoyment through sound
+
+# todo
+[ ] kill linuxsampler process after closing session
+[ ] toggle certain effects
