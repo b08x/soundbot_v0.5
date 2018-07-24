@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>false</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <!-- Tal-Dub-3 -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Tal-Dub-3</Name>
+   <Binary>/usr/lib/vst/TAL-Dub-3.so</Binary>
+   <UniqueID>2020030256</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0xc</Options>
+
+   <CurrentProgramIndex>1</CurrentProgramIndex>
+   <CurrentProgramName>Gentle St Delay</CurrentProgramName>
+
+   <Chunk>
+VkMyIdMNAAA8dGFsIGN1cnByb2dyYW09IjAiIHZlcnNpb249IjEiPjxwcm9ncmFtcz48cHJvZ3JhbSBwcm9ncmFtbmFtZT0iR2VudGxlIFN0IERlbGF5IiBj
+dXRvZmY9IjAuNTQ4MDAwMDM3NjcwMTM1NDk4MDUiIHJlc29uYW5jZT0iMC40MzIwMDAwMTEyMDU2NzMyMTc3NyIgaW5wdXRkcml2ZT0iMC40MDgwMDAwMjIx
+NzI5Mjc4NTY0NSIgZGVsYXl0aW1lPSIwLjIzOTAwMDAwNzUxMDE4NTI0MTciIGRlbGF5dGltZXN5bmM9IjEwIiBkZWxheXR3aWNlX2w9IjAiIGRlbGF5dHdp
+Y2Vfcj0iMSIgZmVlZGJhY2s9IjAuMTQ4MDAwMDAxOTA3MzQ4NjMyODEiIGhpZ2hjdXQ9IjAuMjUyMDAwMDA0MDUzMTE1ODQ0NzMiIGRyeT0iMC41IiB3ZXQ9
+IjAuNDQwMDAwMDI3NDE4MTM2NTk2NjgiIGxpdmVtb2RlPSIwIi8+PHByb2dyYW0gcHJvZ3JhbW5hbWU9IlNob3J0IFN0IFNsYXAgQmFjayIgY3V0b2ZmPSIw
+LjUzNjAwMDAxMzM1MTQ0MDQyOTY5IiByZXNvbmFuY2U9IjAuNDg0MDAwMDI3MTc5NzE4MDE3NTgiIGlucHV0ZHJpdmU9IjAuNTkyMDAwMDA3NjI5Mzk0NTMx
+MjUiIGRlbGF5dGltZT0iMC4yNzIwMDAwMTQ3ODE5NTE5MDQzIiBkZWxheXRpbWVzeW5jPSIyIiBkZWxheXR3aWNlX2w9IjAiIGRlbGF5dHdpY2Vfcj0iMSIg
+ZmVlZGJhY2s9IjAiIGhpZ2hjdXQ9IjAuMjc2MDAwMDIyODg4MTgzNTkzNzUiIGRyeT0iMC41IiB3ZXQ9IjAuMzY0MDAwMDIyNDExMzQ2NDM1NTUiIGxpdmVt
+b2RlPSIwIi8+PHByb2dyYW0gcHJvZ3JhbW5hbWU9IkluZmluaXRlIFN0IERlbGF5IiBjdXRvZmY9IjAuNzAwMDAwMDQ3NjgzNzE1ODIwMzEiIHJlc29uYW5j
+ZT0iMC42MjQwMDAwMTI4NzQ2MDMyNzE0OCIgaW5wdXRkcml2ZT0iMC4zNDAwMDAwMDM1NzYyNzg2ODY1MiIgZGVsYXl0aW1lPSIwLjExMzAwMDAwNTQ4MzYy
+NzMxOTM0IiBkZWxheXRpbWVzeW5jPSIxIiBkZWxheXR3aWNlX2w9IjAiIGRlbGF5dHdpY2Vfcj0iMC44MDAwMDAwMTE5MjA5Mjg5NTUwOCIgZmVlZGJhY2s9
+IjAuNjM2MDAwMDM3MTkzMjk4MzM5ODQiIGhpZ2hjdXQ9IjAuMTI0MDAwMDA1NDI0MDIyNjc0NTYiIGRyeT0iMC41IiB3ZXQ9IjAuNSIgbGl2ZW1vZGU9IjAi
+Lz48cHJvZ3JhbSBwcm9ncmFtbmFtZT0iRmFzdCBEZWxheSIgY3V0b2ZmPSIwLjU5MjAwMDAwNzYyOTM5NDUzMTI1IiByZXNvbmFuY2U9IjAuNDQ0MDAwMDM1
+NTI0MzY4Mjg2MTMiIGlucHV0ZHJpdmU9IjAuMzAwMDAwMDExOTIwOTI4OTU1MDgiIGRlbGF5dGltZT0iMC4wNTEwMDAwMDI3NzE2MTU5ODIwNTYiIGRlbGF5
+dGltZXN5bmM9IjEiIGRlbGF5dHdpY2VfbD0iMCIgZGVsYXl0d2ljZV9yPSIwIiBmZWVkYmFjaz0iMC4yODQwMDAwMDkyOTgzMjQ1ODQ5NiIgaGlnaGN1dD0i
+MC4yNzIwMDAwMTQ3ODE5NTE5MDQzIiBkcnk9IjAuNSIgd2V0PSIwLjc1MjAwMDAzMzg1NTQzODIzMjQyIiBsaXZlbW9kZT0iMCIvPjxwcm9ncmFtIHByb2dy
+YW1uYW1lPSJUYWIgaXQgISIgY3V0b2ZmPSIwLjcyODAwMDA0NDgyMjY5Mjg3MTA5IiByZXNvbmFuY2U9IjAuNzI0MDAwMDM2NzE2NDYxMTgxNjQiIGlucHV0
+ZHJpdmU9IjAuMjkyMDAwMDI1NTEwNzg3OTYzODciIGRlbGF5dGltZT0iMC4xMDIwMDAwMDU1NDMyMzE5NjQxMSIgZGVsYXl0aW1lc3luYz0iMSIgZGVsYXl0
+d2ljZV9sPSIwIiBkZWxheXR3aWNlX3I9IjAiIGZlZWRiYWNrPSIwLjE1MjAwMDAxMDAxMzU4MDMyMjI3IiBoaWdoY3V0PSIwLjI1NjAwMDAxMjE1OTM0NzUz
+NDE4IiBkcnk9IjAuNSIgd2V0PSIwLjY2MDAwMDAyNjIyNjA0MzcwMTE3IiBsaXZlbW9kZT0iMCIvPjxwcm9ncmFtIHByb2dyYW1uYW1lPSJTd2VldCBEcml2
+ZSAxLzgiIGN1dG9mZj0iMC43NjgwMDAwMDY2NzU3MjAyMTQ4NCIgcmVzb25hbmNlPSIwLjQ5MjAwMDAxMzU4OTg1OTAwODc5IiBpbnB1dGRyaXZlPSIwLjg5
+MjAwMDAxOTU1MDMyMzQ4NjMzIiBkZWxheXRpbWU9IjAuNDEyMDAwMDMwMjc5MTU5NTQ1OSIgZGVsYXl0aW1lc3luYz0iMyIgZGVsYXl0d2ljZV9sPSIwIiBk
+ZWxheXR3aWNlX3I9IjAiIGZlZWRiYWNrPSIwLjQ0NDAwMDAzNTUyNDM2ODI4NjEzIiBoaWdoY3V0PSIwLjE4ODAwMDAwODQ2Mzg1OTU1ODExIiBkcnk9IjAu
+NSIgd2V0PSIwLjE1NjAwMDAwMzIxODY1MDgxNzg3IiBsaXZlbW9kZT0iMCIvPjxwcm9ncmFtIHByb2dyYW1uYW1lPSJTd2VldCBEcml2ZSAxLzQuIiBjdXRv
+ZmY9IjAuNjcyMDAwMDUwNTQ0NzM4NzY5NTMiIHJlc29uYW5jZT0iMC43MjQwMDAwMzY3MTY0NjExODE2NCIgaW5wdXRkcml2ZT0iMC43MjgwMDAwNDQ4MjI2
+OTI4NzEwOSIgZGVsYXl0aW1lPSIwLjE0ODAwMDAwMTkwNzM0ODYzMjgxIiBkZWxheXRpbWVzeW5jPSIxMCIgZGVsYXl0d2ljZV9sPSIwIiBkZWxheXR3aWNl
+X3I9IjAiIGZlZWRiYWNrPSIwLjY0MDAwMDA0NTI5OTUzMDAyOTMiIGhpZ2hjdXQ9IjAuMzQwMDAwMDAzNTc2Mjc4Njg2NTIiIGRyeT0iMC41IiB3ZXQ9IjAu
+MTQ4MDAwMDAxOTA3MzQ4NjMyODEiIGxpdmVtb2RlPSIwIi8+PHByb2dyYW0gcHJvZ3JhbW5hbWU9IlRoaW4gSFAgRGVsYXkgMS80IiBjdXRvZmY9IjAuODY4
+MDAwMDMwNTE3NTc4MTI1IiByZXNvbmFuY2U9IjAuNjY0MDAwMDM0MzMyMjc1MzkwNjIiIGlucHV0ZHJpdmU9IjAuODI0MDAwMDYwNTU4MzE5MDkxOCIgZGVs
+YXl0aW1lPSIwLjcwNDAwMDA1NTc4OTk0NzUwOTc3IiBkZWxheXRpbWVzeW5jPSI0IiBkZWxheXR3aWNlX2w9IjAiIGRlbGF5dHdpY2Vfcj0iMCIgZmVlZGJh
+Y2s9IjAuNDYwMDAwMDA4MzQ0NjUwMjY4NTUiIGhpZ2hjdXQ9IjAuNjY0MDAwMDM0MzMyMjc1MzkwNjIiIGRyeT0iMC41IiB3ZXQ9IjAuMjQwMDAwMDA5NTM2
+NzQzMTY0MDYiIGxpdmVtb2RlPSIwIi8+PHByb2dyYW0gcHJvZ3JhbW5hbWU9IlNwYWNlIExQIFRhYiBEZWxheSIgY3V0b2ZmPSIwLjI5NjAwMDAwMzgxNDY5
+NzI2NTYyIiByZXNvbmFuY2U9IjAuODI4MDAwMDY4NjY0NTUwNzgxMjUiIGlucHV0ZHJpdmU9IjAuMzQwMDAwMDAzNTc2Mjc4Njg2NTIiIGRlbGF5dGltZT0i
+MC4xNzYwMDAwMTM5NDc0ODY4Nzc0NCIgZGVsYXl0aW1lc3luYz0iMSIgZGVsYXl0d2ljZV9sPSIwIiBkZWxheXR3aWNlX3I9IjAuODAwMDAwMDExOTIwOTI4
+OTU1MDgiIGZlZWRiYWNrPSIwLjMzNjAwMDAyNTI3MjM2OTM4NDc3IiBoaWdoY3V0PSIwLjU3MjAwMDAyNjcwMjg4MDg1OTM4IiBkcnk9IjAuNSIgd2V0PSIw
+LjczNjAwMDA2MTAzNTE1NjI1IiBsaXZlbW9kZT0iMCIvPjxwcm9ncmFtIHByb2dyYW1uYW1lPSJMbyBGaSBTY2FwZSIgY3V0b2ZmPSIwLjY2MDAwMDAyNjIy
+NjA0MzcwMTE3IiByZXNvbmFuY2U9IjAuODIwMDAwMDUyNDUyMDg3NDAyMzQiIGlucHV0ZHJpdmU9IjAuNjIwMDAwMDA0NzY4MzcxNTgyMDMiIGRlbGF5dGlt
+ZT0iMC4wMzkwMDAwMDA4MDQ2NjI3MDQ0NjgiIGRlbGF5dGltZXN5bmM9IjEiIGRlbGF5dHdpY2VfbD0iMCIgZGVsYXl0d2ljZV9yPSIwIiBmZWVkYmFjaz0i
+MC42NDgwMDAwMDE5MDczNDg2MzI4MSIgaGlnaGN1dD0iMC4yNjM5OTk5OTg1Njk0ODg1MjUzOSIgZHJ5PSIwLjUiIHdldD0iMC4zODgwMDAwMTE0NDQwOTE3
+OTY4OCIgbGl2ZW1vZGU9IjAiLz48L3Byb2dyYW1zPjwvdGFsPgA=
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Transient mangler -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Transient mangler</Name>
+   <URI>http://plugin.org.uk/swh-plugins/transient</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Attack speed</Name>
+    <Symbol>attack</Symbol>
+    <Value>0.0399999767541885</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Sustain time</Name>
+    <Symbol>sustain</Symbol>
+    <Value>0.308641970157623</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <ExternalPatchbay>
+  <Connection>
+   <Source>Petri-Foo:out_left</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Petri-Foo:out_right</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>jack-keyboard:midi_out</Source>
+   <Target>Petri-Foo:midi_input</Target>
+  </Connection>
+  <Connection>
+   <Source>zita-dpl1:out_1</Source>
+   <Target>system:playback_1</Target>
+  </Connection>
+  <Connection>
+   <Source>zita-dpl1:out_1</Source>
+   <Target>jack_capture:input1</Target>
+  </Connection>
+  <Connection>
+   <Source>zita-dpl1:out_2</Source>
+   <Target>system:playback_2</Target>
+  </Connection>
+  <Connection>
+   <Source>zita-dpl1:out_2</Source>
+   <Target>jack_capture:input2</Target>
+  </Connection>
+  <Connection>
+   <Source>Helm:Audio Output 1</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Helm:Audio Output 2</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-1</Source>
+   <Target>LinuxSampler:midi_in_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-2</Source>
+   <Target>LinuxSampler:midi_in_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-3</Source>
+   <Target>LinuxSampler:midi_in_3</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-4</Source>
+   <Target>LinuxSampler:midi_in_0</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-5</Source>
+   <Target>LinuxSampler:midi_in_3</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-6</Source>
+   <Target>Helm:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-7</Source>
+   <Target>LinuxSampler:midi_in_0</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-8</Source>
+   <Target>LinuxSampler:midi_in_3</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-9</Source>
+   <Target>LinuxSampler:midi_in_3</Target>
+  </Connection>
+  <Connection>
+   <Source>Non-Sequencer:midi_out-10</Source>
+   <Target>LinuxSampler:midi_in_1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:0</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:0</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:0</Source>
+   <Target>Transient mangler:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:1</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:2</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:2</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:3</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:3</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:3</Source>
+   <Target>Transient mangler:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:4</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:4</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:5</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:5</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:5</Source>
+   <Target>Calf Studio Gear:Reverse Delay In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:6</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:6</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:7</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:7</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>LinuxSampler:7</Source>
+   <Target>Transient mangler:Input</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Multi Spread Out #1</Source>
+   <Target>Calf Studio Gear:Equalizer 8 Band In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Multi Spread Out #2</Source>
+   <Target>Calf Studio Gear:Equalizer 8 Band In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Multiband Compressor Out #1</Source>
+   <Target>Calf Studio Gear:Bass Enhancer In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Multiband Compressor Out #2</Source>
+   <Target>Calf Studio Gear:Bass Enhancer In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Bass Enhancer Out #1</Source>
+   <Target>Calf Studio Gear:Vinyl In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Bass Enhancer Out #2</Source>
+   <Target>Calf Studio Gear:Vinyl In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Vinyl Out #1</Source>
+   <Target>Calf Studio Gear:Multi Spread In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Vinyl Out #2</Source>
+   <Target>Calf Studio Gear:Multi Spread In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Equalizer 8 Band Out #1</Source>
+   <Target>zita-dpl1:in_1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Equalizer 8 Band Out #2</Source>
+   <Target>zita-dpl1:in_2</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Reverse Delay Out #1</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Calf Studio Gear:Reverse Delay Out #2</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>Tal-Dub-3:output_1</Source>
+   <Target>Calf Studio Gear:Reverse Delay In #1</Target>
+  </Connection>
+  <Connection>
+   <Source>Tal-Dub-3:output_2</Source>
+   <Target>Calf Studio Gear:Reverse Delay In #2</Target>
+  </Connection>
+  <Connection>
+   <Source>Transient mangler:Output</Source>
+   <Target>Calf Studio Gear:Multiband Compressor In #1</Target>
+  </Connection>
+ </ExternalPatchbay>
+</CARLA-PROJECT>

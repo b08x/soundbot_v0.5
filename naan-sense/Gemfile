@@ -1,0 +1,36 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'highline'
+
+gem 'tty-command'
+gem 'tty-which'
+gem 'tty-prompt'
+gem 'tty-pager'
+
+gem 'streamio-ffmpeg'
+
+gem 'god'
+
+gem 'unimidi'
+gem 'sonic-pi-cli'
+
+gem 'musicxml'
+
+gem 'ruby-sox'
+
+gem 'jack-ffi'
+
+#gem 'i3-ipc'
+gem 'i3ipc'
+gem 'gir_ffi'
+
+gem 'celluloid'
+gem 'forkoff'
+gem 'childprocess'
+
+gem 'coltrane'
+gem 'mercenary'
+
+gem 'commander'
