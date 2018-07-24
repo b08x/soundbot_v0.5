@@ -1,0 +1,11 @@
+---
+- name: openvpn restart
+  service: name={{ openvpn_service_name }} state=restarted
+
+- name: reload iptables
+  shell: /sbin/iptables-restore < /etc/iptables/rules.v4
+  args:
+      executable: /bin/bash
+
+- name: restart iptables.service
+  service: name=iptables.service enabled=yes state=restarted

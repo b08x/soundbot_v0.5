@@ -1,0 +1,22 @@
+---
+- name: Add repo file
+  template: src=mariadb_centos.repo.j2 dest=/etc/yum.repos.d/mariadb.repo owner=root group=root mode=0644
+
+- name: Ensure Mariab GPG key
+  rpm_key: key=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+
+- name: Ensure MySQL packages are installed
+  yum: "name={{ item }} state=installed enablerepo={{ mysql_enablerepo }}"
+  with_items: "{{ mysql_packages }}"
+  register: rh_mysql_install_packages
+
+- name: Ensure MySQL Python libraries are installed
+  yum: "name=MySQL-python state=installed enablerepo={{ mysql_enablerepo }}"
+
+- name: install percona xtrabackup repo
+  yum: name=http://www.percona.com/downloads/percona-release/redhat/0.1-3/percona-release-0.1-3.noarch.rpm state=installed
+  tags: xtrabackup_pkgs
+
+- name: install xtrabackup 2.4
+  yum: name=percona-xtrabackup-24 state=installed
+  tags: xtrabackup_pkgs

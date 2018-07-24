@@ -1,0 +1,12 @@
+---
+
+- include: libvirt.yml
+  when: kvmhost
+  tags: ['virt']
+
+- include: docker.yml
+  when: docker_host
+  tags: ['docker']
+
+- include: vagrant.yml
+  tags: ['vagrant']

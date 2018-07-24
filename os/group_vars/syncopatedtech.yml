@@ -1,0 +1,13 @@
+---
+
+domain: syncopatedtech.net
+
+user:
+  name: b08x
+  uid: 1041
+  gid: 1041
+  group: b08x
+  shell: /bin/bash
+  email: b08x@syncopatedtech.org
+  home: /home/b08x
+  password: $1$ynx7axf8$D/jA4ELwCCtvToD9tcmDq.

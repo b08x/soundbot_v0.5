@@ -1,0 +1,34 @@
+---
+
+- name: ensure postfix package is installed
+  yum: name={{ item }} state=installed
+  with_items:
+    - postfix
+    - mailx
+    - cyrus-sasl-plain
+  tags:
+    - os_pkgs
+
+- name: start postix service and enable to start on boot
+  service: name=postfix state=started enabled=yes
+
+- name: copy over sender_canonical
+  copy: >
+    src=postfix_sender_canonical
+    dest=/etc/postfix/sender_canonical
+    owner=root
+    group=root
+    mode=0644
+
+#TODO: copy over sasl_passwd and add tasks for postmap    
+
+- name: copy over main.cf template
+  template: >
+    src=postfix_main.cf.j2
+    dest=/etc/postfix/main.cf
+    backup=yes
+    owner=root
+    group=root
+    mode=0644
+  notify:
+    - restart postfix

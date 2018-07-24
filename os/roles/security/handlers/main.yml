@@ -1,0 +1,13 @@
+---
+
+- name: reload auditd
+  command: /usr/bin/pkill -HUP -P 1 auditd
+
+- name: update grub
+  command: grub2-mkconfig -o /boot/grub2/grub.cfg
+
+- name: restart rsyslog
+  service: name=rsyslog state=restarted
+
+- name: restart sshd
+  service: name=sshd state=restarted

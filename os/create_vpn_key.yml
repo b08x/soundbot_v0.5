@@ -1,0 +1,24 @@
+---
+- hosts: '{{ vpnhost }}'
+  become: true
+  tasks:
+    - name: Create client key in easy-rsa
+      shell: source vars ; ./build-key --batch {{ client }}
+      args:
+          chdir: /etc/openvpn/easy-rsa
+          executable: /bin/bash
+          creates: /etc/openvpn/easy-rsa/keys/{{ client }}.key
+
+    - name: Fetch client key and cert
+      fetch: src=/etc/openvpn/easy-rsa/keys/{{ item }} dest=/tmp
+      with_items:
+          - ca.crt
+          - "{{ client }}.crt"
+          - "{{ client }}.key"
+
+    - name: Add ca cert to sample.ovpn
+      vars:
+          ca_cert: "{{ lookup('file', '/tmp/{{ vpnhost }}/etc/openvpn/easy-rsa/keys/ca.crt') }}"
+          client_cert: "{{ lookup('file', '/tmp/{{ vpnhost }}/etc/openvpn/easy-rsa/keys/{{ client }}.crt') }}"
+          client_key: "{{ lookup('file', '/tmp/{{ vpnhost }}/etc/openvpn/easy-rsa/keys/{{ client }}.key') }}"
+      template: src=roles/openvpn_with_ca/templates/etc_openvpn_sample.ovpn.j2 dest='/etc/openvpn/easy-rsa/keys/{{ client }}.ovpn' owner=root group=root mode=0600

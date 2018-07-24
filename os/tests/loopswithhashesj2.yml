@@ -1,0 +1,114 @@
+---
+
+# - hosts: localhost
+#   gather_facts: yes
+#   connection: local
+
+#   vars:
+#     nics:
+#       - name: eth0
+#         mac: BC:5F:F4:0E:BB:B5
+#         ipaddr: 192.168.41.100
+#         prefix: 24
+#         gateway: 192.168.41.1
+#         onboot: yes
+#         bootproto: none
+#         type: ethernet
+#         dns:
+#           DNS1: 192.168.8.41
+#         defroute: yes
+#       - name: eth1
+#         mac: BC:5F:F4:0E:BB:B3
+#         ipaddr: 192.168.41.100
+#         prefix: 24
+#         gateway: 192.168.41.1
+#         onboot: yes
+#         bootproto: none
+#         type: ethernet
+#         dns:
+#           DNS1: 192.168.8.41
+#         defroute: yes
+
+- hosts: localhost
+  gather_facts: yes
+  connection: local
+
+  vars:
+    nics:
+      eth0:
+        mac: BC:5F:F4:0E:BB:B5
+        ipaddr: 192.168.41.100/24
+        gateway: 192.168.41.1
+        onboot: yes
+        bootproto: none
+        type: ethernet
+        dns: 192.168.8.41
+        state: present
+        defroute: yes
+      eth1:
+        mac: BC:5F:F4:0E:BB:B3
+        onboot: yes
+        bootproto: none
+        type: ethernet
+        bridge: br0
+        state: present
+      br0:
+        ipaddr: 192.168.41.200/24
+        onboot: yes
+        bootproto: none
+        type: bridge
+        state: present
+
+
+
+      # - device: eth1
+      #   
+      #   ip4: 192.168.41.200/24
+
+      #   type: Ethernet
+      #   dns:
+      #     DNS1: 192.168.8.41
+      #   defroute: yes
+
+  tasks:
+
+    - name: print dns values
+      debug:
+        msg: "print {{ item }}" 
+      with_dict: "{{ nics }}"
+
+    - name: add gateway device
+      nmcli:
+        conn_name: "{{ item.key }}"
+        ifname: "{{ item.key }}"
+        autoconnect: "{{ item.value.onboot }}"
+        dns4: "{{ item.value.dns }}"
+        gw4: "{{ item.value.gateway }}"
+        ip4: "{{ item.value.ipaddr }}"
+        mac: "{{ item.value.mac }}"
+        state: "{{ item.value.state }}"
+        type: "{{ item.value.type }}"
+      with_dict: "{{ nics }}"
+      when: "'{{ item.key }}' == 'eth0'"
+      
+    - name: add bridge slave
+      nmcli:
+        conn_name: "{{ item.key }}"
+        ifname: "{{ item.key }}"
+        autoconnect: "{{ item.value.onboot }}"
+        state: "{{ item.value.state }}"
+        type: "{{ item.value.type }}"
+        master: "{{ item.value.bridge }}"
+      with_dict: "{{ nics }}"
+      when: "'{{ item.key }}' == 'eth1'"
+
+    - name: add bridge
+      nmcli:
+        conn_name: "{{ item.key }}"
+        ifname: "{{ item.key }}"
+        autoconnect: "{{ item.value.onboot }}"
+        state: "{{ item.value.state }}"
+        type: "{{ item.value.type }}"
+        ip4: "{{ item.value.ipaddr }}"
+      with_dict: "{{ nics }}"
+      when: "'{{ item.key }}' == 'br0'"

@@ -1,0 +1,12 @@
+---
+- name: Install iptables-persistent package 
+  package: name={{ item }} state=latest
+  notify: reload iptables
+  with_items:
+      - iptables-persistent
+
+- name: Copy Firewall Template
+  template: src={{ item.src }} dest={{ item.dest }} owner=root group=root mode={{ item.mode }}
+  notify: reload iptables
+  with_items:
+      - { src: 'etc_iptables_rules.v4.j2', dest: '/etc/iptables/rules.v4', mode: '0644' }

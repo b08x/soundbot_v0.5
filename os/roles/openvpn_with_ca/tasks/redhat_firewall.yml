@@ -1,0 +1,20 @@
+---
+- name: Install iptables-services package on Debian
+  package: name={{ item }} state=latest
+  notify: restart iptables.service
+  with_items:
+      - iptables-services
+
+- name: Copy Firewall Template
+  template: src={{ item.src }} dest={{ item.dest }} owner=root group=root mode={{ item.mode }}
+  notify: restart iptables.service
+  with_items:
+      - { src: 'etc_iptables_rules.v4.j2', dest: '/etc/sysconfig/iptables', mode: '0600' }
+
+- name: Disable firewalld if it is installed
+  service: name=firewalld enabled=no state=stopped
+  ignore_errors: true
+
+- name: Enable iptables.services
+  service: name=iptables.service enabled=yes
+  notify: restart iptables.service

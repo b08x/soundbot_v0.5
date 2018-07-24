@@ -1,0 +1,23 @@
+# {{ ansible_managed }}
+
+NAME={{ item.value.name }}
+HWADDR={{ item.value.mac }}
+ONBOOT={{ item.value.onboot }}
+NETBOOT=yes
+UUID=a01a383e-e488-49b4-b171-808978b72756
+IPV6INIT=yes
+BOOTPROTO=none
+TYPE=Ethernet
+PROXY_METHOD=none
+BROWSER_ONLY=no
+IPADDR=192.168.41.100
+PREFIX=24
+GATEWAY=192.168.41.1
+DNS1={{ item.value.dns }}
+DOMAIN=st.net
+DEFROUTE=yes
+IPV4_FAILURE_FATAL=no
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=yes
+IPV6_FAILURE_FATAL=no
+IPV6_PRIVACY=no

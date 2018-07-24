@@ -1,0 +1,13 @@
+---
+
+- name: install network manager stuff
+  dnf: name={{ item }} state=present
+  with_items:
+    - NetworkManager
+    - NetworkManager-openvpn
+    - NetworkManager-openvpn-gnome
+    - NetworkManager-glib
+    - nm-connection-editor
+    - libsemanage-python
+    - policycoreutils-python
+  tags: ['utilpkgs']

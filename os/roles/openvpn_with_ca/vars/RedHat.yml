@@ -1,0 +1,3 @@
+openvpn_package_name: openvpn
+openvpn_service_name: openvpn@server.service
+openvpn_group: nobody

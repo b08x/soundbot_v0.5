@@ -1,0 +1,12 @@
+---
+
+- include: selinux.yml
+  when: make_hard
+  tags: ['selinux']
+
+- include: cis.yml
+  when: make_hard
+  tags: ['cis']
+
+- include: sshd.yml
+  tags: ['sshd']

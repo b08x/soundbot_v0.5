@@ -1,0 +1,5 @@
+DEVICE="br0"
+ONBOOT="yes"
+TYPE="Bridge"
+STP="on"
+DELAY="0.0"

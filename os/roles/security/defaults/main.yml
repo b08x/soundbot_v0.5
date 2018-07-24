@@ -1,0 +1,22 @@
+---
+
+make_hard: True
+
+selinux_policy: targeted
+selinux_state: permissive
+
+# variables to be applied in auditd.conf
+action_mail_acct: "root"
+admin_space_left_action: "halt"
+max_log_file: 10
+max_log_file_action: "keep_logs"
+space_left_action: "email"
+
+sshd_config_basedir: /etc/ssh
+sshd_allow_tcp_forwarding: False
+sshd_port: 22
+sshd_allow_groups:
+  - wheel
+
+sysctl_ip_forward: False
+

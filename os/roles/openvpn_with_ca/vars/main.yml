@@ -1,0 +1,11 @@
+# Network address and mask for VPN network
+# This should NOT be the same as your internal network
+vpn_net: 10.8.0.0
+vpn_mask: 255.255.255.0
+
+key_country: US
+key_province: Illinois
+key_city: Chicago
+key_org: b08x
+key_email: admin@b08x.net
+key_ou: anon

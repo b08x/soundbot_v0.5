@@ -1,0 +1,4 @@
+---
+
+- name: install borgbackup
+  dnf: name=borgbackup state=present

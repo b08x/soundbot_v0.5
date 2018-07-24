@@ -1,0 +1,37 @@
+---
+- name: Install easy-rsa package
+  package: name=easy-rsa state=latest
+
+- name: Create /etc/openvpn/easy-rsa/keys directory
+  file: path=/etc/openvpn/easy-rsa/keys state=directory
+
+- name: Copy easy-rsa files 
+  copy: src=roles/openvpn_with_ca/files/{{ item.src }} dest=/etc/openvpn/easy-rsa/{{ item.src }} mode={{ item.mode }} 
+  with_items:
+    - { src: 'build-ca', mode: '0755' }
+    - { src: 'build-dh', mode: '0755' }
+    - { src: 'build-inter', mode: '0755' }
+    - { src: 'build-key', mode: '0755' }
+    - { src: 'build-key-pass', mode: '0755' }
+    - { src: 'build-key-pkcs12', mode: '0755' }
+    - { src: 'build-key-server', mode: '0755' }
+    - { src: 'build-req', mode: '0755' }
+    - { src: 'build-req-pass', mode: '0755' }
+    - { src: 'clean-all', mode: '0755' }
+    - { src: 'inherit-inter', mode: '0755' }
+    - { src: 'list-crl', mode: '0755' }
+    - { src: 'pkitool', mode: '0755' }
+    - { src: 'revoke-full', mode: '0755' }
+    - { src: 'sign-req', mode: '0755' }
+    - { src: 'whichopensslcnf', mode: '0755' }
+    - { src: 'openssl-1.0.0.cnf', mode: '0644' }
+
+- name: Copy easy-rsa vars
+  template: src=etc_openvpn_easy-rsa_vars.j2 dest=/etc/openvpn/easy-rsa/vars owner=root group=root mode=0640 force=no
+
+- name: Setup easy-rsa certificates and keys
+  shell: source vars ; ./clean-all && ./build-ca --batch && ./build-key-server --batch {{ ansible_hostname }} && ./build-dh --batch
+  args:
+      chdir: /etc/openvpn/easy-rsa
+      executable: /bin/bash
+      creates: /etc/openvpn/easy-rsa/keys/dh2048.pem

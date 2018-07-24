@@ -1,0 +1,15 @@
+---
+
+- name: install dnf via yum
+  yum: name=dnf state=present
+  tags: ['dnf']
+
+- name: install bash-completion
+  dnf: name={{ item }} state=present
+  with_items:
+    - bash-completion
+    - bash-completion-extras
+
+- include: postfix_email.yml
+  when: postfix_gmail
+  tags: ['postfix']

@@ -1,0 +1,9 @@
+---
+
+- name: install jack audio packages
+  dnf: name={{ item }} state=present
+  with_items:
+    - jack-audio-connection-kit
+    - jack-audio-connection-kit-example-clients
+    - qjackctl
+  tags: ['jack-audio']

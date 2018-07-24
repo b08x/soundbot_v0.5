@@ -1,0 +1,18 @@
+---
+
+ec2_host: True
+
+sshd_port: 40418
+
+firewall_allowed_tcp_ports:
+  - "40418"
+  - "80"
+  - "443"
+
+hostame: "prod.syncopatedtech"
+
+ipv4_addr: 172.31.10.108
+
+postfix_gmail: False
+
+web_host: True

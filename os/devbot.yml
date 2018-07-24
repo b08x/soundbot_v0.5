@@ -1,0 +1,16 @@
+---
+
+- hosts: devbots
+  gather_facts: yes
+
+# setup fstab, run updates, make sure stuff is cool.
+# setup my ssh keys to umm ya know...in other words, distribute keys
+
+  roles:
+    - { role: security, tags: ['security'] }
+    - { role: dotfiles, tags: ['dotfiles'] }
+    - { role: virt, tags: ['virt'] }
+    - { role: workstation, tags: ['workstation'] }
+    - { role: rvm, tags: ['rvm'] }
+    - { role: ui, tags: ['ui'] }
+    - { role: studio, tags: ['studio'] }

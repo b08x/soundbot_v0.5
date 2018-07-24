@@ -1,0 +1,79 @@
+---
+
+
+# install for Debian based systems
+- block:
+  - name: install postgresql server and client
+    apt:
+      pkg: "{{ item }}"
+      state: latest
+    with_items:
+      - "postgresql-{{ pg_version }}"
+      - "postgresql-client-{{ pg_version }}"
+      - python-psycopg2
+    register: db_setup
+    tags: postgres_packages
+
+  - name: install postgresql dev
+    apt:
+      name: "postgresql-server-dev-{{ pg_version }}"
+      state: "{{ pg_dev_headers }}"
+
+  - name: install postgresql contrib
+    apt:
+      name: "postgresql-contrib-{{ pg_version }}"
+      state: "{{ pg_contrib }}"
+  become: yes
+  when: ansible_os_family == "Debian"
+
+# install for RedHat based systems
+- block:
+
+  - set_fact:
+      pg_rpm_version: "{{ pg_version | replace('.', '') }}"
+
+  - set_fact:
+      pg_rpm_pkg:
+        server: "postgresql{{ pg_rpm_version }}-server"
+        client: "postgresql{{ pg_rpm_version }}"
+        dev: "postgresql{{ pg_rpm_version }}-devel"
+        contrib: "postgresql{{ pg_rpm_version }}-contrib"
+
+  - name: install postgresql server and client
+    yum:
+      name: "{{ item }}"
+      state: latest
+    with_items:
+      - "{{ pg_rpm_pkg.server }}"
+      - "{{ pg_rpm_pkg.client }}"
+      - python-psycopg2
+    register: db_setup
+    tags: postgres_packages
+
+  - name: install postgresql dev
+    yum:
+      name: "{{ pg_rpm_pkg.dev }}"
+      state: "{{ pg_dev_headers }}"
+
+  - name: install postgresql contrib
+    yum:
+      name: "{{ pg_rpm_pkg.contrib }}"
+      state: "{{ pg_contrib }}"
+
+  #/usr/pgsql-9.4/bin/postgresql94-setup initdb
+  - name: initialize db
+    command: "/usr/pgsql-{{ pg_version }}/bin/postgresql{{ pg_rpm_version }}-setup initdb"
+    args:
+      creates: "/var/lib/pgsql/{{ pg_version }}/initdb.log"
+    register: rhdbinit
+
+  - name: start postgresql
+    service:
+      name: "{{ pg_service_name }}"
+      state: started
+      enabled: yes
+
+  - debug: var=rhdbinit
+
+  become: yes
+  when: ansible_os_family == "RedHat"

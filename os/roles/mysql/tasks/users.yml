@@ -1,0 +1,14 @@
+---
+- name: Ensure MySQL users are present
+  mysql_user:
+    name: "{{ item.name }}"
+    host: "{{ item.host | default('localhost') }}"
+    password: "{{ item.password }}"
+    priv: "{{ item.priv | default('*.*:USAGE') }}"
+    state: present
+    append_privs: "{{ item.append_privs | default('no') }}"
+    sql_log_bin: yes
+  with_items: "{{ mysql_users }}"
+  tags: [create_db_user]
+
+#TODO: add task to run flush privileges

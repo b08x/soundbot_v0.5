@@ -1,0 +1,40 @@
+---
+
+- include: alsa.yml
+  tags: ['alsa']
+
+- include: jack.yml
+  tags: ['jack-audio']
+
+- include: sonicpi.yml
+  tags: ['sonic']
+
+- include: patchage.yml
+  tags: ['audio']
+
+- include: utils.yml
+  tags: ['audio_tools']
+
+- include: rosegarden.yml
+  tags: ['rosegarden']
+
+- include: zita.yml
+  tags: ['zita']
+
+- include: linuxsampler.yml
+  tags: ['linuxsampler']
+
+- include: effects.yml
+  tags: ['effects']
+
+- include: score.yml
+  tags: ['abc']
+
+- include: synth.yml
+  tags: ['synth']
+
+- include: deadbeef.yml
+  tags: ['deadbeef']
+
+- include: realtime.yml
+  tags: ['realtime']

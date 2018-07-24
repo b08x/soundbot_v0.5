@@ -1,0 +1,66 @@
+---
+
+# configure
+- block:
+  - name: update postgres client authentication config file
+    template:
+      src: pg_hba.conf.j2
+      dest: "{{ pg_cfg_hba_file }}"
+      backup: yes
+      owner: "{{ pg_admin_user }}"
+      group: "{{ pg_admin_user }}"
+      mode: 0644
+    notify: restart postgresql
+    tags: postgres_config
+
+  - name: update postgres config file
+    template:
+      src: postgres.conf.j2
+      dest: "{{ pg_cfg_file }}"
+      backup: yes
+      owner: "{{ pg_admin_user }}"
+      group: "{{ pg_admin_user }}"
+      mode: 0644
+    notify: restart postgresql
+    tags: postgres_config
+  
+  - name: restart postgresql
+    service:
+      name: "{{ pg_service_name }}"
+      state: restarted
+  become: yes
+
+
+
+
+# configure as postgres
+# - block:
+#
+#   - name: create postgres database
+#     postgresql_db: "{{ item }}"
+#     with_items: "{{ pg_databases }}"
+#           # name: "{{ pg_dbname }}"
+#           # encoding: 'UTF-8'
+#           # template: 'template1'
+#
+#   - name: create postgres user
+#     postgresql_user:
+#       user: "{{ item.user }}"
+#       password: "{{ item.password }}"
+#       role_attr_flags: "{{ item.role_attr_flags }}"
+#     with_items: "{{ pg_users }}"
+#       # db: "{{ pg_dbname }}"
+#       # name: "{{ pg_user }}"
+#       # password: "{{ pg_password }}"
+#       # state: present
+#
+#   - name: install postgres extension(s)
+#     postgresql_ext:
+#       name: "{{ item }}"
+#       db: "{{ pg_dbname }}"
+#     with_items: "{{ pg_extensions }}"
+#     when: "{{ pg_extensions }}"
+#
+#   become: yes
+#   become_user: postgres
+#   when: pg_cfg_configure

@@ -1,0 +1,43 @@
+---
+# tasks file for postgresql
+
+# repository for Debian based systems
+- block:
+  - name: add official postgresql repository key
+    apt_key:
+      url: http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc
+      state: present
+    when: pg_repo == 'postgresql.org'
+
+  - name: add official postgresql repository
+    apt_repository:
+      state: present
+      repo: 'deb http://apt.postgresql.org/pub/repos/apt/ {{ ansible_distribution_release}}-pgdg main {{ pg_version }}'
+    when: pg_repo == 'postgresql.org'
+
+  - name: make apt-cache up to date
+    apt:
+      update_cache: yes
+
+  become: yes
+  when: ansible_os_family == "Debian"
+
+# repository for RedHat based systems
+- block:
+
+  - name: "download official postgres rpm for {{ ansible_distribution}} {{ ansible_distribution_version }}"
+    get_url:
+      url: "{{ pg_rpm_url }}"
+      dest: "{{ ansible_env.HOME }}"
+
+  - name: install postgres rpm
+    command: rpm -i pgdg*
+    args:
+      chdir: "{{ ansible_env.HOME }}"
+    register: rpm_install
+    failed_when:
+      - "'already installed' not in rpm_install.stderr"
+      - "rpm_install.rc != 0"
+
+  become: yes
+  when: ansible_os_family == "RedHat"

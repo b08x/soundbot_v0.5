@@ -1,0 +1,26 @@
+---
+
+# - name: Ensure backup user exists
+#   mysql_user:
+#     name: "{{ mysql_xtrabackup_user.name }}"
+#     host: "{{ mysql_xtrabackup_user.host | default('%') }}"
+#     password: "{{ mysql_xtrabackup_user.password }}"
+#     priv: "{{ mysql_xtrabackup_user.priv | default('*.*:RELOAD,LOCK TABLES,REPLICATION CLIENT') }}"
+#     state: present
+#     sql_log_bin: yes
+
+- name: copy backup script to /usr/local/bin
+  template: >
+    src=backup.sh.j2
+    dest=/usr/local/bin/dbbackup.sh
+    owner=root
+    group=root
+    mode=0755
+
+- name: copy xtrabackup.my.cnf to opsadmin home
+  template: >
+    src=xtrabackup.cnf.j2
+    dest=/home/opsadmin/.xtrabackup.cnf
+    owner=opsadmin
+    group=opsadmin
+    mode=0600

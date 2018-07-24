@@ -1,0 +1,38 @@
+---
+
+#configure firewall. we will disable firewalld as at this point it does not play well with docker.
+#instead, we'll use good old fashioned iptables. by default we are only allowing ssh inbound & ntp inbound/outbound
+#ports are set in the vars/main.yml
+
+#TODO: the tasks [backup original iptables files, load custom rules, save iptables]
+# run each time this play is executed even if nothing has changed. fix so this doest show as changed
+# every time this play is run
+
+#first, ensure that firewalld service is disabled
+
+# - name: disable firewalld service
+#   service: name=firewalld state=stopped enabled=no
+
+# TODO: figure out why we used 'mask' as an arguement
+# this produces: fatal: [mysqlbot02-stag]: FAILED! => {"changed": false, "failed": true, "msg": "Failed to stop mask.service: Unit mask.service not loaded.\n"}
+# - name: disable firewalld service
+#   service: name=firewalld state=stopped enabled=no args=mask
+
+- name: Ensure iptables is installed (RedHat).
+  yum: pkg=iptables state=installed
+  when: ansible_os_family == 'RedHat'
+
+- name: Copy firewall script into place.
+  template: src=firewall.bash.j2 dest=/etc/firewall.bash owner=root group=root mode=0744
+
+- name: backup original iptables file
+  command: cp -f /etc/sysconfig/iptables /etc/sysconfig/iptables.original
+
+- name: Load the custom rules
+  command: /etc/firewall.bash
+
+- name: save iptables so they are enabled on service restart
+  shell: /usr/sbin/iptables-save > /etc/sysconfig/iptables
+
+- name: Ensure the firewall is enabled and will start on boot.
+  service: name=iptables state=started enabled=yes

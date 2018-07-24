@@ -1,0 +1,10 @@
+---
+
+# - name: install prereq packages
+#   dnf: name=libselinux-python state=present
+#   tags: ['utilpkgs']
+
+- name: set selinux state
+  selinux: >
+    policy='{{ selinux_policy }}'
+    state='{{ selinux_state }}'

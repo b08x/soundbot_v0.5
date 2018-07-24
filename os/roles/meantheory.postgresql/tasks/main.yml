@@ -1,0 +1,6 @@
+---
+# tasks file for postgresql
+
+- include: repository.yml
+- include: install.yml
+- include: configure.yml

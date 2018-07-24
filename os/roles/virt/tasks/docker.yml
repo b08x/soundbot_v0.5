@@ -1,0 +1,44 @@
+---
+
+- name: create docker storage directory if it doesn't exist
+  file: >
+    path={{ docker_storage }}
+    state=directory
+    mode=0755
+
+- name: install docker packages
+  dnf: name={{ item }} state=present
+  with_items:
+    - docker
+    - docker-compose
+    - cockpit-docker
+
+- name: Create docker group
+  group: name=docker state=present
+
+- name: Add user to docker group
+  command: usermod -a -G docker {{ user.name }}
+
+- name: push daemon config file
+  template: >
+    src=daemon.json.j2
+    dest=/etc/docker/daemon.json
+    owner=0
+    group=0
+    mode=0644
+    backup=yes
+
+- name: push docker sysconfig file
+  copy: >
+    src=docker
+    dest=/etc/sysconfig/docker
+    owner=0
+    group=0
+    mode=0644
+    backup=yes
+
+- name: enable and start docker service
+  service: name=docker enabled=yes state=started
+
+- name: enable and start docker service
+  service: name=docker-containerd enabled=yes state=started

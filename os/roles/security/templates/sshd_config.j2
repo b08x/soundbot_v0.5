@@ -1,0 +1,47 @@
+#$Id$
+#{{ ansible_managed }}
+Port {{ sshd_port }}
+{% if ansible_virtualization_type == 'virtualbox' %}
+ListenAddress 0.0.0.0
+{% else %}
+ListenAddress 0.0.0.0
+{% endif %}
+PermitRootLogin no
+HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_ecdsa_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+SyslogFacility AUTHPRIV
+PubkeyAuthentication yes
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+AuthorizedKeysFile      .ssh/authorized_keys
+IgnoreRhosts yes
+PermitEmptyPasswords no
+GSSAPIAuthentication no
+GSSAPICleanupCredentials no
+UsePAM yes
+X11Forwarding no
+{% if sshd_allow_tcp_forwarding %}
+AllowTcpForwarding yes
+{% else %}
+AllowTcpForwarding no
+{% endif %}
+LoginGraceTime 1m
+UsePrivilegeSeparation sandbox
+ClientAliveInterval 600
+ClientAliveCountMax 3
+AcceptEnv LANG LC_CTYPE LC_NUMERIC LC_TIME LC_COLLATE LC_MONETARY LC_MESSAGES
+AcceptEnv LC_PAPER LC_NAME LC_ADDRESS LC_TELEPHONE LC_MEASUREMENT
+AcceptEnv LC_IDENTIFICATION LC_ALL LANGUAGE
+AcceptEnv XMODIFIERS
+Subsystem       sftp    /usr/libexec/openssh/sftp-server
+Banner /etc/issue
+UseDNS no
+#AllowUsers opsadmin
+AllowGroups {{ sshd_allow_groups }}
+# Example of overriding settings on a per-user basis
+#Match User anoncvs
+#       X11Forwarding no
+#       AllowTcpForwarding no
+#       PermitTTY no
+#       ForceCommand cvs server

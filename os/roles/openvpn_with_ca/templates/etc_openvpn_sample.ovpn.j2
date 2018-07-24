@@ -1,0 +1,14 @@
+tls-client
+remote {{ ansible_host }}
+comp-lzo
+port 1194
+proto udp
+<ca>
+{{ ca_cert }}
+</ca>
+<cert>
+{{ client_cert }}
+</cert>
+<key>
+{{ client_key }}
+</key>

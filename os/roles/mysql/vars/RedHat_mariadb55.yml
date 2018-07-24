@@ -1,0 +1,18 @@
+---
+# default vars are for mysql. setting vars here to install maraiadb on centos 7 hosts
+
+__mysql_daemon: mariadb
+__mysql_packages:
+  - mariadb
+  - mariadb-server
+  - mariadb-libs
+  - MySQL-python
+  - perl-DBD-MySQL
+__mysql_slow_query_log_file: /var/log/mariadb/mysql-slow.log
+mysql_config_file: /etc/my.cnf
+mysql_config_include_dir: /etc/my.cnf.d
+mysql_socket: /var/lib/mysql/mysql.sock
+mysql_pid_file: /var/run/mariadb/mariadb.pid
+mysql_log_error: /var/log/mariadb/mariadb-err.log
+mysql_syslog_tag: mariadb
+mysql_log: /var/log/mariadb/mariadb.log

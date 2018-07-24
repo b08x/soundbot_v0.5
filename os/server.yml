@@ -1,0 +1,52 @@
+---
+
+- hosts: servers
+  gather_facts: yes
+  vars:
+    enable_ssl: False
+    virt_host: False
+    web_host: False
+
+  roles:
+    - { role: server, tags: ['server'] }
+    - { role: security, tags: ['security'] }
+    - { role: firewall, tags: ['firewall'] }
+    - { role: virt, when: virt_host, tags: ['virt'] }
+    - { role: ssl-certs, when: enable_ssl, tags: ['ssl-certs'] }
+    - { role: nginx, when: web_host, tags: ['nginx'] } 
+
+- hosts: fatbot
+  gather_facts: yes
+  roles:
+    - { role: openvpn_with_ca, tags: ['openvpn'] }
+  tasks:
+    - name: disable unnecessary services
+      service: name={{ item }} enabled=no state=stopped
+      with_items:
+        - sendmail
+        - httpd
+      tags:
+        - "disable_services"
+
+  force_handlers: True
+
+- hosts: url
+  tasks:
+    - name: ensure yum-utils package is installed
+      yum: name=yum-utils state=present
+      tags:
+        - cert_bot
+
+    - name: enable optional channels (for ec2 instances only)
+      command: "yum-config-manager --enable {{ item }}"
+      with_items:
+        - rhui-REGION-rhel-server-extras
+        - rhui-REGION-rhel-server-optional
+      when: ec2_host
+      tags:
+        - cert_bot
+
+    - name: install certbot
+      yum: name=certbot state=present
+      tags:
+        - cert_bot

@@ -1,0 +1,17 @@
+---
+
+- hosts: localhost
+
+  tasks:
+  
+    - name: copy over file from template
+      template: >
+        src=test.j2
+        dest=/tmp/test.txt
+      register: result
+    
+    - debug: var=result
+
+    - name: do something depending on result
+      command: echo "heyo"
+      when: result.changed == True

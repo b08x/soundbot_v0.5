@@ -1,0 +1,19 @@
+*nat
+:PREROUTING ACCEPT [266:17373]
+:INPUT ACCEPT [2:80]
+:OUTPUT ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+-A POSTROUTING -o {{ ansible_default_ipv4.alias }} -j MASQUERADE
+COMMIT
+*filter
+:INPUT DROP [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+:LOG_AND_DROP - [0:0]
+-A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+-A INPUT -s {{ ansible_default_ipv4.network }}/{{ ansible_default_ipv4.netmask }} -i {{ ansible_default_ipv4.alias }} -j ACCEPT
+-A INPUT -p tcp --dport 22 -j ACCEPT
+-A INPUT -p udp --dport 1194 -j ACCEPT
+-A LOG_AND_DROP -j LOG --log-prefix "iptables deny: " --log-level 7
+-A LOG_AND_DROP -j DROP
+COMMIT

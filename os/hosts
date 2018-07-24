@@ -1,0 +1,26 @@
+[jambots]
+jambot01 ansible_connection=local ansible_user=b08x ansible_become=true
+
+[devbots]
+qubert ansible_connection=local ansible_user=b08x ansible_become=true
+
+[intra]
+bender ansible_user=b08x ansible_become=true
+clamps
+
+[amazon]
+url
+
+[ramnode]
+fatbot
+
+[vps:children]
+amazon
+ramnode
+
+[servers:children]
+intra
+vps
+
+[syncopatedtech:children]
+servers

@@ -1,0 +1,50 @@
+---
+
+hostame: fatbot.b08x
+
+ipv4_addr: 81.4.102.178
+
+ip_forward: True
+
+sshd_port: 40418
+
+firewall_allowed_tcp_ports:
+  - "40418"
+
+firewall_allowed_udp_ports:
+  - "1194"
+
+firewall_additional_rules:
+  - "iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o venet0 -j MASQUERADE"
+  - "iptables -A INPUT -s {{ ansible_default_ipv4.network }}/{{ ansible_default_ipv4.netmask }} -i venet0 -j ACCEPT"
+
+postfix_gmail: False
+ec2_host: False
+
+
+# *nat
+# :PREROUTING ACCEPT [266:17373]
+# :OUTPUT ACCEPT [0:0]
+# :POSTROUTING ACCEPT [0:0]
+# -A POSTROUTING -s 10.8.0.0/24 -o venet0 -j MASQUERADE
+# COMMIT
+# *filter
+# :INPUT DROP [0:0]
+# :FORWARD ACCEPT [0:0]
+# :OUTPUT ACCEPT [0:0]
+# :LOG_AND_DROP - [0:0]
+# # Allow TUN interface connections to be forwarded through other interfaces
+# -A FORWARD -i tun+ -j ACCEPT
+# -A FORWARD -i tun+ -o venet0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+# -A FORWARD -i venet0 -o tun+ -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+# -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+# -A INPUT -s 81.4.102.178/32 -i venet0:0 -j ACCEPT
+# -A INPUT -p tcp --dport 40418 -j ACCEPT
+# -A INPUT -i venet0 -m state --state NEW -p udp --dport 1194 -j ACCEPT
+# -A INPUT -i tun+ -j ACCEPT
+# -A OUTPUT -o tun+ -j ACCEPT
+
+# -A LOG_AND_DROP -j LOG --log-prefix "iptables deny: " --log-level 7
+# -A LOG_AND_DROP -j DROP
+# COMMIT

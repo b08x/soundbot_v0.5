@@ -1,0 +1,15 @@
+---
+
+- hosts: workstations
+  gather_facts: yes
+
+  roles:
+    - { role: security, tags: ['security'] }
+    - { role: networking, tags: ['networking'] }
+    - { role: workstation, tags: ['workstation'] }
+    - { role: vim, tags: ['vim'] }
+    - { role: ui, tags: ['ui'] }
+    - { role: dotfiles, tags: ['dotfiles'] }
+    - { role: rvm, tags: ['rvm'] }
+    - { role: virt, tags: ['virt'] }
+    - { role: studio, tags: ['studio'] }

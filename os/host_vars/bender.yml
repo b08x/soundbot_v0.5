@@ -1,0 +1,17 @@
+---
+
+hostname: bender
+
+make_hard: True
+
+sshd_allow_groups: b08x
+
+virt_host: True
+web_host: True
+
+kvmhost: False
+
+docker_host: True
+docker_selinux: disabled
+
+sysctl_ip_forward: True

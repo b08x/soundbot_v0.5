@@ -1,0 +1,7 @@
+---
+
+kvmhost: False
+
+docker_host: False
+docker_storage: /var/lib/docker
+docker_selinux: disabled

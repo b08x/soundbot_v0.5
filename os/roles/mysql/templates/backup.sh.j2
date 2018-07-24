@@ -1,0 +1,107 @@
+#!/bin/sh
+
+export BACKUP_DIR="/home/opsadmin/dbbackups"
+mkdir -p $BACKUP_DIR
+export BACKUP_DATE_TIME=$(date +%Y%m%d%H%M%S)
+export CURRENT_BACKUP_DIR="$BACKUP_DIR/$BACKUP_DATE_TIME"
+export DEFAULTS_FILE="/home/opsadmin/.xtrabackup.cnf"
+export BACKUP_MY_CNF="$CURRENT_BACKUP_DIR/backup-my.cnf"
+export COMPRESSED_BACKUP_DIR_FILE="$CURRENT_BACKUP_DIR.tar.gz"
+export AZURE_NAME="facilitigroup"
+export AZURE_CONTAINER="mysqlbot-stag-backup"
+export AZURE_KEY="KbimHfl4ZsA8F0maWngDHcMqAgJD4XfFedx4yCdTw/rEneXrufntqV2WDbh+NpXCPwqFk5o4Cbo0SokjeYI0ag=="
+export AZURE_BLOB_NAME="{{ ansible_nodename }}-$BACKUP_DATE_TIME.tar.gz"
+
+EMAIL_FROM="root@facilitigroup.com";
+#EMAIL_TO="carson.key@hcahealthcare.com,TechnologySolutions@FacilitiGroup.com,Duane.Arnett@hcahealthcare.com,Robert.Pannick@HCAHealthcare.com";
+
+EMAIL_TO="Robert.Pannick@HCAHealthcare.com";
+
+export PID="/home/opsadmin/sqldump.pid"
+export DUMPLOG="/home/opsadmin/sqldumps.log"
+
+
+if [ -e $PID ]; then
+	pid="$(cat $PID)"
+	echo "xtrabackup already running! process id $pid" >> $DUMPLOG
+	exit
+fi
+
+echo $! > $PID
+
+{% if mysql_replication_role == 'master' %}
+
+/usr/bin/xtrabackup --defaults-file=$DEFAULTS_FILE --target-dir=$CURRENT_BACKUP_DIR/ --rsync --backup
+
+{% endif %}
+
+{% if mysql_replication_role == 'slave' %}
+
+/usr/bin/xtrabackup --defaults-file=$DEFAULTS_FILE --target-dir=$CURRENT_BACKUP_DIR/ --rsync --safe-slave-backup --slave-info --backup
+
+{% endif %}
+
+if [ "$?" -ne 0 ]; then
+	echo "xtrabackup backup failed for some reason" >> $DUMPLOG
+	exit
+fi
+
+wait
+
+# https://www.percona.com/doc/percona-xtrabackup/2.4/xtrabackup_bin/preparing_the_backup.html
+# until we can verify the user of `--apply-log` specify the backup-my.cnf file location
+/usr/bin/xtrabackup --defaults-file=$BACKUP_MY_CNF --target-dir=$CURRENT_BACKUP_DIR/ --prepare
+
+if [ "$?" -ne 0 ]; then
+	echo "xtrabackup prepare failed for some reason" >> $DUMPLOG
+	exit
+fi
+
+wait
+
+/usr/bin/xtrabackup --defaults-file=$BACKUP_MY_CNF --target-dir=$CURRENT_BACKUP_DIR/ --prepare
+
+if [ "$?" -ne 0 ]; then
+	echo "xtrabackup prepare failed for some reason" >> $DUMPLOG
+	exit
+fi
+
+wait
+
+tar -czf $COMPRESSED_BACKUP_DIR_FILE $CURRENT_BACKUP_DIR
+
+wait
+
+
+azure storage blob upload -a $AZURE_NAME -k $AZURE_KEY --container $AZURE_CONTAINER -f $COMPRESSED_BACKUP_DIR_FILE -b $AZURE_BLOB_NAME
+
+if [ "$?" -eq "0" ]; then
+  #statements
+  export COLOR=green
+  export NOTIFY=false
+  SUBJECT="{{ ansible_nodename }} DB backup script has completed"
+  EMOTICON='(hairflip)'
+  #export INPUT='Complyos DB backup script has completed (hairflip)'
+elif [ "$?" -eq "1" ]; then
+  #statements
+  export COLOR=red
+  export NOTIFY=true
+  SUBJECT="{{ ansible_nodename }} DB backup script has failed!  Uhoh!"
+  EMOTICON='(thumbsdown)'
+  #export INPUT='Complyos DB backup script has failed! Uhoh! (thumbsdown)'
+fi
+
+# do the notificationing
+export ROOM_ID=2492109
+export FORMAT=text
+export HOST=api.hipchat.com
+export TOKEN=36QPpx98W60KEZAWxYQ3y7idbVTxWrsyZUcAv8ju
+curl -sS \
+  -H 'Content-type: application/json' \
+  -d "{\"color\":\"$COLOR\", \"message\":\"$SUBJECT $EMOTICON\", \"message_format\":\"$FORMAT\", \"notify\":$NOTIFY}" \
+  https://$HOST/v2/room/$ROOM_ID/notification?auth_token=$TOKEN
+
+#An email with Success or Failure needs to be sent as well
+echo "$SUBJECT"|mail -s "$SUBJECT" -r "$EMAIL_FROM" "$EMAIL_TO";
+
+rm -rf $PID

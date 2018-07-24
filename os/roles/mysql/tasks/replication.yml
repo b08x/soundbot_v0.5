@@ -1,0 +1,65 @@
+---
+- name: Ensure replication user exists on master
+  mysql_user:
+    name: "{{ mysql_replication_user.name }}"
+    host: "{{ mysql_replication_user.host | default('%') }}"
+    password: "{{ mysql_replication_user.password }}"
+    priv: "{{ mysql_replication_user.priv | default('*.*:REPLICATION SLAVE') }}"
+    state: present
+    sql_log_bin: yes
+  when: >
+    (mysql_replication_role == 'master')
+    and mysql_replication_user
+    and (mysql_replication_master != '')
+
+- name: Check slave replication status
+  mysql_replication: mode=getslave
+  ignore_errors: true
+  register: slave
+  when: >
+    mysql_replication_role == 'slave'
+    and (mysql_replication_master != '')
+
+- name: Check master replication status
+  mysql_replication: mode=getmaster
+  delegate_to: "{{ mysql_replication_master }}"
+  register: master
+  when: >
+    slave|failed
+    and (mysql_replication_role == 'slave')
+    and (mysql_replication_master != '')
+
+#Neither the MASTER_LOG_FILE option nor the MASTER_LOG_POS
+#option may be used with MASTER_AUTO_POSITION set equal to 1.
+#Attempting to do so causes the CHANGE MASTER TO statement to
+#fail with an error.
+
+#note; MASTER_AUTO_POSITION doesn't work with mariadb10
+#TODO: edit module to include paramater for MASTER_USE_GTID = current_pos
+# https://mariadb.com/kb/en/mariadb/gtid/ 
+# Using global transaction IDs
+
+- name: Configure replication on the slave
+  mysql_replication:
+    mode: changemaster
+    master_host: "{{ mysql_replication_master }}"
+    master_user: "{{ mysql_replication_user.name }}"
+    master_password: "{{ mysql_replication_user.password }}"
+    master_port: 3306
+    master_log_file: "{{ master.File }}"
+    master_log_pos: "{{ master.Position }}"
+    master_use_gtid: True
+    master_connect_retry: 10
+  ignore_errors: True
+  when: >
+    slave|failed
+    and (mysql_replication_role == 'slave')
+    and (mysql_replication_master != '')
+    and mysql_replication_user
+
+- name: Start replication
+  mysql_replication: mode=startslave
+  when: >
+    slave|failed
+    and (mysql_replication_role == 'slave')
+    and (mysql_replication_master != '')

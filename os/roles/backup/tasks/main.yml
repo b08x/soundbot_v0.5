@@ -1,0 +1,26 @@
+---
+
+# - name: check if rvm is installed as root
+#   stat: path=/root/.rvm/bin/rvm
+#   register: rvm_binary_asroot
+
+# - name: check if rvm is installed as user
+#   stat: path="{{ user.home }}/.rvm/bin/rvm"
+#   register: rvm_binary_asuser
+
+
+
+
+# - name: switch to global gemset and install the backup gem
+#   command: bash -lc "rvm gemset use global && gem install backup"
+#   when: "'--user-install' in rvm1_install_flags"
+#   become: yes
+#   become_user: '{{ backup_user}}'
+
+# - name: make sure require utils are installed
+
+# - name: make sure necessary ssh keys are deployed
+
+# - name: push backup models
+
+# - name: add cron jobs
