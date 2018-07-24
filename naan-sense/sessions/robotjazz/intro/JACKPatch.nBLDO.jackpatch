@@ -1,11 +1,13 @@
-C* Eq10X2 - Stereo 10-band equaliser:out.l |> zita-rev1:in.L
-C* Eq10X2 - Stereo 10-band equaliser:out.r |> zita-rev1:in.R
-Calf Vintage Delay:Out L                 |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-Calf Vintage Delay:Out R                 |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:0                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:0                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
+C* Eq10X2 - Stereo 10-band equaliser:out.l |> Calf Multi Chorus:In L
+C* Eq10X2 - Stereo 10-band equaliser:out.r |> Calf Multi Chorus:In R
+Calf Multi Chorus:Out L                  |> Calf Reverb:In L
+Calf Multi Chorus:Out R                  |> Calf Reverb:In R
+Calf Reverb:Out L                        |> jamin:in_L
+Calf Reverb:Out R                        |> jamin:in_R
 LinuxSampler:1                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
 LinuxSampler:1                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
+LinuxSampler:10                          |> C* Eq10X2 - Stereo 10-band equaliser:in.l
+LinuxSampler:10                          |> C* Eq10X2 - Stereo 10-band equaliser:in.r
 LinuxSampler:2                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
 LinuxSampler:2                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
 LinuxSampler:3                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
@@ -14,12 +16,23 @@ LinuxSampler:4                           |> C* Eq10X2 - Stereo 10-band equaliser
 LinuxSampler:4                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
 LinuxSampler:5                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
 LinuxSampler:5                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
+LinuxSampler:6                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
+LinuxSampler:6                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
+LinuxSampler:7                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
+LinuxSampler:7                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
+LinuxSampler:8                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
+LinuxSampler:8                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
+LinuxSampler:9                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
+LinuxSampler:9                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
 Non-Sequencer.nQIXB:midi_out-1           |> LinuxSampler:midi_in_0
 Non-Sequencer.nQIXB:midi_out-2           |> LinuxSampler:midi_in_0
-Petri-Foo.nTQPT:out_left                 |> Calf Vintage Delay:In L
-Petri-Foo.nTQPT:out_right                |> Calf Vintage Delay:In R
-jack-keyboard:midi_out                   |> Petri-Foo.nTQPT:midi_input
+Non-Sequencer.nQIXB:midi_out-3           |> LinuxSampler:midi_in_0
+Non-Sequencer.nQIXB:midi_out-4           |> ZynAddSubFX:events-in
+Petri-Foo.nTQPT:out_left                 |> C* Eq10X2 - Stereo 10-band equaliser:in.l
+Petri-Foo.nTQPT:out_right                |> C* Eq10X2 - Stereo 10-band equaliser:in.r
+ZynAddSubFX:Audio Output 1               |> C* Eq10X2 - Stereo 10-band equaliser:in.l
+ZynAddSubFX:Audio Output 2               |> C* Eq10X2 - Stereo 10-band equaliser:in.r
+jack-keyboard:midi_out                   |> LinuxSampler:midi_in_0
 jamin:a.master.out_L                     |> system:playback_1
 jamin:a.master.out_R                     |> system:playback_2
-zita-rev1:out.L                          |> jamin:in_L
-zita-rev1:out.R                          |> jamin:in_R
+qmidiarp:out 1                           |> LinuxSampler:midi_in_0

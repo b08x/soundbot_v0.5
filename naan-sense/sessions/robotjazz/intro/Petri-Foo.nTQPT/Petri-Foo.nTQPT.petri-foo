@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <Petri-Foo-Dish save-type="full">
-  <Master level="0.496875" samplerate="48000"/>
+  <Master level="0.359375" samplerate="48000"/>
   <Patch name="01_hello_friend" channel="0">
     <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/01hellofriend.wav" mode="singleshot" reverse="false" to_end="false">
       <Play start="34716" stop="99605" fade_samples="108"/>
       <Loop start="35653" stop="99497" xfade_samples="108"/>
-      <Note root="60" lower="53" upper="68" velocity_lower="0" velocity_upper="127"/>
+      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
     </Sample>
     <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
       <Mod1 source="OFF" amount="0.000000"/>
       <Mod2 source="OFF" amount="0.000000"/>
       <Env source="OFF"/>
     </Amplitude>
-    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+    <Pan position="0.394993" velocity_sensing="0.000000" key_tracking="0.000000">
       <Mod1 source="OFF" amount="0.000000"/>
       <Mod2 source="OFF" amount="0.000000"/>
       <Mod3 source="OFF" amount="0.000000"/>
@@ -153,8 +153,8 @@
   </Patch>
   <Patch name="02_ghosts" channel="1">
     <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/000248ghostsofthingstcome.wav" mode="singleshot" reverse="false" to_end="false">
-      <Play start="0" stop="4490135" fade_samples="108"/>
-      <Loop start="108" stop="4490027" xfade_samples="108"/>
+      <Play start="14298" stop="4490135" fade_samples="108"/>
+      <Loop start="14406" stop="4490027" xfade_samples="108"/>
       <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
     </Sample>
     <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
@@ -303,16 +303,16 @@
   </Patch>
   <Patch name="03_system_startup" channel="2">
     <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/249879__deleted-user-4401185__custom-machine-1.wav" mode="loop" reverse="false" to_end="false">
-      <Play start="0" stop="4139946" fade_samples="108"/>
-      <Loop start="108" stop="4139838" xfade_samples="108"/>
-      <Note root="60" lower="48" upper="60" velocity_lower="0" velocity_upper="127"/>
+      <Play start="20906" stop="3681878" fade_samples="108"/>
+      <Loop start="21014" stop="3681820" xfade_samples="58"/>
+      <Note root="60" lower="48" upper="73" velocity_lower="0" velocity_upper="127"/>
     </Sample>
-    <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
+    <Amplitude level="0.407928" velocity_sensing="1.000000" key_tracking="0.000000">
       <Mod1 source="OFF" amount="0.000000"/>
       <Mod2 source="OFF" amount="0.000000"/>
       <Env source="OFF"/>
     </Amplitude>
-    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+    <Pan position="0.892907" velocity_sensing="0.000000" key_tracking="0.000000">
       <Mod1 source="OFF" amount="0.000000"/>
       <Mod2 source="OFF" amount="0.000000"/>
       <Mod3 source="OFF" amount="0.000000"/>
@@ -453,8 +453,8 @@
   </Patch>
   <Patch name="04_birds" channel="3">
     <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/345851_hargissssound_spring-birds-raw-new-jersey.wav" mode="singleshot" reverse="false" to_end="false">
-      <Play start="0" stop="7236159" fade_samples="108"/>
-      <Loop start="108" stop="7236051" xfade_samples="108"/>
+      <Play start="36623" stop="7236159" fade_samples="108"/>
+      <Loop start="36731" stop="7236051" xfade_samples="108"/>
       <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
     </Sample>
     <Amplitude level="0.144645" velocity_sensing="1.000000" key_tracking="0.000000">
@@ -902,17 +902,17 @@
     </GLFO5>
   </Patch>
   <Patch name="07_we_drank_the_water" channel="6">
-    <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/wedrankthewater.wav" mode="pingpong" reverse="false" to_end="false">
-      <Play start="263111" stop="978380" fade_samples="108"/>
-      <Loop start="263219" stop="978272" xfade_samples="108"/>
-      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
+    <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/wedrankthewater.wav" mode="pingpong" reverse="true" to_end="false">
+      <Play start="445874" stop="978380" fade_samples="108"/>
+      <Loop start="445982" stop="978272" xfade_samples="108"/>
+      <Note root="60" lower="48" upper="72" velocity_lower="0" velocity_upper="127"/>
     </Sample>
     <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
       <Mod1 source="OFF" amount="0.000000"/>
       <Mod2 source="OFF" amount="0.000000"/>
       <Env source="OFF"/>
     </Amplitude>
-    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+    <Pan position="-0.838665" velocity_sensing="0.000000" key_tracking="0.000000">
       <Mod1 source="OFF" amount="0.000000"/>
       <Mod2 source="OFF" amount="0.000000"/>
       <Mod3 source="OFF" amount="0.000000"/>
@@ -1802,7 +1802,7 @@
     </GLFO5>
   </Patch>
   <Patch name="13_puter" channel="12">
-    <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/puter.wav" mode="pingpong" reverse="false" to_end="false">
+    <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/puter.wav" mode="pingpong" reverse="true" to_end="false">
       <Play start="109829" stop="383999" fade_samples="108"/>
       <Loop start="109937" stop="383891" xfade_samples="108"/>
       <Note root="60" lower="48" upper="73" velocity_lower="0" velocity_upper="127"/>
@@ -1812,7 +1812,7 @@
       <Mod2 source="OFF" amount="0.000000"/>
       <Env source="OFF"/>
     </Amplitude>
-    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+    <Pan position="0.239221" velocity_sensing="0.000000" key_tracking="0.000000">
       <Mod1 source="OFF" amount="0.000000"/>
       <Mod2 source="OFF" amount="0.000000"/>
       <Mod3 source="OFF" amount="0.000000"/>
