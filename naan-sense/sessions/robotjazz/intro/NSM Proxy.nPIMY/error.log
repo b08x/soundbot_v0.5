@@ -1,0 +1,421 @@
+UI:           None
+Plugin:       http://plugin.org.uk/swh-plugins/lsFilter
+JACK Name:    LS Filter
+Jack: JackClient::SetupDriverSync driver sem in flush mode
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter
+Jack: Clock source : system clock via clock_gettime
+Jack: JackLibClient::Open name = LS Filter refnum = 9
+Jack: jack_set_session_callback ext_client b77270 client b77270 
+Comm buffers: 524288 bytes
+Update rate:  25.0 Hz
+
+Sample rate:  48000 Hz
+Block length: 512 frames
+MIDI buffers: 32768 bytes
+JACK Name:    LS Filter
+Jack: jack_client_open LS Filter
+Jack: JackGenericClientChannel::ServerCheck = default
+Jack: JackClientSocket::Connect : addr.sun_path /dev/shm/jack_default_1041_0
+Jack: JackClientSocket::Close
+Jack: JackLibClient::JackLibClient table = b7d200
+Jack: JackLibClient::Open name = LS Filter
+Jack: JackSocketClientChannel::Open name = LS Filter
+Jack: JackClientSocket::Connect : addr.sun_path /dev/shm/jack_default_1041_0
+Jack: JackServerSocket::Bind : addr.sun_path /dev/shm/jack_LS Filter-01_1041_0
+Jack: JackSocketClientChannel::Start
+Jack: JackPosixThread::StartImp : create non RT thread
+Jack: JackPosixThread::ThreadHandler : start
+Jack: JackSocketClientChannel::Init
+Jack: JackServerSocket::Close /dev/shm/jack_LS Filter-01_1041_0
+Jack: JackClient::ClientNotify ref = 0 name = system notify = 0
+Jack: JackClient::AddClient name = system, ref = 0 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_system
+Jack: Already connected name = system
+Jack: JackClient::ClientNotify ref = 1 name = freewheel notify = 0
+Jack: JackClient::AddClient name = freewheel, ref = 1 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_freewheel
+Jack: Already connected name = freewheel
+Jack: JackClient::ClientNotify ref = 2 name = dbusapi notify = 0
+Jack: JackClient::AddClient name = dbusapi, ref = 2 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_dbusapi
+Jack: Already connected name = dbusapi
+Jack: JackClient::ClientNotify ref = 3 name = a2j notify = 0
+Jack: JackClient::AddClient name = a2j, ref = 3 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_a2j
+Jack: Already connected name = a2j
+Jack: JackClient::ClientNotify ref = 4 name = JACKPatch notify = 0
+Jack: JackClient::AddClient name = JACKPatch, ref = 4 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_JACKPatch
+Jack: Already connected name = JACKPatch
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 0
+Jack: JackClient::AddClient name = Multiband EQ, ref = 5 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Multiband EQ
+Jack: Already connected name = Multiband EQ
+Jack: JackClient::ClientNotify ref = 6 name = zita-rev1 notify = 0
+Jack: JackClient::AddClient name = zita-rev1, ref = 6 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_zita-rev1
+Jack: Already connected name = zita-rev1
+Jack: JackClient::ClientNotify ref = 7 name = Multiband EQ-01 notify = 0
+Jack: JackClient::AddClient name = Multiband EQ-01, ref = 7 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Multiband EQ-01
+Jack: Already connected name = Multiband EQ-01
+Jack: JackClient::ClientNotify ref = 8 name = Non-Sequencer.nQIXB notify = 0
+Jack: JackClient::AddClient name = Non-Sequencer.nQIXB, ref = 8 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Non-Sequencer.nQIXB
+Jack: Already connected name = Non-Sequencer.nQIXB
+Jack: JackClient::ClientNotify ref = 10 name = LS Filter-01 notify = 0
+Jack: JackClient::AddClient name = LS Filter-01, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter-01
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 0
+Jack: JackClient::AddClient name = LS Filter, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter
+Jack: Already connected name = LS Filter
+Jack: JackClient::ClientNotify ref = 13 name = Carla.nUKRP notify = 0
+Jack: JackClient::AddClient name = Carla.nUKRP, ref = 13 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Carla.nUKRP
+Jack: Already connected name = Carla.nUKRP
+Jack: JackClient::ClientNotify ref = 14 name = LinuxSampler notify = 0
+Jack: JackClient::AddClient name = LinuxSampler, ref = 14 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinuxSampler
+Jack: Already connected name = LinuxSampler
+Jack: JackClient::ClientNotify ref = 15 name = jack_transport notify = 0
+Jack: JackClient::AddClient name = jack_transport, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jack_transport
+Jack: Already connected name = jack_transport
+Jack: JackClient::ClientNotify ref = 16 name = jamin notify = 0
+Jack: JackClient::AddClient name = jamin, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jamin
+Jack: Already connected name = jamin
+Jack: JackShmReadWritePtr1::Init 9 -1
+Jack: Succeeded in locking 422 byte memory area
+Jack: JackClient::SetupDriverSync driver sem in flush mode
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter-01
+Jack: Already connected name = LS Filter-01
+Jack: Clock source : system clock via clock_gettime
+Jack: JackLibClient::Open name = LS Filter-01 refnum = 10
+Jack: jack_set_session_callback ext_client b787a0 client b787a0 
+Jack: JackClient::PortRegister ref = 9 name = LS Filter:input type = 32 bit float mono audio port_index = 11
+Jack: JackClient::PortRegister ref = 9 name = LS Filter:output type = 32 bit float mono audio port_index = 12
+type      = 0.000000
+cutoff    = 0.251000
+resonance = 0.000000
+Jack: JackClient::Activate
+Jack: JackPosixThread::StartImp : create non RT thread
+Jack: JackPosixThread::ThreadHandler : start
+Jack: JackClient::kBufferSizeCallback buffer_size = 512
+Jack: JackClient::Init : period = 10666 computation = 100 constraint = 10666
+Jack: JackPosixThread::AcquireRealTimeImp priority = 75
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 2
+Jack: JackClient::kActivateClient name = LS Filter ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+
+(jalv.gtk:32345): Gtk-CRITICAL **: IA__gtk_hscale_new_with_range: assertion 'min < max' failed
+
+(jalv.gtk:32345): Gtk-CRITICAL **: IA__gtk_widget_set_sensitive: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(jalv.gtk:32345): Gtk-CRITICAL **: IA__gtk_scale_set_draw_value: assertion 'GTK_IS_SCALE (scale)' failed
+
+(jalv.gtk:32345): Gtk-CRITICAL **: IA__gtk_range_set_value: assertion 'GTK_IS_RANGE (range)' failed
+
+(jalv.gtk:32345): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(jalv.gtk:32345): GLib-GObject-CRITICAL **: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(jalv.gtk:32345): Gtk-CRITICAL **: IA__gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+Unknown widget type for value
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR91 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR91, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR91
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR91
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR91 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR91, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR91
+Jack: Already connected name = LinSmPSR91
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR91 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR91, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR91
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR91 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR91, ref = 11 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR92 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR92, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR92
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR92
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR92 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR92, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR92
+Jack: Already connected name = LinSmPSR92
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR92 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR92, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR92
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR92 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR92, ref = 11 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR93 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR93, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR93
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR93
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR93 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR93, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR93
+Jack: Already connected name = LinSmPSR93
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR93 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR93, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR93
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR93 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR93, ref = 11 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR94 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR94, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR94
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR94
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR94 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR94, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR94
+Jack: Already connected name = LinSmPSR94
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR94 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR94, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR94
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR94 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR94, ref = 11 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR95 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR95, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR95
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR95
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR95 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR95, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR95
+Jack: Already connected name = LinSmPSR95
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR95 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR95, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR95 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR95, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR95
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR96 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR96, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR96
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR96
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR96 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR96, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR96
+Jack: Already connected name = LinSmPSR96
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR96 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR96, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR96 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR96, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR96
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR97 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR97, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR97
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR97
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR97 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR97, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR97
+Jack: Already connected name = LinSmPSR97
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR97 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR97, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR97 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR97, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR97
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR98 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR98, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR98
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR98
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR98 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR98, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR98
+Jack: Already connected name = LinSmPSR98
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR98 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR98, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR98 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR98, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR98
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR99 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR99, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR99
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR99
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR99 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR99, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR99
+Jack: Already connected name = LinSmPSR99
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR99 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR99, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR99
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR99 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR99, ref = 11 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR100 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR100, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR100
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR100
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR100 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR100, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR100
+Jack: Already connected name = LinSmPSR100
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR100 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR100, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR100
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR100 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR100, ref = 11 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR101 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR101, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR101
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR101
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR101 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR101, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR101
+Jack: Already connected name = LinSmPSR101
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR101 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR101, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR101 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR101, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR101
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR102 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR102, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR102
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR102
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR102 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR102, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR102
+Jack: Already connected name = LinSmPSR102
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR102 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR102, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR102 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR102, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR102
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR103 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR103, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR103
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR103
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR103 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR103, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR103
+Jack: Already connected name = LinSmPSR103
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR103 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR103, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR103 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR103, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR103
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR104 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR104, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR104
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR104
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR104 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR104, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR104
+Jack: Already connected name = LinSmPSR104
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR104 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR104, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR104 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR104, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR104
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR105 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR105, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR105
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR105
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR105 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR105, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR105
+Jack: Already connected name = LinSmPSR105
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR105 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR105, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR105
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR105 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR105, ref = 11 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR106 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR106, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR106
+Jack: JackClient::kAddClient fName = LS Filter name = LinSmPSR106
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR106 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR106, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR106
+Jack: Already connected name = LinSmPSR106
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR106 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR106, ref = 11 
+Jack: JackClient::kRemoveClient fName = LS Filter name = LinSmPSR106
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR106 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR106, ref = 11 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 18
+Exiting...
+Jack: JackClient::Deactivate
+Jack: JackClient::Deactivate res = 0
+Jack: JackPosixThread::Kill
+Jack: jack_client_close
+Jack: JackClient::Close ref = 9
+Jack: JackClient::Deactivate
+Jack: JackSocketClientChannel::Stop
+Jack: JackPosixThread::Kill
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 1
+Jack: JackClient::RemoveClient name = LS Filter, ref = 9 
+Jack: JackClientSocket::Close
+Jack: JackClientSocket::Close
+Jack: JackLibClient::~JackLibClient
+Jack: JackShmReadWritePtr1::~JackShmReadWritePtr1 8
+Jack: Succeeded in unlocking 422 byte memory area
+Jack: jack_client_close res = 0

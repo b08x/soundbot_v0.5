@@ -1,0 +1,145 @@
+UI:           None
+Plugin:       http://plugin.org.uk/swh-plugins/lowpass_iir
+JACK Name:    Glame Lowpass Filter
+Jack: JackClient::SetupDriverSync driver sem in flush mode
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Glame Lowpass Filter
+Jack: Clock source : system clock via clock_gettime
+Jack: JackLibClient::Open name = Glame Lowpass Filter refnum = 9
+Jack: jack_set_session_callback ext_client 27eaea0 client 27eaea0 
+Comm buffers: 524288 bytes
+Update rate:  25.0 Hz
+
+Sample rate:  48000 Hz
+Block length: 512 frames
+MIDI buffers: 32768 bytes
+JACK Name:    Glame Lowpass Filter
+Jack: jack_client_open Glame Lowpass Filter
+Jack: JackGenericClientChannel::ServerCheck = default
+Jack: JackClientSocket::Connect : addr.sun_path /dev/shm/jack_default_1041_0
+Jack: JackClientSocket::Close
+Jack: JackLibClient::JackLibClient table = 27f1230
+Jack: JackLibClient::Open name = Glame Lowpass Filter
+Jack: JackSocketClientChannel::Open name = Glame Lowpass Filter
+Jack: JackClientSocket::Connect : addr.sun_path /dev/shm/jack_default_1041_0
+Jack: JackServerSocket::Bind : addr.sun_path /dev/shm/jack_Glame Lowpass Filter-01_1041_0
+Jack: JackSocketClientChannel::Start
+Jack: JackPosixThread::StartImp : create non RT thread
+Jack: JackPosixThread::ThreadHandler : start
+Jack: JackSocketClientChannel::Init
+Jack: JackServerSocket::Close /dev/shm/jack_Glame Lowpass Filter-01_1041_0
+Jack: JackClient::ClientNotify ref = 0 name = system notify = 0
+Jack: JackClient::AddClient name = system, ref = 0 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_system
+Jack: Already connected name = system
+Jack: JackClient::ClientNotify ref = 1 name = freewheel notify = 0
+Jack: JackClient::AddClient name = freewheel, ref = 1 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_freewheel
+Jack: Already connected name = freewheel
+Jack: JackClient::ClientNotify ref = 2 name = dbusapi notify = 0
+Jack: JackClient::AddClient name = dbusapi, ref = 2 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_dbusapi
+Jack: Already connected name = dbusapi
+Jack: JackClient::ClientNotify ref = 3 name = a2j notify = 0
+Jack: JackClient::AddClient name = a2j, ref = 3 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_a2j
+Jack: Already connected name = a2j
+Jack: JackClient::ClientNotify ref = 4 name = JACKPatch notify = 0
+Jack: JackClient::AddClient name = JACKPatch, ref = 4 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_JACKPatch
+Jack: Already connected name = JACKPatch
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 0
+Jack: JackClient::AddClient name = Multiband EQ, ref = 5 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Multiband EQ
+Jack: Already connected name = Multiband EQ
+Jack: JackClient::ClientNotify ref = 6 name = zita-rev1 notify = 0
+Jack: JackClient::AddClient name = zita-rev1, ref = 6 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_zita-rev1
+Jack: Already connected name = zita-rev1
+Jack: JackClient::ClientNotify ref = 7 name = Multiband EQ-01 notify = 0
+Jack: JackClient::AddClient name = Multiband EQ-01, ref = 7 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Multiband EQ-01
+Jack: Already connected name = Multiband EQ-01
+Jack: JackClient::ClientNotify ref = 8 name = Non-Sequencer.nQIXB notify = 0
+Jack: JackClient::AddClient name = Non-Sequencer.nQIXB, ref = 8 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Non-Sequencer.nQIXB
+Jack: Already connected name = Non-Sequencer.nQIXB
+Jack: JackClient::ClientNotify ref = 10 name = Glame Lowpass Filter-01 notify = 0
+Jack: JackClient::AddClient name = Glame Lowpass Filter-01, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Glame Lowpass Filter-01
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 0
+Jack: JackClient::AddClient name = Glame Lowpass Filter, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Glame Lowpass Filter
+Jack: Already connected name = Glame Lowpass Filter
+Jack: JackClient::ClientNotify ref = 13 name = Carla.nUKRP notify = 0
+Jack: JackClient::AddClient name = Carla.nUKRP, ref = 13 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Carla.nUKRP
+Jack: Already connected name = Carla.nUKRP
+Jack: JackClient::ClientNotify ref = 14 name = LinuxSampler notify = 0
+Jack: JackClient::AddClient name = LinuxSampler, ref = 14 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinuxSampler
+Jack: Already connected name = LinuxSampler
+Jack: JackClient::ClientNotify ref = 15 name = jack_transport notify = 0
+Jack: JackClient::AddClient name = jack_transport, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jack_transport
+Jack: Already connected name = jack_transport
+Jack: JackClient::ClientNotify ref = 16 name = jamin notify = 0
+Jack: JackClient::AddClient name = jamin, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jamin
+Jack: Already connected name = jamin
+Jack: JackShmReadWritePtr1::Init 9 -1
+Jack: Succeeded in locking 422 byte memory area
+Jack: JackClient::SetupDriverSync driver sem in flush mode
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Glame Lowpass Filter-01
+Jack: Already connected name = Glame Lowpass Filter-01
+Jack: Clock source : system clock via clock_gettime
+Jack: JackLibClient::Open name = Glame Lowpass Filter-01 refnum = 10
+Jack: jack_set_session_callback ext_client 27ec4d0 client 27ec4d0 
+Jack: JackClient::PortRegister ref = 9 name = Glame Lowpass Filter:input type = 32 bit float mono audio port_index = 11
+Jack: JackClient::PortRegister ref = 9 name = Glame Lowpass Filter:output type = 32 bit float mono audio port_index = 12
+cutoff = 0.337525
+stages = 1.000000
+Jack: JackClient::Activate
+Jack: JackPosixThread::StartImp : create non RT thread
+Jack: JackPosixThread::ThreadHandler : start
+Jack: JackClient::kBufferSizeCallback buffer_size = 512
+Jack: JackClient::Init : period = 10666 computation = 100 constraint = 10666
+Jack: JackPosixThread::AcquireRealTimeImp priority = 75
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 2
+Jack: JackClient::kActivateClient name = Glame Lowpass Filter ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 18
+Jack: WaitGraphChange...
+
+(jalv.gtk:8509): Gtk-CRITICAL **: IA__gtk_hscale_new_with_range: assertion 'min < max' failed
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 18
+
+(jalv.gtk:8509): Gtk-CRITICAL **: IA__gtk_widget_set_sensitive: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(jalv.gtk:8509): Gtk-CRITICAL **: IA__gtk_scale_set_draw_value: assertion 'GTK_IS_SCALE (scale)' failed
+
+(jalv.gtk:8509): Gtk-CRITICAL **: IA__gtk_range_set_value: assertion 'GTK_IS_RANGE (range)' failed
+
+(jalv.gtk:8509): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(jalv.gtk:8509): GLib-GObject-CRITICAL **: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(jalv.gtk:8509): Gtk-CRITICAL **: IA__gtk_table_attach: assertion 'GTK_IS_WIDGET (child)' failed
+Unknown widget type for value
+Exiting...
+Jack: JackClient::Deactivate
+Jack: JackClient::Deactivate res = 0
+Jack: JackPosixThread::Kill
+Jack: jack_client_close
+Jack: JackClient::Close ref = 9
+Jack: JackClient::Deactivate
+Jack: JackSocketClientChannel::Stop
+Jack: JackPosixThread::Kill
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 1
+Jack: JackClient::RemoveClient name = Glame Lowpass Filter, ref = 9 
+Jack: JackClientSocket::Close
+Jack: JackClientSocket::Close
+Jack: JackLibClient::~JackLibClient
+Jack: JackShmReadWritePtr1::~JackShmReadWritePtr1 8
+Jack: Succeeded in unlocking 422 byte memory area
+Jack: jack_client_close res = 0

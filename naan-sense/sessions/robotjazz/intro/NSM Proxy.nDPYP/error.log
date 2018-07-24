@@ -1,0 +1,1462 @@
+UI:           https://github.com/semanticaudio/SAFE/tree/master/SAFEReverb#ParentUI
+UI Type:      http://lv2plug.in/ns/extensions/ui#X11UI
+Plugin:       https://github.com/semanticaudio/SAFE/tree/master/SAFEReverb
+JACK Name:    SAFEReverb
+Jack: JackClient::SetupDriverSync driver sem in flush mode
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFEReverb
+Jack: Clock source : system clock via clock_gettime
+Jack: JackLibClient::Open name = SAFEReverb refnum = 9
+Jack: jack_set_session_callback ext_client 2540c60 client 2540c60 
+Comm buffers: 524288 bytes
+Update rate:  25.0 Hz
+Sample rate:  48000 Hz
+Block length: 512 frames
+MIDI buffers: 32768 bytes
+Jack: JackClient::ClientNotify ref = 10 name = SAFECompressor notify = 0
+Jack: JackClient::AddClient name = SAFECompressor, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFECompressor
+
+LibXtract compiled with ooura FFT
+JACK Name:    SAFEReverb
+Jack: jack_client_open SAFEReverb
+Jack: JackGenericClientChannel::ServerCheck = default
+Jack: JackClientSocket::Connect : addr.sun_path /dev/shm/jack_default_1041_0
+Jack: JackClientSocket::Close
+Jack: JackLibClient::JackLibClient table = 25475b0
+Jack: JackLibClient::Open name = SAFEReverb
+Jack: JackSocketClientChannel::Open name = SAFEReverb
+Jack: JackClientSocket::Connect : addr.sun_path /dev/shm/jack_default_1041_0
+Jack: JackServerSocket::Bind : addr.sun_path /dev/shm/jack_SAFEReverb-01_1041_0
+Jack: JackSocketClientChannel::Start
+Jack: JackPosixThread::StartImp : create non RT thread
+Jack: JackPosixThread::ThreadHandler : start
+Jack: JackSocketClientChannel::Init
+Jack: JackServerSocket::Close /dev/shm/jack_SAFEReverb-01_1041_0
+Jack: JackClient::ClientNotify ref = 0 name = system notify = 0
+Jack: JackClient::AddClient name = system, ref = 0 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_system
+Jack: Already connected name = system
+Jack: JackClient::ClientNotify ref = 1 name = freewheel notify = 0
+Jack: JackClient::AddClient name = freewheel, ref = 1 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_freewheel
+Jack: Already connected name = freewheel
+Jack: JackClient::ClientNotify ref = 2 name = dbusapi notify = 0
+Jack: JackClient::AddClient name = dbusapi, ref = 2 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_dbusapi
+Jack: Already connected name = dbusapi
+Jack: JackClient::ClientNotify ref = 3 name = a2j notify = 0
+Jack: JackClient::AddClient name = a2j, ref = 3 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_a2j
+Jack: Already connected name = a2j
+Jack: JackClient::ClientNotify ref = 4 name = JACKPatch notify = 0
+Jack: JackClient::AddClient name = JACKPatch, ref = 4 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_JACKPatch
+Jack: Already connected name = JACKPatch
+Jack: JackClient::ClientNotify ref = 5 name = x42-eq - Parametric Equalizer Stereo notify = 0
+Jack: JackClient::AddClient name = x42-eq - Parametric Equalizer Stereo, ref = 5 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_x42-eq - Parametric Equalizer Stereo
+Jack: Already connected name = x42-eq - Parametric Equalizer Stereo
+Jack: JackClient::ClientNotify ref = 6 name = zita-rev1 notify = 0
+Jack: JackClient::AddClient name = zita-rev1, ref = 6 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_zita-rev1
+Jack: Already connected name = zita-rev1
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 0
+Jack: JackClient::AddClient name = zita-dpl1, ref = 7 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_zita-dpl1
+Jack: Already connected name = zita-dpl1
+Jack: JackClient::ClientNotify ref = 8 name = Non-Sequencer.nQIXB notify = 0
+Jack: JackClient::AddClient name = Non-Sequencer.nQIXB, ref = 8 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Non-Sequencer.nQIXB
+Jack: Already connected name = Non-Sequencer.nQIXB
+Jack: JackClient::ClientNotify ref = 11 name = SAFEReverb-01 notify = 0
+Jack: JackClient::AddClient name = SAFEReverb-01, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFEReverb-01
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 0
+Jack: JackClient::AddClient name = SAFEReverb, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFEReverb
+Jack: Already connected name = SAFEReverb
+Jack: JackClient::ClientNotify ref = 10 name = SAFECompressor notify = 0
+Jack: JackClient::AddClient name = SAFECompressor, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFECompressor
+Jack: Already connected name = SAFECompressor
+Jack: JackShmReadWritePtr1::Init 10 -1
+Jack: Succeeded in locking 422 byte memory area
+Jack: JackClient::SetupDriverSync driver sem in flush mode
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFEReverb-01
+Jack: Already connected name = SAFEReverb-01
+Jack: Clock source : system clock via clock_gettime
+Jack: JackLibClient::Open name = SAFEReverb-01 refnum = 11
+Jack: jack_set_session_callback ext_client 25bea50 client 25bea50 
+Jack: JackClient::PortRegister ref = 9 name = SAFEReverb:lv2_audio_in_1 type = 32 bit float mono audio port_index = 39
+Jack: JackClient::PortRegister ref = 9 name = SAFEReverb:lv2_audio_in_2 type = 32 bit float mono audio port_index = 40
+Jack: JackClient::PortRegister ref = 9 name = SAFEReverb:lv2_audio_out_1 type = 32 bit float mono audio port_index = 41
+Jack: JackClient::PortRegister ref = 9 name = SAFEReverb:lv2_audio_out_2 type = 32 bit float mono audio port_index = 42
+lv2_latency         = 0.000000
+damping_frequency   = 0.000000
+density             = 0.500000
+bandwidth_frequency = 1.000000
+decay               = 0.500000
+predelay            = 0.000000
+size                = 0.500000
+gain                = 1.000000
+mix                 = 0.150000
+early_mix           = 0.750000
+Jack: JackClient::Activate
+Jack: JackPosixThread::StartImp : create non RT thread
+Jack: JackPosixThread::ThreadHandler : start
+Jack: JackClient::kBufferSizeCallback buffer_size = 512
+Jack: JackClient::Init : period = 10666 computation = 100 constraint = 10666
+Jack: JackPosixThread::AcquireRealTimeImp priority = 75
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 2
+Jack: JackClient::kActivateClient name = SAFEReverb ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 12 name = SAFECompressor-01 notify = 0
+Jack: JackClient::AddClient name = SAFECompressor-01, ref = 12 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFECompressor-01
+Jack: JackClient::kAddClient fName = SAFEReverb name = SAFECompressor-01
+Jack: JackClient::ClientNotify ref = 12 name = SAFECompressor-01 notify = 0
+Jack: JackClient::AddClient name = SAFECompressor-01, ref = 12 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFECompressor-01
+Jack: Already connected name = SAFECompressor-01
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 13 name = Carla.nUKRP notify = 0
+Jack: JackClient::AddClient name = Carla.nUKRP, ref = 13 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Carla.nUKRP
+Jack: JackClient::kAddClient fName = SAFEReverb name = Carla.nUKRP
+Jack: JackClient::ClientNotify ref = 13 name = Carla.nUKRP notify = 0
+Jack: JackClient::AddClient name = Carla.nUKRP, ref = 13 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Carla.nUKRP
+Jack: Already connected name = Carla.nUKRP
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 14 name = LinuxSampler notify = 0
+Jack: JackClient::AddClient name = LinuxSampler, ref = 14 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinuxSampler
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinuxSampler
+Jack: JackClient::ClientNotify ref = 14 name = LinuxSampler notify = 0
+Jack: JackClient::AddClient name = LinuxSampler, ref = 14 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinuxSampler
+Jack: Already connected name = LinuxSampler
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR0 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR0, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR0
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR0
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR0 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR0, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR0
+Jack: Already connected name = LinSmPSR0
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR0 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR0, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR0
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR0 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR0, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR1 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR1, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR1
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR1
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR1 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR1, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR1
+Jack: Already connected name = LinSmPSR1
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR1 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR1, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR1 notify = 1
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR1
+Jack: JackClient::RemoveClient name = LinSmPSR1, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR2 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR2, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR2
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR2
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR2 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR2, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR2
+Jack: Already connected name = LinSmPSR2
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR2 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR2, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR2
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR2 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR2, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR3 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR3, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR3
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR3
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR3 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR3, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR3
+Jack: Already connected name = LinSmPSR3
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR3 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR3, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR3
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR3 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR3, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR4 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR4, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR4
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR4
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR4 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR4, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR4
+Jack: Already connected name = LinSmPSR4
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR4 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR4, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR4
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR4 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR4, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR5 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR5, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR5
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR5
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR5 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR5, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR5
+Jack: Already connected name = LinSmPSR5
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR5 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR5, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR5
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR5 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR5, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR6 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR6, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR6
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR6
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR6 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR6, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR6
+Jack: Already connected name = LinSmPSR6
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR6 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR6, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR6
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR6 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR6, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR7 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR7, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR7
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR7
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR7 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR7, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR7
+Jack: Already connected name = LinSmPSR7
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR7 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR7, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR7
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR7 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR7, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR8 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR8, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR8
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR8
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR8 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR8, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR8
+Jack: Already connected name = LinSmPSR8
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR8 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR8, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR8
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR8 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR8, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR9 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR9, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR9
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR9
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR9 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR9, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR9
+Jack: Already connected name = LinSmPSR9
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR9 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR9, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR9 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR9, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR9
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR10 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR10, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR10
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR10
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR10 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR10, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR10
+Jack: Already connected name = LinSmPSR10
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR10 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR10, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR10
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR10 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR10, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR11 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR11, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR11
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR11
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR11 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR11, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR11
+Jack: Already connected name = LinSmPSR11
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR11 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR11, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR11
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR11 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR11, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR12 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR12, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR12
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR12
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR12 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR12, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR12
+Jack: Already connected name = LinSmPSR12
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR12 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR12, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR12
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR12 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR12, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR13 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR13, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR13
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR13
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR13 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR13, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR13
+Jack: Already connected name = LinSmPSR13
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR13 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR13, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR13 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR13, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR13
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR14 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR14, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR14
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR14
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR14 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR14, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR14
+Jack: Already connected name = LinSmPSR14
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR14 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR14, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR14 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR14, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR14
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR15 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR15, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR15
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR15
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR15 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR15, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR15
+Jack: Already connected name = LinSmPSR15
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR15 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR15, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR15 notify = 1
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR15
+Jack: JackClient::RemoveClient name = LinSmPSR15, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR16 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR16, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR16
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR16
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR16 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR16, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR16
+Jack: Already connected name = LinSmPSR16
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR16 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR16, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR16 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR16, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR16
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR17 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR17, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR17
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR17
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR17 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR17, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR17
+Jack: Already connected name = LinSmPSR17
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR17 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR17, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR17 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR17, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR17
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR18 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR18, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR18
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR18 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR18, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR18
+Jack: Already connected name = LinSmPSR18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR18 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR18, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR18 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR18, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR19 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR19, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR19
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR19
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR19 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR19, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR19
+Jack: Already connected name = LinSmPSR19
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR19 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR19, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR19 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR19, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR19
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR20 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR20, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR20
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR20
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR20 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR20, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR20
+Jack: Already connected name = LinSmPSR20
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR20 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR20, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR20
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR20 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR20, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR21 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR21, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR21
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR21
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR21 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR21, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR21
+Jack: Already connected name = LinSmPSR21
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR21 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR21, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR21 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR21, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR21
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR22 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR22, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR22
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR22
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR22 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR22, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR22
+Jack: Already connected name = LinSmPSR22
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR22 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR22, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR22 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR22, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR22
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR23 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR23, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR23
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR23
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR23 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR23, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR23
+Jack: Already connected name = LinSmPSR23
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR23 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR23, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR23 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR23, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR23
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR24 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR24, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR24
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR24
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR24 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR24, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR24
+Jack: Already connected name = LinSmPSR24
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR24 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR24, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR24
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR24 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR24, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR25 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR25, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR25
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR25
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR25 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR25, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR25
+Jack: Already connected name = LinSmPSR25
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR25 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR25, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR25
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR25 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR25, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR26 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR26, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR26
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR26
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR26 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR26, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR26
+Jack: Already connected name = LinSmPSR26
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR26 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR26, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR26
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR26 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR26, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR27 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR27, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR27
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR27
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR27 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR27, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR27
+Jack: Already connected name = LinSmPSR27
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR27 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR27, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR27
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR27 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR27, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR28 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR28, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR28
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR28
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR28 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR28, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR28
+Jack: Already connected name = LinSmPSR28
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR28 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR28, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR28
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR28 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR28, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR29 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR29, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR29
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR29
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR29 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR29, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR29
+Jack: Already connected name = LinSmPSR29
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR29 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR29, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR29
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR29 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR29, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR30 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR30, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR30
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR30
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR30 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR30, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR30
+Jack: Already connected name = LinSmPSR30
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR30 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR30, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR30 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR30, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR30
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR31 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR31, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR31
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR31
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR31 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR31, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR31
+Jack: Already connected name = LinSmPSR31
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR31 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR31, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR31 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR31, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR31
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR32 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR32, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR32
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR32
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR32 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR32, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR32
+Jack: Already connected name = LinSmPSR32
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR32 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR32, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR32
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR32 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR32, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR33 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR33, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR33
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR33
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR33 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR33, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR33
+Jack: Already connected name = LinSmPSR33
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR33 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR33, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR33 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR33, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR33
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR34 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR34, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR34
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR34
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR34 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR34, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR34
+Jack: Already connected name = LinSmPSR34
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR34 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR34, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR34 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR34, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR34
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR35 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR35, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR35
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR35
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR35 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR35, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR35
+Jack: Already connected name = LinSmPSR35
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR35 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR35, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR35 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR35, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR35
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR36 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR36, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR36
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR36
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR36 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR36, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR36
+Jack: Already connected name = LinSmPSR36
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR36 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR36, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR36
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR36 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR36, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR37 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR37, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR37
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR37
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR37 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR37, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR37
+Jack: Already connected name = LinSmPSR37
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR37 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR37, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR37 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR37, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR37
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR38 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR38, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR38
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR38
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR38 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR38, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR38
+Jack: Already connected name = LinSmPSR38
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR38 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR38, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR38
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR38 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR38, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR39 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR39, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR39
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR39
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR39 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR39, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR39
+Jack: Already connected name = LinSmPSR39
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR39 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR39, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR39
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR39 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR39, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR40 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR40, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR40
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR40
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR40 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR40, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR40
+Jack: Already connected name = LinSmPSR40
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR40 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR40, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR40
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR40 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR40, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR41 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR41, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR41
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR41
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR41 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR41, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR41
+Jack: Already connected name = LinSmPSR41
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR41 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR41, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR41
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR41 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR41, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR42 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR42, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR42
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR42
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR42 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR42, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR42
+Jack: Already connected name = LinSmPSR42
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR42 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR42, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR42
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR42 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR42, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR43 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR43, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR43
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR43
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR43 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR43, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR43
+Jack: Already connected name = LinSmPSR43
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR43 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR43, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR43
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR43 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR43, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR44 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR44, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR44
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR44
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR44 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR44, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR44
+Jack: Already connected name = LinSmPSR44
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR44 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR44, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR44 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR44, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR44
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR45 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR45, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR45
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR45
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR45 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR45, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR45
+Jack: Already connected name = LinSmPSR45
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR45 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR45, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR45
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR45 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR45, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR46 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR46, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR46
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR46
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR46 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR46, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR46
+Jack: Already connected name = LinSmPSR46
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR46 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR46, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR46 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR46, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR46
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR47 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR47, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR47
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR47
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR47 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR47, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR47
+Jack: Already connected name = LinSmPSR47
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR47 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR47, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR47
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR47 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR47, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR48 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR48, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR48
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR48
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR48 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR48, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR48
+Jack: Already connected name = LinSmPSR48
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR48 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR48, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR48 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR48, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR48
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR49 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR49, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR49
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR49
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR49 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR49, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR49
+Jack: Already connected name = LinSmPSR49
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR49 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR49, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR49 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR49, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR49
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR50 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR50, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR50
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR50
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR50 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR50, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR50
+Jack: Already connected name = LinSmPSR50
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR50 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR50, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR50 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR50, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR50
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR51 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR51, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR51
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR51
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR51 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR51, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR51
+Jack: Already connected name = LinSmPSR51
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR51 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR51, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR51 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR51, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR51
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR52 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR52, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR52
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR52
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR52 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR52, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR52
+Jack: Already connected name = LinSmPSR52
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR52 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR52, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR52
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR52 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR52, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR53 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR53, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR53
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR53
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR53 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR53, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR53
+Jack: Already connected name = LinSmPSR53
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR53 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR53, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR53 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR53, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR53
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR54 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR54, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR54
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR54
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR54 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR54, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR54
+Jack: Already connected name = LinSmPSR54
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR54 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR54, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR54 notify = 1
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR54
+Jack: JackClient::RemoveClient name = LinSmPSR54, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR55 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR55, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR55
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR55
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR55 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR55, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR55
+Jack: Already connected name = LinSmPSR55
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR55 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR55, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR55 notify = 1
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR55
+Jack: JackClient::RemoveClient name = LinSmPSR55, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR56 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR56, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR56
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR56
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR56 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR56, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR56
+Jack: Already connected name = LinSmPSR56
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR56 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR56, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR56 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR56, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR56
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR57 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR57, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR57
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR57
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR57 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR57, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR57
+Jack: Already connected name = LinSmPSR57
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR57 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR57, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR57
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR57 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR57, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR58 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR58, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR58
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR58
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR58 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR58, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR58
+Jack: Already connected name = LinSmPSR58
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR58 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR58, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR58
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR58 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR58, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR59 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR59, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR59
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR59
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR59 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR59, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR59
+Jack: Already connected name = LinSmPSR59
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR59 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR59, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR59
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR59 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR59, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR60 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR60, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR60
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR60
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR60 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR60, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR60
+Jack: Already connected name = LinSmPSR60
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR60 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR60, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR60
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR60 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR60, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR61 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR61, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR61
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR61
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR61 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR61, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR61
+Jack: Already connected name = LinSmPSR61
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR61 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR61, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR61
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR61 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR61, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR62 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR62, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR62
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR62
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR62 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR62, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR62
+Jack: Already connected name = LinSmPSR62
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR62 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR62, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR62
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR62 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR62, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR63 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR63, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR63
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR63
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR63 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR63, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR63
+Jack: Already connected name = LinSmPSR63
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR63 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR63, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR63
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR63 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR63, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR64 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR64, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR64
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR64
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR64 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR64, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR64
+Jack: Already connected name = LinSmPSR64
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR64 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR64, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR64
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR64 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR64, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR65 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR65, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR65
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR65
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR65 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR65, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR65
+Jack: Already connected name = LinSmPSR65
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR65 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR65, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR65
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR65 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR65, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR66 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR66, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR66
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR66
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR66 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR66, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR66
+Jack: Already connected name = LinSmPSR66
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR66 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR66, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR66 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR66, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR66
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR67 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR67, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR67
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR67
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR67 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR67, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR67
+Jack: Already connected name = LinSmPSR67
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR67 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR67, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR67
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR67 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR67, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR68 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR68, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR68
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR68
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR68 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR68, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR68
+Jack: Already connected name = LinSmPSR68
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR68 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR68, ref = 15 
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR68 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR68, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR68
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR69 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR69, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR69
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR69
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR69 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR69, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR69
+Jack: Already connected name = LinSmPSR69
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR69 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR69, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR69
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR69 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR69, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR70 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR70, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR70
+Jack: JackClient::kAddClient fName = SAFEReverb name = LinSmPSR70
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR70 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR70, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR70
+Jack: Already connected name = LinSmPSR70
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR70 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR70, ref = 15 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = LinSmPSR70
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR70 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR70, ref = 15 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = jack_transport notify = 0
+Jack: JackClient::AddClient name = jack_transport, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jack_transport
+Jack: JackClient::kAddClient fName = SAFEReverb name = jack_transport
+Jack: JackClient::ClientNotify ref = 15 name = jack_transport notify = 0
+Jack: JackClient::AddClient name = jack_transport, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jack_transport
+Jack: Already connected name = jack_transport
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.9042.0 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.9042.0, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.9042.0
+Jack: JackClient::kAddClient fName = SAFEReverb name = alsa-jack.jackP.9042.0
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.9042.0 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.9042.0, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.9042.0
+Jack: Already connected name = alsa-jack.jackP.9042.0
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.9042.0 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.9042.0, ref = 16 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = alsa-jack.jackP.9042.0
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.9042.0 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.9042.0, ref = 16 
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.14359.0 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.14359.0, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.14359.0
+Jack: JackClient::kAddClient fName = SAFEReverb name = alsa-jack.jackP.14359.0
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.14359.0 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.14359.0, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.14359.0
+Jack: Already connected name = alsa-jack.jackP.14359.0
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.14359.0 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.14359.0, ref = 16 
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.14359.0 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.14359.0, ref = 16 
+Jack: JackClient::kRemoveClient fName = SAFEReverb name = alsa-jack.jackP.14359.0
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = jamin notify = 0
+Jack: JackClient::AddClient name = jamin, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jamin
+Jack: JackClient::kAddClient fName = SAFEReverb name = jamin
+Jack: JackClient::ClientNotify ref = 16 name = jamin notify = 0
+Jack: JackClient::AddClient name = jamin, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jamin
+Jack: Already connected name = jamin
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 18
+Exiting...
+Jack: JackClient::Deactivate
+Jack: JackClient::Deactivate res = 0
+Jack: JackPosixThread::Kill
+Jack: jack_client_close
+Jack: JackClient::Close ref = 9
+Jack: JackClient::Deactivate
+Jack: JackSocketClientChannel::Stop
+Jack: JackPosixThread::Kill
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 1
+Jack: JackClient::RemoveClient name = SAFEReverb, ref = 9 
+Jack: JackClientSocket::Close
+Jack: JackClientSocket::Close
+Jack: JackLibClient::~JackLibClient
+Jack: JackShmReadWritePtr1::~JackShmReadWritePtr1 8
+Jack: Succeeded in unlocking 422 byte memory area
+Jack: jack_client_close res = 0

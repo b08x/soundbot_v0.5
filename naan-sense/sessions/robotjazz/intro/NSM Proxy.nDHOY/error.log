@@ -1,0 +1,1644 @@
+UI:           None
+Plugin:       http://plugin.org.uk/swh-plugins/mbeq
+JACK Name:    Multiband EQ
+Jack: JackClient::SetupDriverSync driver sem in flush mode
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Multiband EQ
+Jack: Clock source : system clock via clock_gettime
+Jack: JackLibClient::Open name = Multiband EQ refnum = 5
+Jack: jack_set_session_callback ext_client 1560ef0 client 1560ef0 
+Comm buffers: 524288 bytes
+Update rate:  25.0 Hz
+
+Sample rate:  48000 Hz
+Block length: 512 frames
+MIDI buffers: 32768 bytes
+JACK Name:    Multiband EQ
+Jack: jack_client_open Multiband EQ
+Jack: JackGenericClientChannel::ServerCheck = default
+Jack: JackClientSocket::Connect : addr.sun_path /dev/shm/jack_default_1041_0
+Jack: JackClientSocket::Close
+Jack: JackLibClient::JackLibClient table = 1547210
+Jack: JackLibClient::Open name = Multiband EQ
+Jack: JackSocketClientChannel::Open name = Multiband EQ
+Jack: JackClientSocket::Connect : addr.sun_path /dev/shm/jack_default_1041_0
+Jack: JackServerSocket::Bind : addr.sun_path /dev/shm/jack_Multiband EQ-01_1041_0
+Jack: JackSocketClientChannel::Start
+Jack: JackPosixThread::StartImp : create non RT thread
+Jack: JackPosixThread::ThreadHandler : start
+Jack: JackSocketClientChannel::Init
+Jack: JackServerSocket::Close /dev/shm/jack_Multiband EQ-01_1041_0
+Jack: JackClient::ClientNotify ref = 0 name = system notify = 0
+Jack: JackClient::AddClient name = system, ref = 0 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_system
+Jack: Already connected name = system
+Jack: JackClient::ClientNotify ref = 1 name = freewheel notify = 0
+Jack: JackClient::AddClient name = freewheel, ref = 1 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_freewheel
+Jack: Already connected name = freewheel
+Jack: JackClient::ClientNotify ref = 2 name = dbusapi notify = 0
+Jack: JackClient::AddClient name = dbusapi, ref = 2 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_dbusapi
+Jack: Already connected name = dbusapi
+Jack: JackClient::ClientNotify ref = 3 name = a2j notify = 0
+Jack: JackClient::AddClient name = a2j, ref = 3 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_a2j
+Jack: Already connected name = a2j
+Jack: JackClient::ClientNotify ref = 4 name = JACKPatch notify = 0
+Jack: JackClient::AddClient name = JACKPatch, ref = 4 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_JACKPatch
+Jack: Already connected name = JACKPatch
+Jack: JackClient::ClientNotify ref = 7 name = Multiband EQ-01 notify = 0
+Jack: JackClient::AddClient name = Multiband EQ-01, ref = 7 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Multiband EQ-01
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 0
+Jack: JackClient::AddClient name = Multiband EQ, ref = 5 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Multiband EQ
+Jack: Already connected name = Multiband EQ
+Jack: JackClient::ClientNotify ref = 6 name = zita-rev1 notify = 0
+Jack: JackClient::AddClient name = zita-rev1, ref = 6 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_zita-rev1
+Jack: Already connected name = zita-rev1
+Jack: JackClient::ClientNotify ref = 8 name = Non-Sequencer.nQIXB notify = 0
+Jack: JackClient::AddClient name = Non-Sequencer.nQIXB, ref = 8 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Non-Sequencer.nQIXB
+Jack: Already connected name = Non-Sequencer.nQIXB
+Jack: JackClient::ClientNotify ref = 13 name = Carla.nUKRP notify = 0
+Jack: JackClient::AddClient name = Carla.nUKRP, ref = 13 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Carla.nUKRP
+Jack: Already connected name = Carla.nUKRP
+Jack: JackClient::ClientNotify ref = 14 name = LinuxSampler notify = 0
+Jack: JackClient::AddClient name = LinuxSampler, ref = 14 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinuxSampler
+Jack: Already connected name = LinuxSampler
+Jack: JackClient::ClientNotify ref = 15 name = jack_transport notify = 0
+Jack: JackClient::AddClient name = jack_transport, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jack_transport
+Jack: Already connected name = jack_transport
+Jack: JackClient::ClientNotify ref = 16 name = jamin notify = 0
+Jack: JackClient::AddClient name = jamin, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jamin
+Jack: Already connected name = jamin
+Jack: JackShmReadWritePtr1::Init 6 -1
+Jack: Succeeded in locking 422 byte memory area
+Jack: JackClient::SetupDriverSync driver sem in flush mode
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Multiband EQ-01
+Jack: Already connected name = Multiband EQ-01
+Jack: Clock source : system clock via clock_gettime
+Jack: JackLibClient::Open name = Multiband EQ-01 refnum = 7
+Jack: jack_set_session_callback ext_client 1582ad0 client 1582ad0 
+Jack: JackClient::PortRegister ref = 5 name = Multiband EQ:input type = 32 bit float mono audio port_index = 9
+Jack: JackClient::PortRegister ref = 5 name = Multiband EQ:output type = 32 bit float mono audio port_index = 10
+band_1  = 0.000000
+band_2  = 0.000000
+band_3  = 0.000000
+band_4  = 0.000000
+band_5  = 0.000000
+band_6  = 0.000000
+band_7  = 0.000000
+band_8  = 0.000000
+band_9  = 0.000000
+band_10 = 0.000000
+band_11 = 0.000000
+band_12 = 0.000000
+band_13 = 0.000000
+band_14 = 0.000000
+band_15 = 0.000000
+latency = 0.000000
+Jack: JackClient::Activate
+Jack: JackPosixThread::StartImp : create non RT thread
+Jack: JackPosixThread::ThreadHandler : start
+Jack: JackClient::kBufferSizeCallback buffer_size = 512
+Jack: JackClient::Init : period = 10666 computation = 100 constraint = 10666
+Jack: JackPosixThread::AcquireRealTimeImp priority = 75
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 2
+Jack: JackClient::kActivateClient name = Multiband EQ ref = 5 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackActivationCount::Signal value = 0 ref = 5
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR71 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR71, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR71
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR71
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR71 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR71, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR71
+Jack: Already connected name = LinSmPSR71
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR71 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR71, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR71 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR71, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR71
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR72 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR72, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR72
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR72
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR72 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR72, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR72
+Jack: Already connected name = LinSmPSR72
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR72 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR72, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR72 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR72, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR72
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR73 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR73, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR73
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR73
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR73 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR73, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR73
+Jack: Already connected name = LinSmPSR73
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR73 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR73, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR73
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR73 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR73, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR74 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR74, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR74
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR74
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR74 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR74, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR74
+Jack: Already connected name = LinSmPSR74
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR74 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR74, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR74
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR74 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR74, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR75 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR75, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR75
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR75
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR75 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR75, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR75
+Jack: Already connected name = LinSmPSR75
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR75 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR75, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR75 notify = 1
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR75
+Jack: JackClient::RemoveClient name = LinSmPSR75, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR76 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR76, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR76
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR76
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR76 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR76, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR76
+Jack: Already connected name = LinSmPSR76
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR76 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR76, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR76
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR76 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR76, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR77 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR77, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR77
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR77
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR77 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR77, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR77
+Jack: Already connected name = LinSmPSR77
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR77 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR77, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR77
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR77 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR77, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR78 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR78, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR78
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR78
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR78 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR78, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR78
+Jack: Already connected name = LinSmPSR78
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR78 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR78, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR78
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR78 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR78, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR79 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR79, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR79
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR79
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR79 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR79, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR79
+Jack: Already connected name = LinSmPSR79
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR79 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR79, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR79
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR79 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR79, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR80 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR80, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR80
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR80
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR80 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR80, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR80
+Jack: Already connected name = LinSmPSR80
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR80 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR80, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR80
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR80 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR80, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR81 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR81, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR81
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR81
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR81 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR81, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR81
+Jack: Already connected name = LinSmPSR81
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR81 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR81, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR81 notify = 1
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR81
+Jack: JackClient::RemoveClient name = LinSmPSR81, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR82 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR82, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR82
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR82
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR82 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR82, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR82
+Jack: Already connected name = LinSmPSR82
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR82 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR82, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR82
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR82 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR82, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR83 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR83, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR83 notify = 0
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR83
+Jack: JackClient::AddClient name = LinSmPSR83, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR83
+Jack: Already connected name = LinSmPSR83
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR83
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR83 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR83, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR83 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR83, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR83
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR84 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR84, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR84
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR84
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR84 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR84, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR84
+Jack: Already connected name = LinSmPSR84
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR84 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR84, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR84
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR84 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR84, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR85 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR85, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR85
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR85
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR85 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR85, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR85
+Jack: Already connected name = LinSmPSR85
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR85 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR85, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR85
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR85 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR85, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR86 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR86, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR86
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR86
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR86 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR86, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR86
+Jack: Already connected name = LinSmPSR86
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR86 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR86, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR86 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR86, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR86
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR87 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR87, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR87
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR87
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR87 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR87, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR87
+Jack: Already connected name = LinSmPSR87
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR87 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR87, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR87
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR87 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR87, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR88 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR88, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR88
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR88
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR88 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR88, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR88
+Jack: Already connected name = LinSmPSR88
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR88 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR88, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR88
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR88 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR88, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR89 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR89, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR89
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR89
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR89 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR89, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR89
+Jack: Already connected name = LinSmPSR89
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR89 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR89, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR89
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR89 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR89, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR90 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR90, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR90
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR90
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR90 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR90, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR90
+Jack: Already connected name = LinSmPSR90
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR90 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR90, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR90
+Jack: JackClient::ClientNotify ref = 9 name = LinSmPSR90 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR90, ref = 9 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 0
+Jack: JackClient::AddClient name = LS Filter, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter
+Jack: JackClient::kAddClient fName = Multiband EQ name = LS Filter
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 0
+Jack: JackClient::AddClient name = LS Filter, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter
+Jack: Already connected name = LS Filter
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 10 name = LS Filter-01 notify = 0
+Jack: JackClient::AddClient name = LS Filter-01, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter-01
+Jack: JackClient::kAddClient fName = Multiband EQ name = LS Filter-01
+Jack: JackClient::ClientNotify ref = 10 name = LS Filter-01 notify = 0
+Jack: JackClient::AddClient name = LS Filter-01, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter-01
+Jack: Already connected name = LS Filter-01
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR91 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR91, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR91
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR91
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR91 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR91, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR91
+Jack: Already connected name = LinSmPSR91
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR91 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR91, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR91
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR91 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR91, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR92 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR92, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR92
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR92 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR92, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR92
+Jack: Already connected name = LinSmPSR92
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR92
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR92 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR92, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR92
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR92 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR92, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR93 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR93, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR93
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR93
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR93 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR93, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR93
+Jack: Already connected name = LinSmPSR93
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR93 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR93, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR93
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR93 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR93, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR94 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR94, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR94
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR94
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR94 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR94, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR94
+Jack: Already connected name = LinSmPSR94
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR94 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR94, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR94
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR94 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR94, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR95 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR95, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR95
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR95 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR95, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR95
+Jack: Already connected name = LinSmPSR95
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR95
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR95 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR95, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR95
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR95 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR95, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR96 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR96, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR96
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR96
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR96 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR96, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR96
+Jack: Already connected name = LinSmPSR96
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR96 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR96, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR96 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR96, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR96
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR97 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR97, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR97
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR97
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR97 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR97, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR97
+Jack: Already connected name = LinSmPSR97
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR97 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR97, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR97 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR97, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR97
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR98 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR98, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR98
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR98
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR98 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR98, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR98
+Jack: Already connected name = LinSmPSR98
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR98 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR98, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR98 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR98, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR98
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR99 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR99, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR99
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR99
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR99 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR99, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR99
+Jack: Already connected name = LinSmPSR99
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR99 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR99, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR99 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR99, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR99
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR100 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR100, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR100
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR100 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR100, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR100
+Jack: Already connected name = LinSmPSR100
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR100
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR100 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR100, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR100
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR100 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR100, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR101 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR101, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR101
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR101 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR101, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR101
+Jack: Already connected name = LinSmPSR101
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR101
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR101 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR101, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR101
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR101 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR101, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR102 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR102, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR102
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR102
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR102 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR102, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR102
+Jack: Already connected name = LinSmPSR102
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR102 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR102, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR102
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR102 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR102, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR103 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR103, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR103
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR103
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR103 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR103, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR103
+Jack: Already connected name = LinSmPSR103
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR103 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR103, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR103 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR103, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR103
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR104 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR104, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR104
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR104
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR104 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR104, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR104
+Jack: Already connected name = LinSmPSR104
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR104 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR104, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR104 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR104, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR104
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR105 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR105, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR105
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR105
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR105 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR105, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR105
+Jack: Already connected name = LinSmPSR105
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR105 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR105, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR105
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR105 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR105, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR106 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR106, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR106
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR106
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR106 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR106, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR106
+Jack: Already connected name = LinSmPSR106
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR106 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR106, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR106
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR106 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR106, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 1
+Jack: JackClient::RemoveClient name = LS Filter, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 1
+Jack: JackClient::RemoveClient name = LS Filter, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LS Filter
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 10 name = LS Filter-01 notify = 1
+Jack: JackClient::RemoveClient name = LS Filter-01, ref = 10 
+Jack: JackClient::ClientNotify ref = 10 name = LS Filter-01 notify = 1
+Jack: JackClient::RemoveClient name = LS Filter-01, ref = 10 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LS Filter-01
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 0
+Jack: JackClient::AddClient name = Glame Lowpass Filter, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Glame Lowpass Filter
+Jack: JackClient::kAddClient fName = Multiband EQ name = Glame Lowpass Filter
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 0
+Jack: JackClient::AddClient name = Glame Lowpass Filter, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Glame Lowpass Filter
+Jack: Already connected name = Glame Lowpass Filter
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 10 name = Glame Lowpass Filter-01 notify = 0
+Jack: JackClient::AddClient name = Glame Lowpass Filter-01, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Glame Lowpass Filter-01
+Jack: JackClient::kAddClient fName = Multiband EQ name = Glame Lowpass Filter-01
+Jack: JackClient::ClientNotify ref = 10 name = Glame Lowpass Filter-01 notify = 0
+Jack: JackClient::AddClient name = Glame Lowpass Filter-01, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Glame Lowpass Filter-01
+Jack: Already connected name = Glame Lowpass Filter-01
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 1
+Jack: JackClient::RemoveClient name = Glame Lowpass Filter, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = Glame Lowpass Filter notify = 1
+Jack: JackClient::RemoveClient name = Glame Lowpass Filter, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = Glame Lowpass Filter
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 10 name = Glame Lowpass Filter-01 notify = 1
+Jack: JackClient::RemoveClient name = Glame Lowpass Filter-01, ref = 10 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = Glame Lowpass Filter-01
+Jack: JackClient::ClientNotify ref = 10 name = Glame Lowpass Filter-01 notify = 1
+Jack: JackClient::RemoveClient name = Glame Lowpass Filter-01, ref = 10 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 0
+Jack: JackClient::AddClient name = LS Filter, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter
+Jack: JackClient::kAddClient fName = Multiband EQ name = LS Filter
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 0
+Jack: JackClient::AddClient name = LS Filter, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LS Filter
+Jack: Already connected name = LS Filter
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = jamin notify = 1
+Jack: JackClient::RemoveClient name = jamin, ref = 16 
+Jack: JackClient::ClientNotify ref = 16 name = jamin notify = 1
+Jack: JackClient::RemoveClient name = jamin, ref = 16 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = jamin
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 10 name = jamin notify = 0
+Jack: JackClient::AddClient name = jamin, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jamin
+Jack: JackClient::kAddClient fName = Multiband EQ name = jamin
+Jack: JackClient::ClientNotify ref = 10 name = jamin notify = 0
+Jack: JackClient::AddClient name = jamin, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jamin
+Jack: Already connected name = jamin
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR107 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR107, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR107
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR107
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR107 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR107, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR107
+Jack: Already connected name = LinSmPSR107
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR107 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR107, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR107
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR107 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR107, ref = 11 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR108 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR108, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR108
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR108
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR108 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR108, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR108
+Jack: Already connected name = LinSmPSR108
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR108 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR108, ref = 11 
+Jack: JackClient::ClientNotify ref = 11 name = LinSmPSR108 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR108, ref = 11 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR108
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = jack-keyboard notify = 0
+Jack: JackClient::AddClient name = jack-keyboard, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jack-keyboard
+Jack: JackClient::kAddClient fName = Multiband EQ name = jack-keyboard
+Jack: JackClient::ClientNotify ref = 11 name = jack-keyboard notify = 0
+Jack: JackClient::AddClient name = jack-keyboard, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jack-keyboard
+Jack: Already connected name = jack-keyboard
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 12 name = Petri-Foo.nTQPT notify = 0
+Jack: JackClient::AddClient name = Petri-Foo.nTQPT, ref = 12 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Petri-Foo.nTQPT
+Jack: JackClient::kAddClient fName = Multiband EQ name = Petri-Foo.nTQPT
+Jack: JackClient::ClientNotify ref = 12 name = Petri-Foo.nTQPT notify = 0
+Jack: JackClient::AddClient name = Petri-Foo.nTQPT, ref = 12 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Petri-Foo.nTQPT
+Jack: Already connected name = Petri-Foo.nTQPT
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = C* Eq10X2 - Stereo 10-band equaliser notify = 0
+Jack: JackClient::AddClient name = C* Eq10X2 - Stereo 10-band equaliser, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_C* Eq10X2 - Stereo 10-band equaliser
+Jack: JackClient::kAddClient fName = Multiband EQ name = C* Eq10X2 - Stereo 10-band equaliser
+Jack: JackClient::ClientNotify ref = 16 name = C* Eq10X2 - Stereo 10-band equaliser notify = 0
+Jack: JackClient::AddClient name = C* Eq10X2 - Stereo 10-band equaliser, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_C* Eq10X2 - Stereo 10-band equaliser
+Jack: Already connected name = C* Eq10X2 - Stereo 10-band equaliser
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR109 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR109, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR109
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR109
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR109 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR109, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR109
+Jack: Already connected name = LinSmPSR109
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR109 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR109, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR109 notify = 1
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR109
+Jack: JackClient::RemoveClient name = LinSmPSR109, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR110 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR110, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR110
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR110
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR110 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR110, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR110
+Jack: Already connected name = LinSmPSR110
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR110 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR110, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR110 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR110, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR110
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR111 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR111, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR111
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR111
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR111 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR111, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR111
+Jack: Already connected name = LinSmPSR111
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR111 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR111, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR111 notify = 1
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR111
+Jack: JackClient::RemoveClient name = LinSmPSR111, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR112 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR112, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR112
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR112
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR112 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR112, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR112
+Jack: Already connected name = LinSmPSR112
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR112 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR112, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR112
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR112 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR112, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR113 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR113, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR113
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR113
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR113 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR113, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR113
+Jack: Already connected name = LinSmPSR113
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR113 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR113, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR113
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR113 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR113, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR114 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR114, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR114
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR114
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR114 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR114, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR114
+Jack: Already connected name = LinSmPSR114
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR114 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR114, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR114 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR114, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR114
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR115 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR115, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR115
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR115
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR115 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR115, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR115
+Jack: Already connected name = LinSmPSR115
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR115 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR115, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR115 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR115, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR115
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR116 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR116, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR116
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR116
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR116 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR116, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR116
+Jack: Already connected name = LinSmPSR116
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR116 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR116, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR116
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR116 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR116, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR117 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR117, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR117
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR117
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR117 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR117, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR117
+Jack: Already connected name = LinSmPSR117
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR117 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR117, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR117
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR117 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR117, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR118 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR118, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR118
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR118
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR118 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR118, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR118
+Jack: Already connected name = LinSmPSR118
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR118 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR118, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR118
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR118 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR118, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR119 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR119, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR119
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR119
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR119 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR119, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR119
+Jack: Already connected name = LinSmPSR119
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR119 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR119, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR119 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR119, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR119
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR120 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR120, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR120
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR120
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR120 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR120, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR120
+Jack: Already connected name = LinSmPSR120
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR120 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR120, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR120
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR120 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR120, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR121 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR121, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR121
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR121
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR121 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR121, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR121
+Jack: Already connected name = LinSmPSR121
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR121 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR121, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR121 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR121, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR121
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR122 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR122, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR122
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR122
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR122 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR122, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR122
+Jack: Already connected name = LinSmPSR122
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR122 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR122, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR122 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR122, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR122
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR123 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR123, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR123
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR123
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR123 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR123, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR123
+Jack: Already connected name = LinSmPSR123
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR123 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR123, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR123
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR123 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR123, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR124 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR124, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR124
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR124
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR124 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR124, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR124
+Jack: Already connected name = LinSmPSR124
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR124 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR124, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR124
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR124 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR124, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR125 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR125, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR125
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR125
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR125 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR125, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR125
+Jack: Already connected name = LinSmPSR125
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR125 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR125, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR125
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR125 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR125, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR126 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR126, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR126
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR126
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR126 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR126, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR126
+Jack: Already connected name = LinSmPSR126
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR126 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR126, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR126 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR126, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR126
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR127 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR127, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR127
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR127
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR127 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR127, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR127
+Jack: Already connected name = LinSmPSR127
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR127 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR127, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR127 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR127, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR127
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR128 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR128, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR128
+Jack: JackClient::kAddClient fName = Multiband EQ name = LinSmPSR128
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR128 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR128, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR128
+Jack: Already connected name = LinSmPSR128
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR128 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR128, ref = 17 
+Jack: JackClient::ClientNotify ref = 17 name = LinSmPSR128 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR128, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LinSmPSR128
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = L/C/R Delay notify = 0
+Jack: JackClient::AddClient name = L/C/R Delay, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_L_C_R Delay
+Jack: JackClient::kAddClient fName = Multiband EQ name = L/C/R Delay
+Jack: JackClient::ClientNotify ref = 17 name = L/C/R Delay notify = 0
+Jack: JackClient::AddClient name = L/C/R Delay, ref = 17 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_L_C_R Delay
+Jack: Already connected name = L/C/R Delay
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 18 name = VyNil (Vinyl Effect) notify = 0
+Jack: JackClient::AddClient name = VyNil (Vinyl Effect), ref = 18 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_VyNil (Vinyl Effect)
+Jack: JackClient::kAddClient fName = Multiband EQ name = VyNil (Vinyl Effect)
+Jack: JackClient::ClientNotify ref = 18 name = VyNil (Vinyl Effect) notify = 0
+Jack: JackClient::AddClient name = VyNil (Vinyl Effect), ref = 18 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_VyNil (Vinyl Effect)
+Jack: Already connected name = VyNil (Vinyl Effect)
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 18 name = VyNil (Vinyl Effect) notify = 1
+Jack: JackClient::RemoveClient name = VyNil (Vinyl Effect), ref = 18 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = VyNil (Vinyl Effect)
+Jack: JackClient::ClientNotify ref = 18 name = VyNil (Vinyl Effect) notify = 1
+Jack: JackClient::RemoveClient name = VyNil (Vinyl Effect), ref = 18 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 18 name = Calf Vinyl notify = 0
+Jack: JackClient::AddClient name = Calf Vinyl, ref = 18 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Calf Vinyl
+Jack: JackClient::kAddClient fName = Multiband EQ name = Calf Vinyl
+Jack: JackClient::ClientNotify ref = 18 name = Calf Vinyl notify = 0
+Jack: JackClient::AddClient name = Calf Vinyl, ref = 18 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Calf Vinyl
+Jack: Already connected name = Calf Vinyl
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 19 name = ZamDelay notify = 0
+Jack: JackClient::AddClient name = ZamDelay, ref = 19 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_ZamDelay
+Jack: JackClient::kAddClient fName = Multiband EQ name = ZamDelay
+Jack: JackClient::ClientNotify ref = 19 name = ZamDelay notify = 0
+Jack: JackClient::AddClient name = ZamDelay, ref = 19 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_ZamDelay
+Jack: Already connected name = ZamDelay
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 20 name = alsa-jack.jackP.27692.0 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.27692.0, ref = 20 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.27692.0
+Jack: JackClient::kAddClient fName = Multiband EQ name = alsa-jack.jackP.27692.0
+Jack: JackClient::ClientNotify ref = 20 name = alsa-jack.jackP.27692.0 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.27692.0, ref = 20 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.27692.0
+Jack: Already connected name = alsa-jack.jackP.27692.0
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 20 name = alsa-jack.jackP.27692.0 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.27692.0, ref = 20 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = alsa-jack.jackP.27692.0
+Jack: JackClient::ClientNotify ref = 20 name = alsa-jack.jackP.27692.0 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.27692.0, ref = 20 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 20 name = alsa-jack.jackP.27692.1 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.27692.1, ref = 20 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.27692.1
+Jack: JackClient::kAddClient fName = Multiband EQ name = alsa-jack.jackP.27692.1
+Jack: JackClient::ClientNotify ref = 20 name = alsa-jack.jackP.27692.1 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.27692.1, ref = 20 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.27692.1
+Jack: Already connected name = alsa-jack.jackP.27692.1
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 20 name = alsa-jack.jackP.27692.1 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.27692.1, ref = 20 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = alsa-jack.jackP.27692.1
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 20 name = alsa-jack.jackP.27692.1 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.27692.1, ref = 20 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 20 name = C* Scape - Stereo delay with chromatic resonances notify = 0
+Jack: JackClient::AddClient name = C* Scape - Stereo delay with chromatic resonances, ref = 20 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_C* Scape - Stereo delay with chromatic resonances
+Jack: JackClient::kAddClient fName = Multiband EQ name = C* Scape - Stereo delay with chromatic resonances
+Jack: JackClient::ClientNotify ref = 20 name = C* Scape - Stereo delay with chromatic resonances notify = 0
+Jack: JackClient::AddClient name = C* Scape - Stereo delay with chromatic resonances, ref = 20 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_C* Scape - Stereo delay with chromatic resonances
+Jack: Already connected name = C* Scape - Stereo delay with chromatic resonances
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 21 name = stickmic notify = 0
+Jack: JackClient::AddClient name = stickmic, ref = 21 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_stickmic
+Jack: JackClient::kAddClient fName = Multiband EQ name = stickmic
+Jack: JackClient::ClientNotify ref = 21 name = stickmic notify = 0
+Jack: JackClient::AddClient name = stickmic, ref = 21 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_stickmic
+Jack: Already connected name = stickmic
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: WaitGraphChange...
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 20 name = C* Scape - Stereo delay with chromatic resonances notify = 1
+Jack: JackClient::RemoveClient name = C* Scape - Stereo delay with chromatic resonances, ref = 20 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = C* Scape - Stereo delay with chromatic resonances
+Jack: JackClient::ClientNotify ref = 20 name = C* Scape - Stereo delay with chromatic resonances notify = 1
+Jack: JackClient::RemoveClient name = C* Scape - Stereo delay with chromatic resonances, ref = 20 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 18 name = Calf Vinyl notify = 1
+Jack: JackClient::RemoveClient name = Calf Vinyl, ref = 18 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = Calf Vinyl
+Jack: JackClient::ClientNotify ref = 18 name = Calf Vinyl notify = 1
+Jack: JackClient::RemoveClient name = Calf Vinyl, ref = 18 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 19 name = ZamDelay notify = 1
+Jack: JackClient::RemoveClient name = ZamDelay, ref = 19 
+Jack: JackClient::ClientNotify ref = 19 name = ZamDelay notify = 1
+Jack: JackClient::RemoveClient name = ZamDelay, ref = 19 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = ZamDelay
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 17 name = L/C/R Delay notify = 1
+Jack: JackClient::RemoveClient name = L/C/R Delay, ref = 17 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = L/C/R Delay
+Jack: JackClient::ClientNotify ref = 17 name = L/C/R Delay notify = 1
+Jack: JackClient::RemoveClient name = L/C/R Delay, ref = 17 
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 1
+Jack: JackClient::RemoveClient name = LS Filter, ref = 9 
+Jack: JackClient::ClientNotify ref = 9 name = LS Filter notify = 1
+Jack: JackClient::RemoveClient name = LS Filter, ref = 9 
+Jack: JackClient::kRemoveClient fName = Multiband EQ name = LS Filter
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 18
+Exiting...
+Jack: JackClient::Deactivate
+Jack: JackClient::Deactivate res = 0
+Jack: JackPosixThread::Kill
+Jack: jack_client_close
+Jack: JackClient::Close ref = 5
+Jack: JackClient::Deactivate
+Jack: JackSocketClientChannel::Stop
+Jack: JackPosixThread::Kill
+Jack: JackClient::ClientNotify ref = 5 name = Multiband EQ notify = 1
+Jack: JackClient::RemoveClient name = Multiband EQ, ref = 5 
+Jack: JackClientSocket::Close
+Jack: JackClientSocket::Close
+Jack: JackLibClient::~JackLibClient
+Jack: JackShmReadWritePtr1::~JackShmReadWritePtr1 4
+Jack: Succeeded in unlocking 422 byte memory area
+Jack: jack_client_close res = 0

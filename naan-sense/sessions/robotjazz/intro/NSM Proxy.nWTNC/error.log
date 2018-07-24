@@ -1,0 +1,975 @@
+Jack: JackClient::SetupDriverSync driver sem in flush mode
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_zita-dpl1
+Jack: Clock source : system clock via clock_gettime
+Jack: JackLibClient::Open name = zita-dpl1 refnum = 7
+Jack: JackClient::Activate
+Jack: JackPosixThread::StartImp : create non RT thread
+Jack: JackPosixThread::ThreadHandler : start
+Jack: JackClient::kBufferSizeCallback buffer_size = 512
+Jack: JackClient::Init : period = 10666 computation = 100 constraint = 10666
+Jack: JackPosixThread::AcquireRealTimeImp priority = 75
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 2
+Jack: JackClient::kActivateClient name = zita-dpl1 ref = 7 
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::PortRegister ref = 7 name = zita-dpl1:in_1 type = 32 bit float mono audio port_index = 17
+Jack: JackClient::ClientNotify ref = 8 name = Non-Sequencer.nQIXB notify = 0
+Jack: JackClient::AddClient name = Non-Sequencer.nQIXB, ref = 8 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Non-Sequencer.nQIXB
+Jack: JackClient::kAddClient fName = zita-dpl1 name = Non-Sequencer.nQIXB
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::PortRegister ref = 7 name = zita-dpl1:out_1 type = 32 bit float mono audio port_index = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::PortRegister ref = 7 name = zita-dpl1:in_2 type = 32 bit float mono audio port_index = 20
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::PortRegister ref = 7 name = zita-dpl1:out_2 type = 32 bit float mono audio port_index = 22
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 0
+Jack: JackClient::AddClient name = SAFEReverb, ref = 9 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFEReverb
+Jack: JackClient::kAddClient fName = zita-dpl1 name = SAFEReverb
+Jack: JackClient::ClientNotify ref = 10 name = SAFECompressor notify = 0
+Jack: JackClient::AddClient name = SAFECompressor, ref = 10 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFECompressor
+Jack: JackClient::kAddClient fName = zita-dpl1 name = SAFECompressor
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = SAFEReverb-01 notify = 0
+Jack: JackClient::AddClient name = SAFEReverb-01, ref = 11 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFEReverb-01
+Jack: JackClient::kAddClient fName = zita-dpl1 name = SAFEReverb-01
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 12 name = SAFECompressor-01 notify = 0
+Jack: JackClient::AddClient name = SAFECompressor-01, ref = 12 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_SAFECompressor-01
+Jack: JackClient::kAddClient fName = zita-dpl1 name = SAFECompressor-01
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 13 name = Carla.nUKRP notify = 0
+Jack: JackClient::AddClient name = Carla.nUKRP, ref = 13 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_Carla.nUKRP
+Jack: JackClient::kAddClient fName = zita-dpl1 name = Carla.nUKRP
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 14 name = LinuxSampler notify = 0
+Jack: JackClient::AddClient name = LinuxSampler, ref = 14 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinuxSampler
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinuxSampler
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR0 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR0, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR0
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR0
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR0 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR0, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR0
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR1 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR1, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR1
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR1
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR1 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR1, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR1
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR2 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR2, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR2
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR2
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR2 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR2, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR2
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR3 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR3, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR3
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR3
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR3 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR3, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR3
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR4 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR4, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR4
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR4
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR4 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR4, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR4
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR5 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR5, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR5
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR5
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR5 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR5, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR5
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR6 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR6, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR6
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR6
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR6 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR6, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR6
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR7 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR7, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR7
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR7
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR7 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR7, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR7
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR8 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR8, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR8
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR8
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR8 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR8, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR8
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR9 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR9, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR9
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR9
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR9 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR9, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR9
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR10 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR10, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR10
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR10
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR10 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR10, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR10
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR11 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR11, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR11
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR11
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR11 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR11, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR11
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR12 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR12, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR12
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR12
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR12 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR12, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR12
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR13 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR13, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR13
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR13
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR13 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR13, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR13
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR14 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR14, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR14
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR14
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR14 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR14, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR14
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR15 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR15, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR15
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR15
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR15 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR15, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR15
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR16 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR16, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR16
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR16
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR16 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR16, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR16
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR17 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR17, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR17
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR17
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR17 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR17, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR17
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR18 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR18, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR18
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR18 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR18, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR19 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR19, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR19
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR19
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR19 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR19, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR19
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR20 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR20, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR20
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR20
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR20 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR20, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR20
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR21 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR21, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR21
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR21
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR21 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR21, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR21
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR22 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR22, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR22
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR22
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR22 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR22, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR22
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR23 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR23, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR23
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR23
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR23 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR23, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR23
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR24 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR24, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR24
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR24
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR24 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR24, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR24
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR25 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR25, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR25
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR25
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR25 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR25, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR25
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR26 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR26, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR26
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR26
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR26 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR26, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR26
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR27 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR27, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR27
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR27
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR27 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR27, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR27
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR28 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR28, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR28
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR28
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR28 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR28, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR28
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR29 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR29, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR29
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR29
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR29 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR29, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR29
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR30 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR30, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR30
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR30
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR30 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR30, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR30
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR31 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR31, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR31
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR31
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR31 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR31, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR31
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR32 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR32, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR32
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR32
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR32 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR32, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR32
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR33 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR33, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR33
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR33
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR33 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR33, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR33
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR34 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR34, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR34
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR34
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR34 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR34, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR34
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR35 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR35, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR35
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR35
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR35 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR35, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR35
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR36 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR36, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR36
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR36
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR36 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR36, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR36
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR37 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR37, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR37
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR37
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR37 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR37, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR37
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR38 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR38, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR38
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR38
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR38 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR38, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR38
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR39 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR39, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR39
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR39
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR39 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR39, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR39
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR40 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR40, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR40
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR40
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR40 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR40, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR40
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR41 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR41, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR41
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR41
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR41 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR41, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR41
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR42 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR42, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR42
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR42
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR42 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR42, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR42
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR43 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR43, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR43
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR43
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR43 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR43, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR43
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR44 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR44, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR44
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR44
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR44 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR44, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR44
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR45 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR45, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR45
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR45
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR45 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR45, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR45
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR46 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR46, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR46
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR46
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR46 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR46, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR46
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR47 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR47, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR47
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR47
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR47 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR47, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR47
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR48 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR48, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR48
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR48
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR48 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR48, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR48
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR49 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR49, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR49
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR49
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR49 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR49, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR49
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR50 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR50, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR50
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR50
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR50 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR50, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR50
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR51 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR51, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR51
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR51
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR51 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR51, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR51
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR52 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR52, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR52
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR52
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR52 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR52, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR52
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR53 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR53, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR53
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR53
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR53 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR53, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR53
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR54 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR54, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR54
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR54
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR54 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR54, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR54
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR55 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR55, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR55
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR55
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR55 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR55, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR55
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR56 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR56, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR56
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR56
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR56 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR56, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR56
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR57 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR57, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR57
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR57
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR57 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR57, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR57
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR58 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR58, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR58
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR58
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR58 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR58, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR58
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR59 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR59, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR59
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR59
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR59 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR59, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR59
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR60 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR60, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR60
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR60
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR60 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR60, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR60
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR61 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR61, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR61
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR61
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR61 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR61, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR61
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR62 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR62, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR62
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR62
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR62 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR62, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR62
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR63 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR63, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR63
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR63
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR63 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR63, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR63
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR64 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR64, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR64
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR64
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR64 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR64, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR64
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR65 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR65, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR65
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR65
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR65 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR65, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR65
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR66 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR66, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR66
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR66
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR66 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR66, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR66
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR67 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR67, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR67
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR67
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR67 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR67, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR67
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR68 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR68, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR68
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR68
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR68 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR68, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR68
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR69 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR69, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR69
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR69
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR69 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR69, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR69
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR70 notify = 0
+Jack: JackClient::AddClient name = LinSmPSR70, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_LinSmPSR70
+Jack: JackClient::kAddClient fName = zita-dpl1 name = LinSmPSR70
+Jack: JackClient::ClientNotify ref = 15 name = LinSmPSR70 notify = 1
+Jack: JackClient::RemoveClient name = LinSmPSR70, ref = 15 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = LinSmPSR70
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 15 name = jack_transport notify = 0
+Jack: JackClient::AddClient name = jack_transport, ref = 15 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jack_transport
+Jack: JackClient::kAddClient fName = zita-dpl1 name = jack_transport
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.9042.0 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.9042.0, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.9042.0
+Jack: JackClient::kAddClient fName = zita-dpl1 name = alsa-jack.jackP.9042.0
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.9042.0 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.9042.0, ref = 16 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = alsa-jack.jackP.9042.0
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.14359.0 notify = 0
+Jack: JackClient::AddClient name = alsa-jack.jackP.14359.0, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_alsa-jack.jackP.14359.0
+Jack: JackClient::kAddClient fName = zita-dpl1 name = alsa-jack.jackP.14359.0
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = alsa-jack.jackP.14359.0 notify = 1
+Jack: JackClient::RemoveClient name = alsa-jack.jackP.14359.0, ref = 16 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = alsa-jack.jackP.14359.0
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 16 name = jamin notify = 0
+Jack: JackClient::AddClient name = jamin, ref = 16 
+Jack: JackLinuxFutex::Connect name = jack_sem.1041_default_jamin
+Jack: JackClient::kAddClient fName = zita-dpl1 name = jamin
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 9 name = SAFEReverb notify = 1
+Jack: JackClient::RemoveClient name = SAFEReverb, ref = 9 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = SAFEReverb
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 11 name = SAFEReverb-01 notify = 1
+Jack: JackClient::RemoveClient name = SAFEReverb-01, ref = 11 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = SAFEReverb-01
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 10 name = SAFECompressor notify = 1
+Jack: JackClient::RemoveClient name = SAFECompressor, ref = 10 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = SAFECompressor
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 12 name = SAFECompressor-01 notify = 1
+Jack: JackClient::RemoveClient name = SAFECompressor-01, ref = 12 
+Jack: JackClient::kRemoveClient fName = zita-dpl1 name = SAFECompressor-01
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
+Jack: JackClient::ClientNotify ref = 7 name = zita-dpl1 notify = 18
