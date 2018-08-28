@@ -1,0 +1,18 @@
+Petri-Foo:out_left                       |> jackEQ:c.2-in-L
+Petri-Foo:out_right                      |> jackEQ:c.2-in-R
+deadbeef:deadbeef_1                      |> jackEQ:c.3-in-L
+deadbeef:deadbeef_2                      |> jackEQ:c.3-in-R
+jackEQ:c.1-out-L                         |> jamin:in_L
+jackEQ:c.1-out-R                         |> jamin:in_R
+jackEQ:c.2-out-L                         |> jamin:in_L
+jackEQ:c.2-out-R                         |> jamin:in_R
+jackEQ:c.3-out-L                         |> jamin:in_L
+jackEQ:c.3-out-R                         |> jamin:in_R
+jackEQ:c.4-out-L                         |> jamin:in_L
+jackEQ:c.4-out-R                         |> jamin:in_R
+jackEQ:e.fx1_return-out-L                |> jamin:in_L
+jackEQ:e.fx1_return-out-R                |> jamin:in_R
+jamin:a.master.out_L                     |> Stereo Phase Scope:inL
+jamin:a.master.out_L                     |> headset:playback_1
+jamin:a.master.out_R                     |> Stereo Phase Scope:inR
+jamin:a.master.out_R                     |> headset:playback_2

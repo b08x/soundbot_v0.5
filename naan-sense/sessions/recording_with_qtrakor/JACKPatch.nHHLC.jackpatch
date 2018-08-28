@@ -1,0 +1,9 @@
+Non-Sequencer.nICBR:midi_out-1           |> LinuxSampler:midi_in_0
+Non-Sequencer.nICBR:midi_out-2           |> Helm:lv2_events_in
+Qtractor.nFHOX:Master/out_1              |> jamin:in_L
+Qtractor.nFHOX:Master/out_2              |> jamin:in_R
+jack-keyboard:midi_out                   |> system:midi_playback_5
+jamin:a.master.out_L                     |> headset:playback_1
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> headset:playback_2
+jamin:a.master.out_R                     |> system:playback_2

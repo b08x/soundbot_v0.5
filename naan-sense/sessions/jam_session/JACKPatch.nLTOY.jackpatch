@@ -1,0 +1,33 @@
+Dragonfly Reverb:lv2_audio_out_1         |> jamin:in_L
+Dragonfly Reverb:lv2_audio_out_2         |> jamin:in_R
+GxTuner:midi_out                         |> Helm:lv2_events_in
+Helm:lv2_audio_out_1                     |> jackEQ:c.3-in-L
+Helm:lv2_audio_out_2                     |> jackEQ:c.3-in-R
+LinuxSampler:0                           |> jackEQ:c.1-in-L
+LinuxSampler:1                           |> jackEQ:c.1-in-R
+MDA RingMod:left_out                     |> jackEQ:e.fx2_return-in-L
+MDA RingMod:right_out                    |> jackEQ:e.fx2_return-in-R
+MDA RoundPan:left_out                    |> jackEQ:e.fx1_return-in-L
+MDA RoundPan:right_out                   |> jackEQ:e.fx1_return-in-R
+Mono to Stereo splitter:out1             |> jackEQ:c.2-in-R
+Mono to Stereo splitter:out2             |> jackEQ:c.2-in-L
+Noise repellent:output                   |> GxTuner:in
+Noise repellent:output                   |> Mono to Stereo splitter:input
+Non-Sequencer.nHHMR:midi_out-1           |> LinuxSampler:midi_in_0
+Tal-Dub-3:lv2_audio_out_1                |> MDA RoundPan:left_in
+Tal-Dub-3:lv2_audio_out_2                |> MDA RoundPan:right_in
+deadbeef:deadbeef_1                      |> jackEQ:c.4-in-L
+deadbeef:deadbeef_2                      |> jackEQ:c.4-in-R
+jack-keyboard-01:midi_out                |> Helm:lv2_events_in
+jackEQ:a.master-L                        |> Dragonfly Reverb:lv2_audio_in_1
+jackEQ:a.master-R                        |> Dragonfly Reverb:lv2_audio_in_2
+jackEQ:d.fx1_send-L                      |> Tal-Dub-3:lv2_audio_in_1
+jackEQ:d.fx1_send-R                      |> Tal-Dub-3:lv2_audio_in_2
+jackEQ:d.fx2_send-L                      |> MDA RingMod:left_in
+jackEQ:d.fx2_send-R                      |> MDA RingMod:right_in
+jamin:a.master.out_L                     |> headset:playback_1
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> headset:playback_2
+jamin:a.master.out_R                     |> system:playback_2
+qmidiarp:out 1                           |> Helm:lv2_events_in
+stickmic:capture_1                       |> Noise repellent:input

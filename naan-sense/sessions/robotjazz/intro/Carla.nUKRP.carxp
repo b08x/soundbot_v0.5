@@ -10,308 +10,9 @@
   <UIBridgesTimeout>4000</UIBridgesTimeout>
  </EngineSettings>
 
- <!-- C* Eq10X2 - Stereo 10-band equaliser -->
- <Plugin>
-  <Info>
-   <Type>LADSPA</Type>
-   <Name>C* Eq10X2 - Stereo 10-band equaliser</Name>
-   <Binary>/usr/lib/ladspa/caps.so</Binary>
-   <Label>Eq10X2</Label>
-   <UniqueID>2594</UniqueID>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x0</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>31 Hz</Name>
-    <Value>-3.59999990463257</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>63 Hz</Name>
-    <Value>-1.43999993801117</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>125 Hz</Name>
-    <Value>-1.43999993801117</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>250 Hz</Name>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>500 Hz</Name>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>1 kHz</Name>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>2 kHz</Name>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>4 kHz</Name>
-    <Value>0.239997923374176</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>8 kHz</Name>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>16 kHz</Name>
-    <Value>-3.59999990463257</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Calf Reverb -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Calf Reverb</Name>
-   <URI>http://calf.sourceforge.net/plugins/Reverb</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x1e1</Options>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Decay time</Name>
-    <Symbol>decay_time</Symbol>
-    <Value>1.6441148519516</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>High Frq Damp</Name>
-    <Symbol>hf_damp</Symbol>
-    <Value>5383.06982421875</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Room size</Name>
-    <Symbol>room_size</Symbol>
-    <Value>5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Diffusion</Name>
-    <Symbol>diffusion</Symbol>
-    <Value>0.5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Wet Amount</Name>
-    <Symbol>amount</Symbol>
-    <Value>0.373712241649628</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>Dry Amount</Name>
-    <Symbol>dry</Symbol>
-    <Value>0.373712241649628</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>Pre Delay</Name>
-    <Symbol>predelay</Symbol>
-    <Value>0</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>Bass Cut</Name>
-    <Symbol>bass_cut</Symbol>
-    <Value>1129.8740234375</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>11</Index>
-    <Name>Treble Cut</Name>
-    <Symbol>treble_cut</Symbol>
-    <Value>240.452926635742</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>12</Index>
-    <Name>Active</Name>
-    <Symbol>on</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>13</Index>
-    <Name>Input Gain</Name>
-    <Symbol>level_in</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>14</Index>
-    <Name>Output Gain</Name>
-    <Symbol>level_out</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
-
- <!-- Calf Multi Chorus -->
- <Plugin>
-  <Info>
-   <Type>LV2</Type>
-   <Name>Calf Multi Chorus</Name>
-   <URI>http://calf.sourceforge.net/plugins/MultiChorus</URI>
-  </Info>
-
-  <Data>
-   <Active>Yes</Active>
-   <ControlChannel>1</ControlChannel>
-   <Options>0x1e1</Options>
-
-   <Parameter>
-    <Index>0</Index>
-    <Name>Min Delay</Name>
-    <Symbol>min_delay</Symbol>
-    <Value>5</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>1</Index>
-    <Name>Mod Depth</Name>
-    <Symbol>mod_depth</Symbol>
-    <Value>0.337287336587906</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>2</Index>
-    <Name>Mod Rate</Name>
-    <Symbol>mod_rate</Symbol>
-    <Value>0.0457305051386356</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>3</Index>
-    <Name>Stereo Phase</Name>
-    <Symbol>stereo</Symbol>
-    <Value>184.959991455078</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>4</Index>
-    <Name>Voices</Name>
-    <Symbol>voices</Symbol>
-    <Value>4</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>5</Index>
-    <Name>Inter-Voice Phase</Name>
-    <Symbol>vphase</Symbol>
-    <Value>92.8000259399414</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>6</Index>
-    <Name>Amount</Name>
-    <Symbol>amount</Symbol>
-    <Value>0.329876959323883</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>7</Index>
-    <Name>Dry Amount</Name>
-    <Symbol>dry</Symbol>
-    <Value>0.329876959323883</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>8</Index>
-    <Name>Center Frq 1</Name>
-    <Symbol>freq</Symbol>
-    <Value>66.8740310668945</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>9</Index>
-    <Name>Center Frq 2</Name>
-    <Symbol>freq2</Symbol>
-    <Value>2380.90283203125</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>10</Index>
-    <Name>Q</Name>
-    <Symbol>q</Symbol>
-    <Value>0.400534927845001</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>11</Index>
-    <Name>Overlap</Name>
-    <Symbol>overlap</Symbol>
-    <Value>0.75</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>12</Index>
-    <Name>Active</Name>
-    <Symbol>on</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>13</Index>
-    <Name>Input Gain</Name>
-    <Symbol>level_in</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>14</Index>
-    <Name>Output Gain</Name>
-    <Symbol>level_out</Symbol>
-    <Value>1</Value>
-   </Parameter>
-
-   <Parameter>
-    <Index>23</Index>
-    <Name>LFO</Name>
-    <Symbol>lfo</Symbol>
-    <Value>1</Value>
-   </Parameter>
-  </Data>
- </Plugin>
+ <Transport>
+  <BeatsPerMinute>120</BeatsPerMinute>
+ </Transport>
 
  <!-- ZynAddSubFX -->
  <Plugin>
@@ -475,8 +176,8 @@ version-revision=&quot;3&quot; ZynAddSubFX-author=&quot;Nasca Octavian Paul&quot
 &lt;/automation&gt;
 &lt;PART id=&quot;0&quot;&gt;
 &lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
-&lt;par name=&quot;volume&quot; value=&quot;85&quot; /&gt;
-&lt;par name=&quot;panning&quot; value=&quot;72&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;63&quot; /&gt;
+&lt;par name=&quot;panning&quot; value=&quot;64&quot; /&gt;
 &lt;par name=&quot;min_key&quot; value=&quot;0&quot; /&gt;
 &lt;par name=&quot;max_key&quot; value=&quot;127&quot; /&gt;
 &lt;par name=&quot;key_shift&quot; value=&quot;64&quot; /&gt;
@@ -1100,7 +801,7 @@ version-revision=&quot;3&quot; ZynAddSubFX-author=&quot;Nasca Octavian Paul&quot
 &lt;par name=&quot;preset&quot; value=&quot;0&quot; /&gt;
 &lt;EFFECT_PARAMETERS&gt;
 &lt;par_no id=&quot;0&quot;&gt;
-&lt;par name=&quot;par&quot; value=&quot;30&quot; /&gt;
+&lt;par name=&quot;par&quot; value=&quot;18&quot; /&gt;
 &lt;/par_no&gt;
 &lt;par_no id=&quot;1&quot;&gt;
 &lt;par name=&quot;par&quot; value=&quot;73&quot; /&gt;
@@ -1180,6 +881,139 @@ version-revision=&quot;3&quot; ZynAddSubFX-author=&quot;Nasca Octavian Paul&quot
 
     </Value>
    </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- Gx Studio Preamp Mono -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Gx Studio Preamp Mono</Name>
+   <URI>http://guitarix.sourceforge.net/plugins/gx_studiopre#studiopre</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Bright</Name>
+    <Symbol>bright</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Volume</Name>
+    <Symbol>volume</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Bass</Name>
+    <Symbol>bass</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Middle</Name>
+    <Symbol>middle</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Treble</Name>
+    <Symbol>treble</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- L/C/R Delay -->
+ <Plugin>
+  <Info>
+   <Type>LADSPA</Type>
+   <Name>L/C/R Delay</Name>
+   <Binary>/usr/lib/ladspa/lcr_delay_1436.so</Binary>
+   <Label>lcrDelay</Label>
+   <UniqueID>1436</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>L delay</Name>
+    <Value>675</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>L level</Name>
+    <Value>50</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>C delay</Name>
+    <Value>25</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>C level</Name>
+    <Value>50</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>R delay</Name>
+    <Value>25</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>R level</Name>
+    <Value>50</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Feedback</Name>
+    <Value>25</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>High damp</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Low damp</Name>
+    <Value>50</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Spread</Name>
+    <Value>50</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Dry/Wet level</Name>
+    <Value>1</Value>
+   </Parameter>
   </Data>
  </Plugin>
 </CARLA-PROJECT>

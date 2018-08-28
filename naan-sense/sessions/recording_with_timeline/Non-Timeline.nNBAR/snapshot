@@ -1,0 +1,12 @@
+{
+	Tempo_Point 0x1 create :start 0 :tempo 120.000000
+	Time_Point 0x2 create :start 0 :beats_per_bar 4 :beat_type 4
+	Track 0x3 create :name "intro01" :sequence 0x4 :selected 0 :color 769845504
+	Control_Sequence 0xA create :track 0x3 :name "Control" :color 1970766336
+	Audio_Sequence 0x4 create :track 0x3 :name "Tue Aug 28 08:32:48 2018"
+	Audio_Region 0x9 create :source "intro01-1535460080.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 60 :length 827904 :start 0 :sequence 0x4 :selected 0 :offset 1024 :loop 0
+	Track 0x5 create :name "helm_bass" :sequence 0x6 :selected 0 :color 529420544
+	Audio_Sequence 0x6 create :track 0x5 :name "Tue Aug 28 08:34:10 2018"
+	Track 0x7 create :name "piano" :sequence 0x8 :selected 0 :color 1460164096
+	Audio_Sequence 0x8 create :track 0x7 :name "Tue Aug 28 08:34:28 2018"
+}

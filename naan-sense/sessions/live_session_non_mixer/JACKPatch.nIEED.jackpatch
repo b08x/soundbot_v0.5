@@ -1,0 +1,45 @@
+Helm:lv2_audio_out_1                     |> Non-Mixer.nUXRF/helm:in-1
+Helm:lv2_audio_out_2                     |> Non-Mixer.nUXRF/helm:in-1
+Non-Mixer.nUXRF/helm:early reverb/out-1  |> Non-Mixer.nUXRF/early verb:in-1
+Non-Mixer.nUXRF/helm:early reverb/out-2  |> Non-Mixer.nUXRF/early verb:in-2
+Non-Mixer.nUXRF/helm:early reverb/out-3  |> Non-Mixer.nUXRF/early verb:in-3
+Non-Mixer.nUXRF/helm:early reverb/out-4  |> Non-Mixer.nUXRF/early verb:in-4
+Non-Mixer.nUXRF/helm:late reverb/out-1   |> Non-Mixer.nUXRF/late verb:in-1
+Non-Mixer.nUXRF/helm:out-1               |> Non-Mixer.nUXRF/master:in-1
+Non-Mixer.nUXRF/helm:out-2               |> Non-Mixer.nUXRF/master:in-2
+Non-Mixer.nUXRF/helm:out-3               |> Non-Mixer.nUXRF/master:in-3
+Non-Mixer.nUXRF/helm:out-4               |> Non-Mixer.nUXRF/master:in-4
+Non-Mixer.nUXRF/master:out-1             |> jamin:in_L
+Non-Mixer.nUXRF/master:out-2             |> jamin:in_R
+Non-Mixer.nUXRF/master:out-3             |> jamin:in_L
+Non-Mixer.nUXRF/master:out-4             |> jamin:in_R
+Non-Mixer.nUXRF/percussion:early reverb/out-1 |> Non-Mixer.nUXRF/early verb:in-1
+Non-Mixer.nUXRF/percussion:early reverb/out-2 |> Non-Mixer.nUXRF/early verb:in-2
+Non-Mixer.nUXRF/percussion:early reverb/out-3 |> Non-Mixer.nUXRF/early verb:in-3
+Non-Mixer.nUXRF/percussion:early reverb/out-4 |> Non-Mixer.nUXRF/early verb:in-4
+Non-Mixer.nUXRF/percussion:late reverb/out-1 |> Non-Mixer.nUXRF/late verb:in-1
+Non-Mixer.nUXRF/percussion:out-1         |> Non-Mixer.nUXRF/master:in-1
+Non-Mixer.nUXRF/percussion:out-2         |> Non-Mixer.nUXRF/master:in-2
+Non-Mixer.nUXRF/percussion:out-3         |> Non-Mixer.nUXRF/master:in-3
+Non-Mixer.nUXRF/percussion:out-4         |> Non-Mixer.nUXRF/master:in-4
+Non-Mixer.nUXRF/piano:early reverb/out-1 |> Non-Mixer.nUXRF/early verb:in-1
+Non-Mixer.nUXRF/piano:early reverb/out-2 |> Non-Mixer.nUXRF/early verb:in-2
+Non-Mixer.nUXRF/piano:early reverb/out-3 |> Non-Mixer.nUXRF/early verb:in-3
+Non-Mixer.nUXRF/piano:early reverb/out-4 |> Non-Mixer.nUXRF/early verb:in-4
+Non-Mixer.nUXRF/piano:late reverb/out-1  |> Non-Mixer.nUXRF/late verb:in-1
+Non-Mixer.nUXRF/piano:out-1              |> Non-Mixer.nUXRF/master:in-1
+Non-Mixer.nUXRF/piano:out-2              |> Non-Mixer.nUXRF/master:in-2
+Non-Mixer.nUXRF/piano:out-3              |> Non-Mixer.nUXRF/master:in-3
+Non-Mixer.nUXRF/piano:out-4              |> Non-Mixer.nUXRF/master:in-4
+Non-Mixer.nUXRF/stickmic:early reverb/out-1 |> Non-Mixer.nUXRF/early verb:in-1
+Non-Mixer.nUXRF/stickmic:early reverb/out-2 |> Non-Mixer.nUXRF/early verb:in-2
+Non-Mixer.nUXRF/stickmic:early reverb/out-3 |> Non-Mixer.nUXRF/early verb:in-3
+Non-Mixer.nUXRF/stickmic:early reverb/out-4 |> Non-Mixer.nUXRF/early verb:in-4
+Non-Mixer.nUXRF/stickmic:late reverb/out-1 |> Non-Mixer.nUXRF/late verb:in-1
+Non-Mixer.nUXRF/stickmic:out-1           |> Non-Mixer.nUXRF/master:in-1
+Non-Mixer.nUXRF/stickmic:out-2           |> Non-Mixer.nUXRF/master:in-2
+Non-Mixer.nUXRF/stickmic:out-3           |> Non-Mixer.nUXRF/master:in-3
+Non-Mixer.nUXRF/stickmic:out-4           |> Non-Mixer.nUXRF/master:in-4
+jack-keyboard:midi_out                   |> Helm:lv2_events_in
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> system:playback_2

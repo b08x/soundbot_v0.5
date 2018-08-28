@@ -1,0 +1,4 @@
+0x3 set :height 1 :inputs 0 :outputs 0 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 0
+0x5 set :height 1 :inputs 0 :outputs 0 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 1
+0x7 set :height 1 :inputs 0 :outputs 0 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 2
+0xA set :interpolation 1 :mode -1

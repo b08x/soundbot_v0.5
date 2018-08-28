@@ -1,0 +1,30 @@
+Helm:lv2_audio_out_1                     |> Non-Mixer.nUXRF/helm:in-1
+Helm:lv2_audio_out_2                     |> Non-Mixer.nUXRF/helm:in-1
+LinuxSampler:0                           |> Non-Mixer.nUXRF/percussion01:in-1
+LinuxSampler:1                           |> Non-Mixer.nUXRF/piano:in-1
+LinuxSampler:2                           |> Non-Mixer.nUXRF/percussion02:in-1
+Non-Mixer.nUXRF/effects01:out-1          |> TAP Stereo Echo:inputleft
+Non-Mixer.nUXRF/effects01:out-2          |> TAP Stereo Echo:inputright
+Non-Mixer.nUXRF/helm:out-1               |> jamin:in_L
+Non-Mixer.nUXRF/helm:out-2               |> jamin:in_R
+Non-Mixer.nUXRF/percussion01:aux-A/out-1 |> Non-Mixer.nUXRF/reverb:in-1
+Non-Mixer.nUXRF/percussion01:out-1       |> jamin:in_L
+Non-Mixer.nUXRF/percussion01:out-2       |> jamin:in_R
+Non-Mixer.nUXRF/percussion02:aux-A/out-1 |> Non-Mixer.nUXRF/reverb:in-1
+Non-Mixer.nUXRF/piano:aux-A/out-1        |> Non-Mixer.nUXRF/effects01:in-1
+Non-Mixer.nUXRF/piano:aux-A/out-1        |> Non-Mixer.nUXRF/reverb:in-1
+Non-Mixer.nUXRF/piano:out-1              |> jamin:in_L
+Non-Mixer.nUXRF/piano:out-2              |> jamin:in_R
+Non-Mixer.nUXRF/reverb:out-1             |> zita-rev1:in.L
+Non-Mixer.nUXRF/reverb:out-2             |> zita-rev1:in.R
+Non-Sequencer.nUDCS:midi_out-1           |> LinuxSampler:midi_in_0
+TAP Stereo Echo:outputleft               |> jamin:in_L
+TAP Stereo Echo:outputright              |> jamin:in_R
+jack-keyboard-01:midi_out                |> LinuxSampler:midi_in_0
+jack-keyboard-01:midi_out                |> Non-Sequencer.nUDCS:midi_in
+jack-keyboard:midi_out                   |> Helm:lv2_events_in
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> system:playback_2
+qmidiarp:out 1                           |> LinuxSampler:midi_in_0
+zita-rev1:out.L                          |> jamin:in_L
+zita-rev1:out.R                          |> jamin:in_R

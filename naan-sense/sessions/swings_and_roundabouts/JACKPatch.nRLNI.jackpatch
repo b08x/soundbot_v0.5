@@ -1,0 +1,27 @@
+Dragonfly Reverb:lv2_audio_out_1         |> jamin:in_L
+Dragonfly Reverb:lv2_audio_out_2         |> jamin:in_R
+Helm:lv2_audio_out_1                     |> jackEQ:c.3-in-L
+Helm:lv2_audio_out_2                     |> jackEQ:c.3-in-R
+LinuxSampler:0                           |> jackEQ:c.3-in-L
+LinuxSampler:1                           |> jackEQ:c.3-in-R
+LinuxSampler:2                           |> jackEQ:c.4-in-L
+LinuxSampler:3                           |> jackEQ:c.4-in-R
+Noise repellent:output                   |> Mono to Stereo splitter:input
+Noize Mak3r:lv2_audio_out_1              |> jackEQ:c.2-in-L
+Noize Mak3r:lv2_audio_out_2              |> jackEQ:c.2-in-R
+Non-Sequencer.nNTAS:midi_out-1           |> LinuxSampler:midi_in_0
+Non-Sequencer.nNTAS:midi_out-2           |> Helm:lv2_events_in
+Non-Sequencer.nNTAS:midi_out-3           |> Noize Mak3r:lv2_events_in
+Petri-Foo.nXWLY:out_left                 |> jackEQ:c.1-in-L
+Petri-Foo.nXWLY:out_right                |> jackEQ:c.1-in-R
+deadbeef:deadbeef_1                      |> jackEQ:c.1-in-L
+deadbeef:deadbeef_2                      |> jackEQ:c.1-in-R
+jack-keyboard:midi_out                   |> LinuxSampler:midi_in_0
+jack-keyboard:midi_out                   |> Non-Sequencer.nNTAS:midi_in
+jackEQ:a.master-L                        |> Dragonfly Reverb:lv2_audio_in_1
+jackEQ:a.master-R                        |> Dragonfly Reverb:lv2_audio_in_2
+jamin:a.master.out_L                     |> headset:playback_1
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> headset:playback_2
+jamin:a.master.out_R                     |> system:playback_2
+stickmic:capture_1                       |> Noise repellent:input

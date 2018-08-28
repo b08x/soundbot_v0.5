@@ -1,0 +1,2159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>false</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <Transport>
+  <BeatsPerMinute>120</BeatsPerMinute>
+ </Transport>
+
+ <!-- ZynAddSubFX -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>ZynAddSubFX</Name>
+   <URI>http://zynaddsubfx.sourceforge.net</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1e4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Slot 1</Name>
+    <Symbol>slot1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Slot 2</Name>
+    <Symbol>slot2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Slot 3</Name>
+    <Symbol>slot3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Slot 4</Name>
+    <Symbol>slot4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Slot 5</Name>
+    <Symbol>slot5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Slot 6</Name>
+    <Symbol>slot6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Slot 7</Name>
+    <Symbol>slot7</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Slot 8</Name>
+    <Symbol>slot8</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Slot 9</Name>
+    <Symbol>slot9</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Slot 10</Name>
+    <Symbol>slot10</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Slot 11</Name>
+    <Symbol>slot11</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Slot 12</Name>
+    <Symbol>slot12</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Slot 13</Name>
+    <Symbol>slot13</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Slot 14</Name>
+    <Symbol>slot14</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Slot 15</Name>
+    <Symbol>slot15</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Slot 16</Name>
+    <Symbol>slot16</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <CustomData>
+    <Type>http://lv2plug.in/ns/ext/atom#String</Type>
+    <Key>urn:distrho:state</Key>
+    <Value>
+
+&lt;?xml version=&quot;1.0f&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE ZynAddSubFX-data&gt;
+&lt;ZynAddSubFX-data version-major=&quot;3&quot; version-minor=&quot;0&quot;
+version-revision=&quot;3&quot; ZynAddSubFX-author=&quot;Nasca Octavian Paul&quot;&gt;
+&lt;INFORMATION /&gt;
+&lt;BASE_PARAMETERS&gt;
+&lt;par name=&quot;max_midi_parts&quot; value=&quot;16&quot; /&gt;
+&lt;par name=&quot;max_kit_items_per_instrument&quot; value=&quot;16&quot; /&gt;
+&lt;par name=&quot;max_system_effects&quot; value=&quot;4&quot; /&gt;
+&lt;par name=&quot;max_insertion_effects&quot; value=&quot;8&quot; /&gt;
+&lt;par name=&quot;max_instrument_effects&quot; value=&quot;3&quot; /&gt;
+&lt;par name=&quot;max_addsynth_voices&quot; value=&quot;8&quot; /&gt;
+&lt;/BASE_PARAMETERS&gt;
+&lt;MASTER&gt;
+&lt;par name=&quot;volume&quot; value=&quot;62&quot; /&gt;
+&lt;par name=&quot;key_shift&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;nrpn_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;MICROTONAL&gt;
+&lt;string name=&quot;name&quot;&gt;12tET&lt;/string&gt;
+&lt;string name=&quot;comment&quot;&gt;Equal Temperament 12 notes per octave&lt;/string&gt;
+&lt;par_bool name=&quot;invert_up_down&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;invert_up_down_center&quot; value=&quot;60&quot; /&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;global_fine_detune&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;a_note&quot; value=&quot;69&quot; /&gt;
+&lt;par_real name=&quot;a_freq&quot; value=&quot;440&quot; exact_value=&quot;0x43DC0000&quot; /&gt;
+&lt;/MICROTONAL&gt;
+&lt;automation&gt;
+&lt;mgr-info nslots=&quot;16&quot; nautomations=&quot;4&quot; ncontrol=&quot;8&quot; /&gt;
+&lt;/automation&gt;
+&lt;PART id=&quot;0&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;79&quot; /&gt;
+&lt;par name=&quot;panning&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;min_key&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;max_key&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;key_shift&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;rcv_chn&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;velocity_offset&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;note_on&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;poly_mode&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;legato_mode&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;key_limit&quot; value=&quot;15&quot; /&gt;
+&lt;INSTRUMENT&gt;
+&lt;INFO&gt;
+&lt;string name=&quot;name&quot;&gt;&lt;/string&gt;
+&lt;string name=&quot;author&quot;&gt;&lt;/string&gt;
+&lt;string name=&quot;comments&quot;&gt;&lt;/string&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/INFO&gt;
+&lt;INSTRUMENT_KIT&gt;
+&lt;par name=&quot;kit_mode&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;drum_mode&quot; value=&quot;no&quot; /&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;0&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;string name=&quot;name&quot;&gt;&lt;/string&gt;
+&lt;par_bool name=&quot;muted&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;min_key&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;max_key&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;send_to_instrument_effect&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;add_enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;ADD_SYNTH_PARAMETERS&gt;
+&lt;par_bool name=&quot;stereo&quot; value=&quot;yes&quot; /&gt;
+&lt;AMPLITUDE_PARAMETERS&gt;
+&lt;par name=&quot;volume&quot; value=&quot;90&quot; /&gt;
+&lt;par name=&quot;panning&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;fadein_adjustment&quot; value=&quot;20&quot; /&gt;
+&lt;par name=&quot;punch_strength&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;punch_time&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;punch_stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;punch_velocity_sensing&quot; value=&quot;72&quot; /&gt;
+&lt;par name=&quot;harmonic_randomness_grouping&quot; value=&quot;0&quot; /&gt;
+&lt;AMPLITUDE_ENVELOPE&gt;
+&lt;par_bool name=&quot;free_mode&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;env_points&quot; value=&quot;4&quot; /&gt;
+&lt;par name=&quot;env_sustain&quot; value=&quot;2&quot; /&gt;
+&lt;par name=&quot;env_stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;forced_release&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;linear_envelope&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;A_dt&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;D_dt&quot; value=&quot;40&quot; /&gt;
+&lt;par name=&quot;R_dt&quot; value=&quot;25&quot; /&gt;
+&lt;par name=&quot;A_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;D_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;S_val&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;R_val&quot; value=&quot;64&quot; /&gt;
+&lt;/AMPLITUDE_ENVELOPE&gt;
+&lt;AMPLITUDE_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.629921&quot; exact_value=&quot;0x3F214285&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/AMPLITUDE_LFO&gt;
+&lt;/AMPLITUDE_PARAMETERS&gt;
+&lt;FREQUENCY_PARAMETERS&gt;
+&lt;par name=&quot;detune&quot; value=&quot;8192&quot; /&gt;
+&lt;par name=&quot;coarse_detune&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;detune_type&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;bandwidth&quot; value=&quot;64&quot; /&gt;
+&lt;FREQUENCY_ENVELOPE&gt;
+&lt;par_bool name=&quot;free_mode&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;env_points&quot; value=&quot;3&quot; /&gt;
+&lt;par name=&quot;env_sustain&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;env_stretch&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;forced_release&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;linear_envelope&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;A_dt&quot; value=&quot;50&quot; /&gt;
+&lt;par name=&quot;D_dt&quot; value=&quot;10&quot; /&gt;
+&lt;par name=&quot;R_dt&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;A_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;D_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;S_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;R_val&quot; value=&quot;64&quot; /&gt;
+&lt;/FREQUENCY_ENVELOPE&gt;
+&lt;FREQUENCY_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.551181&quot; exact_value=&quot;0x3F0D1A34&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/FREQUENCY_LFO&gt;
+&lt;/FREQUENCY_PARAMETERS&gt;
+&lt;FILTER_PARAMETERS&gt;
+&lt;par name=&quot;velocity_sensing_amplitude&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;64&quot; /&gt;
+&lt;FILTER&gt;
+&lt;par name=&quot;category&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;type&quot; value=&quot;2&quot; /&gt;
+&lt;par_real name=&quot;basefreq&quot; value=&quot;5076.2&quot; exact_value=&quot;0x459EA1A0&quot; /&gt;
+&lt;par_real name=&quot;baseq&quot; value=&quot;1.08427&quot; exact_value=&quot;0x3F8AC956&quot; /&gt;
+&lt;par name=&quot;stages&quot; value=&quot;0&quot; /&gt;
+&lt;par_real name=&quot;freq_tracking&quot; value=&quot;0&quot; exact_value=&quot;0x00000000&quot; /&gt;
+&lt;par_real name=&quot;gain&quot; value=&quot;0&quot; exact_value=&quot;0x00000000&quot; /&gt;
+&lt;/FILTER&gt;
+&lt;FILTER_ENVELOPE&gt;
+&lt;par_bool name=&quot;free_mode&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;env_points&quot; value=&quot;4&quot; /&gt;
+&lt;par name=&quot;env_sustain&quot; value=&quot;2&quot; /&gt;
+&lt;par name=&quot;env_stretch&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;forced_release&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;linear_envelope&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;A_dt&quot; value=&quot;40&quot; /&gt;
+&lt;par name=&quot;D_dt&quot; value=&quot;70&quot; /&gt;
+&lt;par name=&quot;R_dt&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;A_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;D_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;S_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;R_val&quot; value=&quot;64&quot; /&gt;
+&lt;/FILTER_ENVELOPE&gt;
+&lt;FILTER_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.629921&quot; exact_value=&quot;0x3F214285&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/FILTER_LFO&gt;
+&lt;/FILTER_PARAMETERS&gt;
+&lt;RESONANCE&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/RESONANCE&gt;
+&lt;VOICE id=&quot;0&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_size&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;unison_frequency_spread&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;unison_stereo_spread&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto_speed&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_invert_phase&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_phase_randomness&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;resonance&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;ext_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;ext_fm_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;oscil_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;oscil_fm_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;filter_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;filter_bypass&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fm_enabled&quot; value=&quot;0&quot; /&gt;
+&lt;OSCIL&gt;
+&lt;par name=&quot;harmonic_mag_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;wave_shaping&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;wave_shaping_function&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_before_wave_shaping&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;rand&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;amp_rand_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;amp_rand_power&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;harmonic_shift&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;harmonic_shift_first&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_base_frequency&quot; value=&quot;128&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_power&quot; value=&quot;100&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_par&quot; value=&quot;50&quot; /&gt;
+&lt;HARMONICS&gt;
+&lt;HARMONIC id=&quot;1&quot;&gt;
+&lt;par name=&quot;mag&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;phase&quot; value=&quot;64&quot; /&gt;
+&lt;/HARMONIC&gt;
+&lt;/HARMONICS&gt;
+&lt;/OSCIL&gt;
+&lt;AMPLITUDE_PARAMETERS&gt;
+&lt;par name=&quot;panning&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;100&quot; /&gt;
+&lt;par_bool name=&quot;volume_minus&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;127&quot; /&gt;
+&lt;par_bool name=&quot;amp_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;amp_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/AMPLITUDE_PARAMETERS&gt;
+&lt;FREQUENCY_PARAMETERS&gt;
+&lt;par_bool name=&quot;fixed_freq&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fixed_freq_et&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;bend_adjust&quot; value=&quot;88&quot; /&gt;
+&lt;par name=&quot;offset_hz&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;detune&quot; value=&quot;8192&quot; /&gt;
+&lt;par name=&quot;coarse_detune&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;detune_type&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;freq_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;freq_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/FREQUENCY_PARAMETERS&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;1&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;2&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;3&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;4&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;5&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;6&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;7&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;/ADD_SYNTH_PARAMETERS&gt;
+&lt;par_bool name=&quot;sub_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;pad_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;1&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;2&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;3&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;4&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;5&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;6&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;7&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;8&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;9&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;10&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;11&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;12&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;13&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;14&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;15&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;/INSTRUMENT_KIT&gt;
+&lt;INSTRUMENT_EFFECTS&gt;
+&lt;INSTRUMENT_EFFECT id=&quot;0&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;par name=&quot;route&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;bypass&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_EFFECT&gt;
+&lt;INSTRUMENT_EFFECT id=&quot;1&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;par name=&quot;route&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;bypass&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_EFFECT&gt;
+&lt;INSTRUMENT_EFFECT id=&quot;2&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;par name=&quot;route&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;bypass&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_EFFECT&gt;
+&lt;/INSTRUMENT_EFFECTS&gt;
+&lt;/INSTRUMENT&gt;
+&lt;CONTROLLER&gt;
+&lt;par name=&quot;pitchwheel_bendrange&quot; value=&quot;200&quot; /&gt;
+&lt;par name=&quot;pitchwheel_bendrange_down&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;pitchwheel_split&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;expression_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;panning_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_cutoff_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_q_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;bandwidth_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;mod_wheel_depth&quot; value=&quot;80&quot; /&gt;
+&lt;par_bool name=&quot;mod_wheel_exponential&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;fm_amp_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;volume_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;sustain_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;portamento_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;portamento_time&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;portamento_pitchthresh&quot; value=&quot;3&quot; /&gt;
+&lt;par name=&quot;portamento_pitchthreshtype&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;portamento_portamento&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;portamento_updowntimestretch&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;portamento_proportional&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;portamento_proprate&quot; value=&quot;80&quot; /&gt;
+&lt;par name=&quot;portamento_propdepth&quot; value=&quot;90&quot; /&gt;
+&lt;par name=&quot;resonance_center_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;resonance_bandwidth_depth&quot; value=&quot;64&quot; /&gt;
+&lt;/CONTROLLER&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;1&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;83&quot; /&gt;
+&lt;par name=&quot;panning&quot; value=&quot;74&quot; /&gt;
+&lt;par name=&quot;min_key&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;max_key&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;key_shift&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;rcv_chn&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;velocity_offset&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;note_on&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;poly_mode&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;legato_mode&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;key_limit&quot; value=&quot;15&quot; /&gt;
+&lt;INSTRUMENT&gt;
+&lt;INFO&gt;
+&lt;string name=&quot;name&quot;&gt;Wyatt1sequenz&lt;/string&gt;
+&lt;string name=&quot;author&quot;&gt;&lt;/string&gt;
+&lt;string name=&quot;comments&quot;&gt;&lt;/string&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/INFO&gt;
+&lt;INSTRUMENT_KIT&gt;
+&lt;par name=&quot;kit_mode&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;drum_mode&quot; value=&quot;no&quot; /&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;0&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;string name=&quot;name&quot;&gt;&lt;/string&gt;
+&lt;par_bool name=&quot;muted&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;min_key&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;max_key&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;send_to_instrument_effect&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;add_enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;ADD_SYNTH_PARAMETERS&gt;
+&lt;par_bool name=&quot;stereo&quot; value=&quot;yes&quot; /&gt;
+&lt;AMPLITUDE_PARAMETERS&gt;
+&lt;par name=&quot;volume&quot; value=&quot;72&quot; /&gt;
+&lt;par name=&quot;panning&quot; value=&quot;62&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;110&quot; /&gt;
+&lt;par name=&quot;fadein_adjustment&quot; value=&quot;20&quot; /&gt;
+&lt;par name=&quot;punch_strength&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;punch_time&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;punch_stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;punch_velocity_sensing&quot; value=&quot;72&quot; /&gt;
+&lt;par name=&quot;harmonic_randomness_grouping&quot; value=&quot;0&quot; /&gt;
+&lt;AMPLITUDE_ENVELOPE&gt;
+&lt;par_bool name=&quot;free_mode&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;env_points&quot; value=&quot;4&quot; /&gt;
+&lt;par name=&quot;env_sustain&quot; value=&quot;2&quot; /&gt;
+&lt;par name=&quot;env_stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;forced_release&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;linear_envelope&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;A_dt&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;D_dt&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;R_dt&quot; value=&quot;50&quot; /&gt;
+&lt;par name=&quot;A_val&quot; value=&quot;66&quot; /&gt;
+&lt;par name=&quot;D_val&quot; value=&quot;66&quot; /&gt;
+&lt;par name=&quot;S_val&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;R_val&quot; value=&quot;66&quot; /&gt;
+&lt;/AMPLITUDE_ENVELOPE&gt;
+&lt;AMPLITUDE_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.679921&quot; exact_value=&quot;0x3F2E0F4D&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/AMPLITUDE_LFO&gt;
+&lt;/AMPLITUDE_PARAMETERS&gt;
+&lt;FREQUENCY_PARAMETERS&gt;
+&lt;par name=&quot;detune&quot; value=&quot;8192&quot; /&gt;
+&lt;par name=&quot;coarse_detune&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;detune_type&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;bandwidth&quot; value=&quot;64&quot; /&gt;
+&lt;FREQUENCY_ENVELOPE&gt;
+&lt;par_bool name=&quot;free_mode&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;env_points&quot; value=&quot;3&quot; /&gt;
+&lt;par name=&quot;env_sustain&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;env_stretch&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;forced_release&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;linear_envelope&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;A_dt&quot; value=&quot;50&quot; /&gt;
+&lt;par name=&quot;D_dt&quot; value=&quot;10&quot; /&gt;
+&lt;par name=&quot;R_dt&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;A_val&quot; value=&quot;50&quot; /&gt;
+&lt;par name=&quot;D_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;S_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;R_val&quot; value=&quot;64&quot; /&gt;
+&lt;/FREQUENCY_ENVELOPE&gt;
+&lt;FREQUENCY_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.641181&quot; exact_value=&quot;0x3F242470&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;39&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/FREQUENCY_LFO&gt;
+&lt;/FREQUENCY_PARAMETERS&gt;
+&lt;FILTER_PARAMETERS&gt;
+&lt;par name=&quot;velocity_sensing_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;64&quot; /&gt;
+&lt;FILTER&gt;
+&lt;par name=&quot;category&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;type&quot; value=&quot;2&quot; /&gt;
+&lt;par_real name=&quot;basefreq&quot; value=&quot;722.59&quot; exact_value=&quot;0x4434A5C8&quot; /&gt;
+&lt;par_real name=&quot;baseq&quot; value=&quot;7.76219&quot; exact_value=&quot;0x40F863DF&quot; /&gt;
+&lt;par name=&quot;stages&quot; value=&quot;0&quot; /&gt;
+&lt;par_real name=&quot;freq_tracking&quot; value=&quot;0&quot; exact_value=&quot;0x00000000&quot; /&gt;
+&lt;par_real name=&quot;gain&quot; value=&quot;0&quot; exact_value=&quot;0x00000000&quot; /&gt;
+&lt;/FILTER&gt;
+&lt;FILTER_ENVELOPE&gt;
+&lt;par_bool name=&quot;free_mode&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;env_points&quot; value=&quot;4&quot; /&gt;
+&lt;par name=&quot;env_sustain&quot; value=&quot;2&quot; /&gt;
+&lt;par name=&quot;env_stretch&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;forced_release&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;linear_envelope&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;A_dt&quot; value=&quot;74&quot; /&gt;
+&lt;par name=&quot;D_dt&quot; value=&quot;70&quot; /&gt;
+&lt;par name=&quot;R_dt&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;A_val&quot; value=&quot;83&quot; /&gt;
+&lt;par name=&quot;D_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;S_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;R_val&quot; value=&quot;39&quot; /&gt;
+&lt;/FILTER_ENVELOPE&gt;
+&lt;FILTER_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.479067&quot; exact_value=&quot;0x3EF54845&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;53&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;2&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;108&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/FILTER_LFO&gt;
+&lt;/FILTER_PARAMETERS&gt;
+&lt;RESONANCE&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/RESONANCE&gt;
+&lt;VOICE id=&quot;0&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_size&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;unison_frequency_spread&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;unison_stereo_spread&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto_speed&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_invert_phase&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_phase_randomness&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;resonance&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;ext_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;ext_fm_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;oscil_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;oscil_fm_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;filter_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;filter_bypass&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fm_enabled&quot; value=&quot;0&quot; /&gt;
+&lt;OSCIL&gt;
+&lt;par name=&quot;harmonic_mag_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function&quot; value=&quot;4&quot; /&gt;
+&lt;par name=&quot;base_function_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;wave_shaping&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;wave_shaping_function&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_before_wave_shaping&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;rand&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;amp_rand_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;amp_rand_power&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;harmonic_shift&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;harmonic_shift_first&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_base_frequency&quot; value=&quot;128&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_power&quot; value=&quot;100&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_par&quot; value=&quot;50&quot; /&gt;
+&lt;HARMONICS&gt;
+&lt;HARMONIC id=&quot;1&quot;&gt;
+&lt;par name=&quot;mag&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;phase&quot; value=&quot;64&quot; /&gt;
+&lt;/HARMONIC&gt;
+&lt;/HARMONICS&gt;
+&lt;/OSCIL&gt;
+&lt;AMPLITUDE_PARAMETERS&gt;
+&lt;par name=&quot;panning&quot; value=&quot;15&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;100&quot; /&gt;
+&lt;par_bool name=&quot;volume_minus&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;127&quot; /&gt;
+&lt;par_bool name=&quot;amp_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;amp_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/AMPLITUDE_PARAMETERS&gt;
+&lt;FREQUENCY_PARAMETERS&gt;
+&lt;par_bool name=&quot;fixed_freq&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fixed_freq_et&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;bend_adjust&quot; value=&quot;88&quot; /&gt;
+&lt;par name=&quot;offset_hz&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;detune&quot; value=&quot;7121&quot; /&gt;
+&lt;par name=&quot;coarse_detune&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;detune_type&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;freq_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;freq_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/FREQUENCY_PARAMETERS&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;1&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_size&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;unison_frequency_spread&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;unison_stereo_spread&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto_speed&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_invert_phase&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_phase_randomness&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;resonance&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;ext_oscil&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;ext_fm_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;oscil_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;oscil_fm_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;filter_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;filter_bypass&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fm_enabled&quot; value=&quot;0&quot; /&gt;
+&lt;OSCIL&gt;
+&lt;par name=&quot;harmonic_mag_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;wave_shaping&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;wave_shaping_function&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_before_wave_shaping&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;rand&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;amp_rand_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;amp_rand_power&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;harmonic_shift&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;harmonic_shift_first&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_base_frequency&quot; value=&quot;128&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_power&quot; value=&quot;100&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_par&quot; value=&quot;50&quot; /&gt;
+&lt;HARMONICS&gt;
+&lt;HARMONIC id=&quot;1&quot;&gt;
+&lt;par name=&quot;mag&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;phase&quot; value=&quot;64&quot; /&gt;
+&lt;/HARMONIC&gt;
+&lt;/HARMONICS&gt;
+&lt;/OSCIL&gt;
+&lt;AMPLITUDE_PARAMETERS&gt;
+&lt;par name=&quot;panning&quot; value=&quot;111&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;100&quot; /&gt;
+&lt;par_bool name=&quot;volume_minus&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;127&quot; /&gt;
+&lt;par_bool name=&quot;amp_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;amp_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/AMPLITUDE_PARAMETERS&gt;
+&lt;FREQUENCY_PARAMETERS&gt;
+&lt;par_bool name=&quot;fixed_freq&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fixed_freq_et&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;bend_adjust&quot; value=&quot;88&quot; /&gt;
+&lt;par name=&quot;offset_hz&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;detune&quot; value=&quot;10044&quot; /&gt;
+&lt;par name=&quot;coarse_detune&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;detune_type&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;freq_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;freq_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/FREQUENCY_PARAMETERS&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;2&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_size&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;unison_frequency_spread&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;unison_stereo_spread&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto_speed&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_invert_phase&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_phase_randomness&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;resonance&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;ext_oscil&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;ext_fm_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;oscil_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;oscil_fm_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;filter_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;filter_bypass&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fm_enabled&quot; value=&quot;0&quot; /&gt;
+&lt;OSCIL&gt;
+&lt;par name=&quot;harmonic_mag_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;wave_shaping&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;wave_shaping_function&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_before_wave_shaping&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;rand&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;amp_rand_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;amp_rand_power&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;harmonic_shift&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;harmonic_shift_first&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_base_frequency&quot; value=&quot;128&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_power&quot; value=&quot;100&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_par&quot; value=&quot;50&quot; /&gt;
+&lt;HARMONICS&gt;
+&lt;HARMONIC id=&quot;1&quot;&gt;
+&lt;par name=&quot;mag&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;phase&quot; value=&quot;64&quot; /&gt;
+&lt;/HARMONIC&gt;
+&lt;/HARMONICS&gt;
+&lt;/OSCIL&gt;
+&lt;AMPLITUDE_PARAMETERS&gt;
+&lt;par name=&quot;panning&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;100&quot; /&gt;
+&lt;par_bool name=&quot;volume_minus&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;127&quot; /&gt;
+&lt;par_bool name=&quot;amp_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;amp_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/AMPLITUDE_PARAMETERS&gt;
+&lt;FREQUENCY_PARAMETERS&gt;
+&lt;par_bool name=&quot;fixed_freq&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fixed_freq_et&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;bend_adjust&quot; value=&quot;88&quot; /&gt;
+&lt;par name=&quot;offset_hz&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;detune&quot; value=&quot;8192&quot; /&gt;
+&lt;par name=&quot;coarse_detune&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;detune_type&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;freq_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;freq_lfo_enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;FREQUENCY_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.393701&quot; exact_value=&quot;0x3EC9932D&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;40&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/FREQUENCY_LFO&gt;
+&lt;/FREQUENCY_PARAMETERS&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;3&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;4&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;5&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;6&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;7&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;/ADD_SYNTH_PARAMETERS&gt;
+&lt;par_bool name=&quot;sub_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;pad_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;1&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;2&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;3&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;4&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;5&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;6&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;7&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;8&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;9&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;10&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;11&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;12&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;13&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;14&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;15&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;/INSTRUMENT_KIT&gt;
+&lt;INSTRUMENT_EFFECTS&gt;
+&lt;INSTRUMENT_EFFECT id=&quot;0&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;2&quot; /&gt;
+&lt;par name=&quot;preset&quot; value=&quot;0&quot; /&gt;
+&lt;EFFECT_PARAMETERS&gt;
+&lt;par_no id=&quot;0&quot;&gt;
+&lt;par name=&quot;par&quot; value=&quot;60&quot; /&gt;
+&lt;/par_no&gt;
+&lt;par_no id=&quot;1&quot;&gt;
+&lt;par name=&quot;par&quot; value=&quot;95&quot; /&gt;
+&lt;/par_no&gt;
+&lt;par_no id=&quot;2&quot;&gt;
+&lt;par name=&quot;par&quot; value=&quot;44&quot; /&gt;
+&lt;/par_no&gt;
+&lt;par_no id=&quot;3&quot;&gt;
+&lt;par name=&quot;par&quot; value=&quot;100&quot; /&gt;
+&lt;/par_no&gt;
+&lt;par_no id=&quot;4&quot;&gt;
+&lt;par name=&quot;par&quot; value=&quot;100&quot; /&gt;
+&lt;/par_no&gt;
+&lt;par_no id=&quot;5&quot;&gt;
+&lt;par name=&quot;par&quot; value=&quot;68&quot; /&gt;
+&lt;/par_no&gt;
+&lt;par_no id=&quot;6&quot;&gt;
+&lt;par name=&quot;par&quot; value=&quot;61&quot; /&gt;
+&lt;/par_no&gt;
+&lt;/EFFECT_PARAMETERS&gt;
+&lt;/EFFECT&gt;
+&lt;par name=&quot;route&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;bypass&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_EFFECT&gt;
+&lt;INSTRUMENT_EFFECT id=&quot;1&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;par name=&quot;route&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;bypass&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_EFFECT&gt;
+&lt;INSTRUMENT_EFFECT id=&quot;2&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;par name=&quot;route&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;bypass&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_EFFECT&gt;
+&lt;/INSTRUMENT_EFFECTS&gt;
+&lt;/INSTRUMENT&gt;
+&lt;CONTROLLER&gt;
+&lt;par name=&quot;pitchwheel_bendrange&quot; value=&quot;200&quot; /&gt;
+&lt;par name=&quot;pitchwheel_bendrange_down&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;pitchwheel_split&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;expression_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;panning_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_cutoff_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_q_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;bandwidth_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;mod_wheel_depth&quot; value=&quot;80&quot; /&gt;
+&lt;par_bool name=&quot;mod_wheel_exponential&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;fm_amp_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;volume_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;sustain_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;portamento_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;portamento_time&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;portamento_pitchthresh&quot; value=&quot;3&quot; /&gt;
+&lt;par name=&quot;portamento_pitchthreshtype&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;portamento_portamento&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;portamento_updowntimestretch&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;portamento_proportional&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;portamento_proprate&quot; value=&quot;80&quot; /&gt;
+&lt;par name=&quot;portamento_propdepth&quot; value=&quot;90&quot; /&gt;
+&lt;par name=&quot;resonance_center_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;resonance_bandwidth_depth&quot; value=&quot;64&quot; /&gt;
+&lt;/CONTROLLER&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;2&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;85&quot; /&gt;
+&lt;par name=&quot;panning&quot; value=&quot;53&quot; /&gt;
+&lt;par name=&quot;min_key&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;max_key&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;key_shift&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;rcv_chn&quot; value=&quot;2&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;velocity_offset&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;note_on&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;poly_mode&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;legato_mode&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;key_limit&quot; value=&quot;15&quot; /&gt;
+&lt;INSTRUMENT&gt;
+&lt;INFO&gt;
+&lt;string name=&quot;name&quot;&gt;Thick Bass&lt;/string&gt;
+&lt;string name=&quot;author&quot;&gt;Will Godfrey
+GPL V2&lt;/string&gt;
+&lt;string name=&quot;comments&quot;&gt;&lt;/string&gt;
+&lt;par name=&quot;type&quot; value=&quot;5&quot; /&gt;
+&lt;/INFO&gt;
+&lt;INSTRUMENT_KIT&gt;
+&lt;par name=&quot;kit_mode&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;drum_mode&quot; value=&quot;no&quot; /&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;0&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;string name=&quot;name&quot;&gt;&lt;/string&gt;
+&lt;par_bool name=&quot;muted&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;min_key&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;max_key&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;send_to_instrument_effect&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;add_enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;ADD_SYNTH_PARAMETERS&gt;
+&lt;par_bool name=&quot;stereo&quot; value=&quot;yes&quot; /&gt;
+&lt;AMPLITUDE_PARAMETERS&gt;
+&lt;par name=&quot;volume&quot; value=&quot;104&quot; /&gt;
+&lt;par name=&quot;panning&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;fadein_adjustment&quot; value=&quot;20&quot; /&gt;
+&lt;par name=&quot;punch_strength&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;punch_time&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;punch_stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;punch_velocity_sensing&quot; value=&quot;72&quot; /&gt;
+&lt;par name=&quot;harmonic_randomness_grouping&quot; value=&quot;0&quot; /&gt;
+&lt;AMPLITUDE_ENVELOPE&gt;
+&lt;par_bool name=&quot;free_mode&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;env_points&quot; value=&quot;4&quot; /&gt;
+&lt;par name=&quot;env_sustain&quot; value=&quot;2&quot; /&gt;
+&lt;par name=&quot;env_stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;forced_release&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;linear_envelope&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;A_dt&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;D_dt&quot; value=&quot;40&quot; /&gt;
+&lt;par name=&quot;R_dt&quot; value=&quot;25&quot; /&gt;
+&lt;par name=&quot;A_val&quot; value=&quot;66&quot; /&gt;
+&lt;par name=&quot;D_val&quot; value=&quot;66&quot; /&gt;
+&lt;par name=&quot;S_val&quot; value=&quot;94&quot; /&gt;
+&lt;par name=&quot;R_val&quot; value=&quot;66&quot; /&gt;
+&lt;/AMPLITUDE_ENVELOPE&gt;
+&lt;AMPLITUDE_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.63&quot; exact_value=&quot;0x3F2147AE&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/AMPLITUDE_LFO&gt;
+&lt;/AMPLITUDE_PARAMETERS&gt;
+&lt;FREQUENCY_PARAMETERS&gt;
+&lt;par name=&quot;detune&quot; value=&quot;8192&quot; /&gt;
+&lt;par name=&quot;coarse_detune&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;detune_type&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;bandwidth&quot; value=&quot;64&quot; /&gt;
+&lt;FREQUENCY_ENVELOPE&gt;
+&lt;par_bool name=&quot;free_mode&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;env_points&quot; value=&quot;3&quot; /&gt;
+&lt;par name=&quot;env_sustain&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;env_stretch&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;forced_release&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;linear_envelope&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;A_dt&quot; value=&quot;50&quot; /&gt;
+&lt;par name=&quot;D_dt&quot; value=&quot;10&quot; /&gt;
+&lt;par name=&quot;R_dt&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;A_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;D_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;S_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;R_val&quot; value=&quot;64&quot; /&gt;
+&lt;/FREQUENCY_ENVELOPE&gt;
+&lt;FREQUENCY_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.551&quot; exact_value=&quot;0x3F0D0E56&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/FREQUENCY_LFO&gt;
+&lt;/FREQUENCY_PARAMETERS&gt;
+&lt;FILTER_PARAMETERS&gt;
+&lt;par name=&quot;velocity_sensing_amplitude&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;64&quot; /&gt;
+&lt;FILTER&gt;
+&lt;par name=&quot;category&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;type&quot; value=&quot;2&quot; /&gt;
+&lt;par_real name=&quot;basefreq&quot; value=&quot;5076.2&quot; exact_value=&quot;0x459EA1A0&quot; /&gt;
+&lt;par_real name=&quot;baseq&quot; value=&quot;1.08427&quot; exact_value=&quot;0x3F8AC956&quot; /&gt;
+&lt;par name=&quot;stages&quot; value=&quot;0&quot; /&gt;
+&lt;par_real name=&quot;freq_tracking&quot; value=&quot;0&quot; exact_value=&quot;0x00000000&quot; /&gt;
+&lt;par_real name=&quot;gain&quot; value=&quot;0&quot; exact_value=&quot;0x00000000&quot; /&gt;
+&lt;/FILTER&gt;
+&lt;FILTER_ENVELOPE&gt;
+&lt;par_bool name=&quot;free_mode&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;env_points&quot; value=&quot;4&quot; /&gt;
+&lt;par name=&quot;env_sustain&quot; value=&quot;2&quot; /&gt;
+&lt;par name=&quot;env_stretch&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;forced_release&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;linear_envelope&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;A_dt&quot; value=&quot;40&quot; /&gt;
+&lt;par name=&quot;D_dt&quot; value=&quot;70&quot; /&gt;
+&lt;par name=&quot;R_dt&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;A_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;D_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;S_val&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;R_val&quot; value=&quot;64&quot; /&gt;
+&lt;/FILTER_ENVELOPE&gt;
+&lt;FILTER_LFO&gt;
+&lt;par_real name=&quot;freq&quot; value=&quot;0.63&quot; exact_value=&quot;0x3F2147AE&quot; /&gt;
+&lt;par name=&quot;intensity&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;start_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;lfo_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_amplitude&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;randomness_frequency&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;stretch&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;continous&quot; value=&quot;no&quot; /&gt;
+&lt;/FILTER_LFO&gt;
+&lt;/FILTER_PARAMETERS&gt;
+&lt;RESONANCE&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/RESONANCE&gt;
+&lt;VOICE id=&quot;0&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_size&quot; value=&quot;3&quot; /&gt;
+&lt;par name=&quot;unison_frequency_spread&quot; value=&quot;24&quot; /&gt;
+&lt;par name=&quot;unison_stereo_spread&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto_speed&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_invert_phase&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_phase_randomness&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;resonance&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;ext_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;ext_fm_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;oscil_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;oscil_fm_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;filter_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;filter_bypass&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fm_enabled&quot; value=&quot;0&quot; /&gt;
+&lt;OSCIL&gt;
+&lt;par name=&quot;harmonic_mag_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function&quot; value=&quot;4&quot; /&gt;
+&lt;par name=&quot;base_function_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;wave_shaping&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;wave_shaping_function&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_type&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;filter_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_before_wave_shaping&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;rand&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;amp_rand_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;amp_rand_power&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;harmonic_shift&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;harmonic_shift_first&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_base_frequency&quot; value=&quot;128&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_power&quot; value=&quot;100&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_par&quot; value=&quot;50&quot; /&gt;
+&lt;HARMONICS&gt;
+&lt;HARMONIC id=&quot;1&quot;&gt;
+&lt;par name=&quot;mag&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;phase&quot; value=&quot;64&quot; /&gt;
+&lt;/HARMONIC&gt;
+&lt;HARMONIC id=&quot;2&quot;&gt;
+&lt;par name=&quot;mag&quot; value=&quot;110&quot; /&gt;
+&lt;par name=&quot;phase&quot; value=&quot;64&quot; /&gt;
+&lt;/HARMONIC&gt;
+&lt;/HARMONICS&gt;
+&lt;/OSCIL&gt;
+&lt;AMPLITUDE_PARAMETERS&gt;
+&lt;par name=&quot;panning&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;100&quot; /&gt;
+&lt;par_bool name=&quot;volume_minus&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;127&quot; /&gt;
+&lt;par_bool name=&quot;amp_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;amp_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/AMPLITUDE_PARAMETERS&gt;
+&lt;FREQUENCY_PARAMETERS&gt;
+&lt;par_bool name=&quot;fixed_freq&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fixed_freq_et&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;bend_adjust&quot; value=&quot;88&quot; /&gt;
+&lt;par name=&quot;offset_hz&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;detune&quot; value=&quot;8192&quot; /&gt;
+&lt;par name=&quot;coarse_detune&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;detune_type&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;freq_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;freq_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/FREQUENCY_PARAMETERS&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;1&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_size&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;unison_frequency_spread&quot; value=&quot;60&quot; /&gt;
+&lt;par name=&quot;unison_stereo_spread&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_vibratto_speed&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;unison_invert_phase&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;unison_phase_randomness&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;delay&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;resonance&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;ext_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;ext_fm_oscil&quot; value=&quot;-1&quot; /&gt;
+&lt;par name=&quot;oscil_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;oscil_fm_phase&quot; value=&quot;64&quot; /&gt;
+&lt;par_bool name=&quot;filter_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;filter_bypass&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fm_enabled&quot; value=&quot;0&quot; /&gt;
+&lt;OSCIL&gt;
+&lt;par name=&quot;harmonic_mag_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;base_function_modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;modulation&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;modulation_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;modulation_par3&quot; value=&quot;32&quot; /&gt;
+&lt;par name=&quot;wave_shaping&quot; value=&quot;70&quot; /&gt;
+&lt;par name=&quot;wave_shaping_function&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;filter_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;filter_par1&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_par2&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_before_wave_shaping&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;spectrum_adjust_par&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;rand&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;amp_rand_type&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;amp_rand_power&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;harmonic_shift&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;harmonic_shift_first&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_base_frequency&quot; value=&quot;128&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_power&quot; value=&quot;100&quot; /&gt;
+&lt;par name=&quot;adaptive_harmonics_par&quot; value=&quot;50&quot; /&gt;
+&lt;HARMONICS&gt;
+&lt;HARMONIC id=&quot;1&quot;&gt;
+&lt;par name=&quot;mag&quot; value=&quot;127&quot; /&gt;
+&lt;par name=&quot;phase&quot; value=&quot;64&quot; /&gt;
+&lt;/HARMONIC&gt;
+&lt;/HARMONICS&gt;
+&lt;/OSCIL&gt;
+&lt;AMPLITUDE_PARAMETERS&gt;
+&lt;par name=&quot;panning&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;volume&quot; value=&quot;100&quot; /&gt;
+&lt;par_bool name=&quot;volume_minus&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;velocity_sensing&quot; value=&quot;127&quot; /&gt;
+&lt;par_bool name=&quot;amp_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;amp_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/AMPLITUDE_PARAMETERS&gt;
+&lt;FREQUENCY_PARAMETERS&gt;
+&lt;par_bool name=&quot;fixed_freq&quot; value=&quot;no&quot; /&gt;
+&lt;par name=&quot;fixed_freq_et&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;bend_adjust&quot; value=&quot;88&quot; /&gt;
+&lt;par name=&quot;offset_hz&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;detune&quot; value=&quot;8192&quot; /&gt;
+&lt;par name=&quot;coarse_detune&quot; value=&quot;15360&quot; /&gt;
+&lt;par name=&quot;detune_type&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;freq_envelope_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;freq_lfo_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/FREQUENCY_PARAMETERS&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;2&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;3&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;4&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;5&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;6&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;VOICE id=&quot;7&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/VOICE&gt;
+&lt;/ADD_SYNTH_PARAMETERS&gt;
+&lt;par_bool name=&quot;sub_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;pad_enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;1&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;2&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;3&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;4&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;5&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;6&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;7&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;8&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;9&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;10&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;11&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;12&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;13&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;14&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;INSTRUMENT_KIT_ITEM id=&quot;15&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_KIT_ITEM&gt;
+&lt;/INSTRUMENT_KIT&gt;
+&lt;INSTRUMENT_EFFECTS&gt;
+&lt;INSTRUMENT_EFFECT id=&quot;0&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;par name=&quot;route&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;bypass&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_EFFECT&gt;
+&lt;INSTRUMENT_EFFECT id=&quot;1&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;par name=&quot;route&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;bypass&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_EFFECT&gt;
+&lt;INSTRUMENT_EFFECT id=&quot;2&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;par name=&quot;route&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;bypass&quot; value=&quot;no&quot; /&gt;
+&lt;/INSTRUMENT_EFFECT&gt;
+&lt;/INSTRUMENT_EFFECTS&gt;
+&lt;/INSTRUMENT&gt;
+&lt;CONTROLLER&gt;
+&lt;par name=&quot;pitchwheel_bendrange&quot; value=&quot;200&quot; /&gt;
+&lt;par name=&quot;pitchwheel_bendrange_down&quot; value=&quot;0&quot; /&gt;
+&lt;par_bool name=&quot;pitchwheel_split&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;expression_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;panning_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_cutoff_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;filter_q_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;bandwidth_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;mod_wheel_depth&quot; value=&quot;80&quot; /&gt;
+&lt;par_bool name=&quot;mod_wheel_exponential&quot; value=&quot;no&quot; /&gt;
+&lt;par_bool name=&quot;fm_amp_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;volume_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;sustain_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par_bool name=&quot;portamento_receive&quot; value=&quot;yes&quot; /&gt;
+&lt;par name=&quot;portamento_time&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;portamento_pitchthresh&quot; value=&quot;3&quot; /&gt;
+&lt;par name=&quot;portamento_pitchthreshtype&quot; value=&quot;1&quot; /&gt;
+&lt;par name=&quot;portamento_portamento&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;portamento_updowntimestretch&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;portamento_proportional&quot; value=&quot;0&quot; /&gt;
+&lt;par name=&quot;portamento_proprate&quot; value=&quot;80&quot; /&gt;
+&lt;par name=&quot;portamento_propdepth&quot; value=&quot;90&quot; /&gt;
+&lt;par name=&quot;resonance_center_depth&quot; value=&quot;64&quot; /&gt;
+&lt;par name=&quot;resonance_bandwidth_depth&quot; value=&quot;64&quot; /&gt;
+&lt;/CONTROLLER&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;3&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;4&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;5&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;6&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;7&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;8&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;9&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;10&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;11&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;12&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;13&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;14&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;PART id=&quot;15&quot;&gt;
+&lt;par_bool name=&quot;enabled&quot; value=&quot;no&quot; /&gt;
+&lt;/PART&gt;
+&lt;SYSTEM_EFFECTS&gt;
+&lt;SYSTEM_EFFECT id=&quot;0&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;VOLUME id=&quot;0&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;1&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;2&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;3&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;4&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;5&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;6&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;7&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;8&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;9&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;10&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;11&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;12&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;13&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;14&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;15&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;SENDTO id=&quot;1&quot;&gt;
+&lt;par name=&quot;send_vol&quot; value=&quot;0&quot; /&gt;
+&lt;/SENDTO&gt;
+&lt;SENDTO id=&quot;2&quot;&gt;
+&lt;par name=&quot;send_vol&quot; value=&quot;0&quot; /&gt;
+&lt;/SENDTO&gt;
+&lt;SENDTO id=&quot;3&quot;&gt;
+&lt;par name=&quot;send_vol&quot; value=&quot;0&quot; /&gt;
+&lt;/SENDTO&gt;
+&lt;/SYSTEM_EFFECT&gt;
+&lt;SYSTEM_EFFECT id=&quot;1&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;VOLUME id=&quot;0&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;1&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;2&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;3&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;4&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;5&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;6&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;7&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;8&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;9&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;10&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;11&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;12&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;13&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;14&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;15&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;SENDTO id=&quot;2&quot;&gt;
+&lt;par name=&quot;send_vol&quot; value=&quot;0&quot; /&gt;
+&lt;/SENDTO&gt;
+&lt;SENDTO id=&quot;3&quot;&gt;
+&lt;par name=&quot;send_vol&quot; value=&quot;0&quot; /&gt;
+&lt;/SENDTO&gt;
+&lt;/SYSTEM_EFFECT&gt;
+&lt;SYSTEM_EFFECT id=&quot;2&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;VOLUME id=&quot;0&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;1&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;2&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;3&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;4&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;5&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;6&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;7&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;8&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;9&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;10&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;11&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;12&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;13&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;14&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;15&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;SENDTO id=&quot;3&quot;&gt;
+&lt;par name=&quot;send_vol&quot; value=&quot;0&quot; /&gt;
+&lt;/SENDTO&gt;
+&lt;/SYSTEM_EFFECT&gt;
+&lt;SYSTEM_EFFECT id=&quot;3&quot;&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;VOLUME id=&quot;0&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;1&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;2&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;3&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;4&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;5&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;6&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;7&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;8&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;9&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;10&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;11&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;12&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;13&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;14&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;VOLUME id=&quot;15&quot;&gt;
+&lt;par name=&quot;vol&quot; value=&quot;0&quot; /&gt;
+&lt;/VOLUME&gt;
+&lt;/SYSTEM_EFFECT&gt;
+&lt;/SYSTEM_EFFECTS&gt;
+&lt;INSERTION_EFFECTS&gt;
+&lt;INSERTION_EFFECT id=&quot;0&quot;&gt;
+&lt;par name=&quot;part&quot; value=&quot;-1&quot; /&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;/INSERTION_EFFECT&gt;
+&lt;INSERTION_EFFECT id=&quot;1&quot;&gt;
+&lt;par name=&quot;part&quot; value=&quot;-1&quot; /&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;/INSERTION_EFFECT&gt;
+&lt;INSERTION_EFFECT id=&quot;2&quot;&gt;
+&lt;par name=&quot;part&quot; value=&quot;-1&quot; /&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;/INSERTION_EFFECT&gt;
+&lt;INSERTION_EFFECT id=&quot;3&quot;&gt;
+&lt;par name=&quot;part&quot; value=&quot;-1&quot; /&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;/INSERTION_EFFECT&gt;
+&lt;INSERTION_EFFECT id=&quot;4&quot;&gt;
+&lt;par name=&quot;part&quot; value=&quot;-1&quot; /&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;/INSERTION_EFFECT&gt;
+&lt;INSERTION_EFFECT id=&quot;5&quot;&gt;
+&lt;par name=&quot;part&quot; value=&quot;-1&quot; /&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;/INSERTION_EFFECT&gt;
+&lt;INSERTION_EFFECT id=&quot;6&quot;&gt;
+&lt;par name=&quot;part&quot; value=&quot;-1&quot; /&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;/INSERTION_EFFECT&gt;
+&lt;INSERTION_EFFECT id=&quot;7&quot;&gt;
+&lt;par name=&quot;part&quot; value=&quot;-1&quot; /&gt;
+&lt;EFFECT&gt;
+&lt;par name=&quot;type&quot; value=&quot;0&quot; /&gt;
+&lt;/EFFECT&gt;
+&lt;/INSERTION_EFFECT&gt;
+&lt;/INSERTION_EFFECTS&gt;
+&lt;/MASTER&gt;
+&lt;/ZynAddSubFX-data&gt;
+
+    </Value>
+   </CustomData>
+  </Data>
+ </Plugin>
+
+ <!-- Tal-Dub-3 -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Tal-Dub-3</Name>
+   <Binary>/usr/lib/vst/TAL-Dub-3.so</Binary>
+   <UniqueID>2020030256</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0xc</Options>
+
+   <CurrentProgramIndex>4</CurrentProgramIndex>
+   <CurrentProgramName>Fast Delay</CurrentProgramName>
+
+   <Chunk>
+VkMyIeYNAAA8dGFsIGN1cnByb2dyYW09IjMiIHZlcnNpb249IjEiPjxwcm9ncmFtcz48cHJvZ3JhbSBwcm9ncmFtbmFtZT0iR2VudGxlIFN0IERlbGF5IiBj
+dXRvZmY9IjAuNTQ4MDAwMDM3NjcwMTM1NDk4MDUiIHJlc29uYW5jZT0iMC40MzIwMDAwMTEyMDU2NzMyMTc3NyIgaW5wdXRkcml2ZT0iMC40MDgwMDAwMjIx
+NzI5Mjc4NTY0NSIgZGVsYXl0aW1lPSIwLjIzOTAwMDAwNzUxMDE4NTI0MTciIGRlbGF5dGltZXN5bmM9IjEwIiBkZWxheXR3aWNlX2w9IjAiIGRlbGF5dHdp
+Y2Vfcj0iMSIgZmVlZGJhY2s9IjAuMTQ4MDAwMDAxOTA3MzQ4NjMyODEiIGhpZ2hjdXQ9IjAuMjUyMDAwMDA0MDUzMTE1ODQ0NzMiIGRyeT0iMC41IiB3ZXQ9
+IjAuMTcwMDAwMDAxNzg4MTM5MzQzMjYiIGxpdmVtb2RlPSIwIi8+PHByb2dyYW0gcHJvZ3JhbW5hbWU9IlNob3J0IFN0IFNsYXAgQmFjayIgY3V0b2ZmPSIw
+LjUzNjAwMDAxMzM1MTQ0MDQyOTY5IiByZXNvbmFuY2U9IjAuNDg0MDAwMDI3MTc5NzE4MDE3NTgiIGlucHV0ZHJpdmU9IjAuNTkyMDAwMDA3NjI5Mzk0NTMx
+MjUiIGRlbGF5dGltZT0iMC4yNzIwMDAwMTQ3ODE5NTE5MDQzIiBkZWxheXRpbWVzeW5jPSIyIiBkZWxheXR3aWNlX2w9IjAiIGRlbGF5dHdpY2Vfcj0iMSIg
+ZmVlZGJhY2s9IjAiIGhpZ2hjdXQ9IjAuMjc2MDAwMDIyODg4MTgzNTkzNzUiIGRyeT0iMC41IiB3ZXQ9IjAuMzY0MDAwMDIyNDExMzQ2NDM1NTUiIGxpdmVt
+b2RlPSIwIi8+PHByb2dyYW0gcHJvZ3JhbW5hbWU9IkluZmluaXRlIFN0IERlbGF5IiBjdXRvZmY9IjAuNjcxMDAwMDAzODE0Njk3MjY1NjIiIHJlc29uYW5j
+ZT0iMC42MjQwMDAwMTI4NzQ2MDMyNzE0OCIgaW5wdXRkcml2ZT0iMC4zNDAwMDAwMDM1NzYyNzg2ODY1MiIgZGVsYXl0aW1lPSIwLjIyOTAwMDAxNzA0Njky
+ODQwNTc2IiBkZWxheXRpbWVzeW5jPSIxIiBkZWxheXR3aWNlX2w9IjAiIGRlbGF5dHdpY2Vfcj0iMC44MDAwMDAwMTE5MjA5Mjg5NTUwOCIgZmVlZGJhY2s9
+IjAuNDA0MDAwMDE0MDY2Njk2MTY2OTkiIGhpZ2hjdXQ9IjAuMTI0MDAwMDA1NDI0MDIyNjc0NTYiIGRyeT0iMC41IiB3ZXQ9IjAuNDQyMDAwMDMxNDcxMjUy
+NDQxNDEiIGxpdmVtb2RlPSIwIi8+PHByb2dyYW0gcHJvZ3JhbW5hbWU9IkZhc3QgRGVsYXkiIGN1dG9mZj0iMC4yODMwMDAwMjIxNzI5Mjc4NTY0NSIgcmVz
+b25hbmNlPSIwLjQ0NDAwMDAzNTUyNDM2ODI4NjEzIiBpbnB1dGRyaXZlPSIwLjMwMDAwMDAxMTkyMDkyODk1NTA4IiBkZWxheXRpbWU9IjAuMzcwMDAwMDA0
+NzY4MzcxNTgyMDMiIGRlbGF5dGltZXN5bmM9IjEiIGRlbGF5dHdpY2VfbD0iMCIgZGVsYXl0d2ljZV9yPSIxIiBmZWVkYmFjaz0iMC40MjUwMDAwMTE5MjA5
+Mjg5NTUwOCIgaGlnaGN1dD0iMC4yNzYwMDAwMjI4ODgxODM1OTM3NSIgZHJ5PSIwLjUiIHdldD0iMC43NTcwMDAwMjkwODcwNjY2NTAzOSIgbGl2ZW1vZGU9
+IjAiLz48cHJvZ3JhbSBwcm9ncmFtbmFtZT0iVGFiIGl0ICEiIGN1dG9mZj0iMC43MjgwMDAwNDQ4MjI2OTI4NzEwOSIgcmVzb25hbmNlPSIwLjcyNDAwMDAz
+NjcxNjQ2MTE4MTY0IiBpbnB1dGRyaXZlPSIwLjI5MjAwMDAyNTUxMDc4Nzk2Mzg3IiBkZWxheXRpbWU9IjAuMTAyMDAwMDA1NTQzMjMxOTY0MTEiIGRlbGF5
+dGltZXN5bmM9IjEiIGRlbGF5dHdpY2VfbD0iMCIgZGVsYXl0d2ljZV9yPSIwIiBmZWVkYmFjaz0iMC4xNTIwMDAwMTAwMTM1ODAzMjIyNyIgaGlnaGN1dD0i
+MC4yNTYwMDAwMTIxNTkzNDc1MzQxOCIgZHJ5PSIwLjUiIHdldD0iMC42NjAwMDAwMjYyMjYwNDM3MDExNyIgbGl2ZW1vZGU9IjAiLz48cHJvZ3JhbSBwcm9n
+cmFtbmFtZT0iU3dlZXQgRHJpdmUgMS84IiBjdXRvZmY9IjAuNzY4MDAwMDA2Njc1NzIwMjE0ODQiIHJlc29uYW5jZT0iMC40OTIwMDAwMTM1ODk4NTkwMDg3
+OSIgaW5wdXRkcml2ZT0iMC44OTIwMDAwMTk1NTAzMjM0ODYzMyIgZGVsYXl0aW1lPSIwLjQxMjAwMDAzMDI3OTE1OTU0NTkiIGRlbGF5dGltZXN5bmM9IjMi
+IGRlbGF5dHdpY2VfbD0iMCIgZGVsYXl0d2ljZV9yPSIwIiBmZWVkYmFjaz0iMC40NDQwMDAwMzU1MjQzNjgyODYxMyIgaGlnaGN1dD0iMC4xODgwMDAwMDg0
+NjM4NTk1NTgxMSIgZHJ5PSIwLjUiIHdldD0iMC4xNTYwMDAwMDMyMTg2NTA4MTc4NyIgbGl2ZW1vZGU9IjAiLz48cHJvZ3JhbSBwcm9ncmFtbmFtZT0iU3dl
+ZXQgRHJpdmUgMS80LiIgY3V0b2ZmPSIwLjY3MjAwMDA1MDU0NDczODc2OTUzIiByZXNvbmFuY2U9IjAuNzI0MDAwMDM2NzE2NDYxMTgxNjQiIGlucHV0ZHJp
+dmU9IjAuNzI4MDAwMDQ0ODIyNjkyODcxMDkiIGRlbGF5dGltZT0iMC4xNDgwMDAwMDE5MDczNDg2MzI4MSIgZGVsYXl0aW1lc3luYz0iMTAiIGRlbGF5dHdp
+Y2VfbD0iMCIgZGVsYXl0d2ljZV9yPSIwIiBmZWVkYmFjaz0iMC42NDAwMDAwNDUyOTk1MzAwMjkzIiBoaWdoY3V0PSIwLjM0MDAwMDAwMzU3NjI3ODY4NjUy
+IiBkcnk9IjAuNSIgd2V0PSIwLjE0ODAwMDAwMTkwNzM0ODYzMjgxIiBsaXZlbW9kZT0iMCIvPjxwcm9ncmFtIHByb2dyYW1uYW1lPSJUaGluIEhQIERlbGF5
+IDEvNCIgY3V0b2ZmPSIwLjg2ODAwMDAzMDUxNzU3ODEyNSIgcmVzb25hbmNlPSIwLjY2NDAwMDAzNDMzMjI3NTM5MDYyIiBpbnB1dGRyaXZlPSIwLjgyNDAw
+MDA2MDU1ODMxOTA5MTgiIGRlbGF5dGltZT0iMC43MDQwMDAwNTU3ODk5NDc1MDk3NyIgZGVsYXl0aW1lc3luYz0iNCIgZGVsYXl0d2ljZV9sPSIwIiBkZWxh
+eXR3aWNlX3I9IjAiIGZlZWRiYWNrPSIwLjQ2MDAwMDAwODM0NDY1MDI2ODU1IiBoaWdoY3V0PSIwLjY2NDAwMDAzNDMzMjI3NTM5MDYyIiBkcnk9IjAuNSIg
+d2V0PSIwLjI0MDAwMDAwOTUzNjc0MzE2NDA2IiBsaXZlbW9kZT0iMCIvPjxwcm9ncmFtIHByb2dyYW1uYW1lPSJTcGFjZSBMUCBUYWIgRGVsYXkiIGN1dG9m
+Zj0iMC4yOTYwMDAwMDM4MTQ2OTcyNjU2MiIgcmVzb25hbmNlPSIwLjgyODAwMDA2ODY2NDU1MDc4MTI1IiBpbnB1dGRyaXZlPSIwLjM0MDAwMDAwMzU3NjI3
+ODY4NjUyIiBkZWxheXRpbWU9IjAuMTc2MDAwMDEzOTQ3NDg2ODc3NDQiIGRlbGF5dGltZXN5bmM9IjEiIGRlbGF5dHdpY2VfbD0iMCIgZGVsYXl0d2ljZV9y
+PSIwLjgwMDAwMDAxMTkyMDkyODk1NTA4IiBmZWVkYmFjaz0iMC4zMzYwMDAwMjUyNzIzNjkzODQ3NyIgaGlnaGN1dD0iMC41NzIwMDAwMjY3MDI4ODA4NTkz
+OCIgZHJ5PSIwLjUiIHdldD0iMC43MzYwMDAwNjEwMzUxNTYyNSIgbGl2ZW1vZGU9IjAiLz48cHJvZ3JhbSBwcm9ncmFtbmFtZT0iTG8gRmkgU2NhcGUiIGN1
+dG9mZj0iMC42NjAwMDAwMjYyMjYwNDM3MDExNyIgcmVzb25hbmNlPSIwLjgyMDAwMDA1MjQ1MjA4NzQwMjM0IiBpbnB1dGRyaXZlPSIwLjYyMDAwMDAwNDc2
+ODM3MTU4MjAzIiBkZWxheXRpbWU9IjAuMDM5MDAwMDAwODA0NjYyNzA0NDY4IiBkZWxheXRpbWVzeW5jPSIxIiBkZWxheXR3aWNlX2w9IjAiIGRlbGF5dHdp
+Y2Vfcj0iMCIgZmVlZGJhY2s9IjAuNjQ4MDAwMDAxOTA3MzQ4NjMyODEiIGhpZ2hjdXQ9IjAuMjYzOTk5OTk4NTY5NDg4NTI1MzkiIGRyeT0iMC41IiB3ZXQ9
+IjAuMzg4MDAwMDExNDQ0MDkxNzk2ODgiIGxpdmVtb2RlPSIwIi8+PC9wcm9ncmFtcz48L3RhbD4A
+   </Chunk>
+  </Data>
+ </Plugin>
+
+ <!-- Calf Vinyl -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Calf Vinyl</Name>
+   <URI>http://calf.sourceforge.net/plugins/Vinyl</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1e1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Bypass</Name>
+    <Symbol>bypass</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Input Gain</Name>
+    <Symbol>level_in</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Output Gain</Name>
+    <Symbol>level_out</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Drone</Name>
+    <Symbol>drone</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Speed</Name>
+    <Symbol>speed</Symbol>
+    <Value>33</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Aging</Name>
+    <Symbol>aging</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Frequency</Name>
+    <Symbol>freq</Symbol>
+    <Value>1000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>Vol 0</Name>
+    <Symbol>gain0</Symbol>
+    <Value>0.0078125</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>Pitch 0</Name>
+    <Symbol>pitch0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>Activate 0</Name>
+    <Symbol>active0</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>Vol 1</Name>
+    <Symbol>gain1</Symbol>
+    <Value>0.0078125</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>Pitch 1</Name>
+    <Symbol>pitch1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Activate 1</Name>
+    <Symbol>active1</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Vol 2</Name>
+    <Symbol>gain2</Symbol>
+    <Value>0.015625</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Pitch 2</Name>
+    <Symbol>pitch2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Activate 2</Name>
+    <Symbol>active2</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>Vol 3</Name>
+    <Symbol>gain3</Symbol>
+    <Value>0.0078125</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Pitch 3</Name>
+    <Symbol>pitch3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>Activate 3</Name>
+    <Symbol>active3</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>Vol 4</Name>
+    <Symbol>gain4</Symbol>
+    <Value>0.03125</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>Pitch 4</Name>
+    <Symbol>pitch4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>Activate 4</Name>
+    <Symbol>active4</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>Vol 5</Name>
+    <Symbol>gain5</Symbol>
+    <Value>0.0178683269768953</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Pitch 5</Name>
+    <Symbol>pitch5</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Activate 5</Name>
+    <Symbol>active5</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Vol 6</Name>
+    <Symbol>gain6</Symbol>
+    <Value>0.0625</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Pitch 6</Name>
+    <Symbol>pitch6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>Activate 6</Name>
+    <Symbol>active6</Symbol>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Calf Reverb -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Calf Reverb</Name>
+   <URI>http://calf.sourceforge.net/plugins/Reverb</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1e1</Options>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Decay time</Name>
+    <Symbol>decay_time</Symbol>
+    <Value>1.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>High Frq Damp</Name>
+    <Symbol>hf_damp</Symbol>
+    <Value>3556.55883789062</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Room size</Name>
+    <Symbol>room_size</Symbol>
+    <Value>5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Diffusion</Name>
+    <Symbol>diffusion</Symbol>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Wet Amount</Name>
+    <Symbol>amount</Symbol>
+    <Value>0.188155844807625</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Dry Amount</Name>
+    <Symbol>dry</Symbol>
+    <Value>0.506979703903198</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Pre Delay</Name>
+    <Symbol>predelay</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Bass Cut</Name>
+    <Symbol>bass_cut</Symbol>
+    <Value>209.425720214844</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Treble Cut</Name>
+    <Symbol>treble_cut</Symbol>
+    <Value>5000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>Active</Name>
+    <Symbol>on</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>Input Gain</Name>
+    <Symbol>level_in</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>Output Gain</Name>
+    <Symbol>level_out</Symbol>
+    <Value>1</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+</CARLA-PROJECT>

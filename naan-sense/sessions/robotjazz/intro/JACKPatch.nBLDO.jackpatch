@@ -1,38 +1,142 @@
-C* Eq10X2 - Stereo 10-band equaliser:out.l |> Calf Multi Chorus:In L
-C* Eq10X2 - Stereo 10-band equaliser:out.r |> Calf Multi Chorus:In R
-Calf Multi Chorus:Out L                  |> Calf Reverb:In L
-Calf Multi Chorus:Out R                  |> Calf Reverb:In R
-Calf Reverb:Out L                        |> jamin:in_L
-Calf Reverb:Out R                        |> jamin:in_R
-LinuxSampler:1                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:1                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:10                          |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:10                          |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:2                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:2                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:3                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:3                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:4                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:4                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:5                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:5                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:6                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:6                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:7                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:7                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:8                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:8                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-LinuxSampler:9                           |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-LinuxSampler:9                           |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-Non-Sequencer.nQIXB:midi_out-1           |> LinuxSampler:midi_in_0
-Non-Sequencer.nQIXB:midi_out-2           |> LinuxSampler:midi_in_0
-Non-Sequencer.nQIXB:midi_out-3           |> LinuxSampler:midi_in_0
-Non-Sequencer.nQIXB:midi_out-4           |> ZynAddSubFX:events-in
-Petri-Foo.nTQPT:out_left                 |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-Petri-Foo.nTQPT:out_right                |> C* Eq10X2 - Stereo 10-band equaliser:in.r
-ZynAddSubFX:Audio Output 1               |> C* Eq10X2 - Stereo 10-band equaliser:in.l
-ZynAddSubFX:Audio Output 2               |> C* Eq10X2 - Stereo 10-band equaliser:in.r
+Gx Studio Preamp Mono:Out                |> Non-Mixer.nMUPA/gitar:in-1
+L/C/R Delay:L output                     |> jamin:in_L
+L/C/R Delay:R output                     |> jamin:in_R
+LinuxSampler:0                           |> Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/in-1
+LinuxSampler:1                           |> Non-Mixer.nMUPA (elec_synth):808/in-1
+LinuxSampler:2                           |> Non-Mixer.nMUPA (elec_synth):speakfx/in-1
+LinuxSampler:3                           |> Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/in-1
+LinuxSampler:4                           |> Non-Mixer.nMUPA (percussion):drumkit_execp/in-1
+LinuxSampler:5                           |> Non-Mixer.nMUPA/piano:in-1
+LinuxSampler:6                           |> Non-Mixer.nMUPA (percussion):anabol/in-1
+LinuxSampler:7                           |> Non-Mixer.nMUPA (percussion):acous/in-1
+LinuxSampler:8                           |> Non-Mixer.nMUPA (percussion):miscraw01/in-1
+LinuxSampler:9                           |> Non-Mixer.nMUPA (percussion):miscraw02/in-1
+Non-Mixer.nMUPA (elec_synth):808/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (elec_synth):808/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (elec_synth):808/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (elec_synth):808/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (elec_synth):808/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (elec_synth):808/out-1   |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (elec_synth):808/out-2   |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (elec_synth):808/out-3   |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (elec_synth):808/out-4   |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (elec_synth):ace_rhythm_kit/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (elec_synth):elec_kit_bassy/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (elec_synth):petri-samples/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (elec_synth):petri-samples/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (elec_synth):petri-samples/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (elec_synth):petri-samples/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (elec_synth):petri-samples/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (elec_synth):petri-samples/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (elec_synth):petri-samples/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (elec_synth):petri-samples/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (elec_synth):petri-samples/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (elec_synth):speakfx/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (elec_synth):speakfx/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (elec_synth):speakfx/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (elec_synth):speakfx/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (elec_synth):speakfx/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (elec_synth):speakfx/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (elec_synth):speakfx/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (elec_synth):speakfx/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (elec_synth):speakfx/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (elec_synth):zynsub/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (elec_synth):zynsub/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (elec_synth):zynsub/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (elec_synth):zynsub/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (elec_synth):zynsub/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (elec_synth):zynsub/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (elec_synth):zynsub/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (elec_synth):zynsub/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (elec_synth):zynsub/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (percussion):acous/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (percussion):acous/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (percussion):acous/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (percussion):acous/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (percussion):acous/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (percussion):acous/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (percussion):acous/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (percussion):acous/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (percussion):acous/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (percussion):anabol/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (percussion):anabol/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (percussion):anabol/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (percussion):anabol/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (percussion):anabol/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (percussion):anabol/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (percussion):anabol/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (percussion):anabol/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (percussion):anabol/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (percussion):drumkit_execp/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (percussion):drumkit_execp/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (percussion):drumkit_execp/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (percussion):drumkit_execp/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (percussion):drumkit_execp/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (percussion):drumkit_execp/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (percussion):drumkit_execp/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (percussion):drumkit_execp/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (percussion):drumkit_execp/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (percussion):miscraw01/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (percussion):miscraw01/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (percussion):miscraw01/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (percussion):miscraw01/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (percussion):miscraw01/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (percussion):miscraw01/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (percussion):miscraw01/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (percussion):miscraw01/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (percussion):miscraw01/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA (percussion):miscraw02/early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA (percussion):miscraw02/early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA (percussion):miscraw02/early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA (percussion):miscraw02/early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA (percussion):miscraw02/late reverb/out-1 |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA (percussion):miscraw02/out-1 |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA (percussion):miscraw02/out-2 |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA (percussion):miscraw02/out-3 |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA (percussion):miscraw02/out-4 |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA/gitar:early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA/gitar:early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA/gitar:early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA/gitar:early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA/gitar:late reverb/out-1  |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA/gitar:out-1              |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA/gitar:out-2              |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA/gitar:out-3              |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA/gitar:out-4              |> Non-Mixer.nMUPA/master:in-4
+Non-Mixer.nMUPA/master:out-1             |> jamin:in_L
+Non-Mixer.nMUPA/master:out-2             |> jamin:in_R
+Non-Mixer.nMUPA/master:out-3             |> jamin:in_L
+Non-Mixer.nMUPA/master:out-4             |> jamin:in_R
+Non-Mixer.nMUPA/piano:early reverb/out-1 |> Non-Mixer.nMUPA (reverbs):early bird/in-1
+Non-Mixer.nMUPA/piano:early reverb/out-2 |> Non-Mixer.nMUPA (reverbs):early bird/in-2
+Non-Mixer.nMUPA/piano:early reverb/out-3 |> Non-Mixer.nMUPA (reverbs):early bird/in-3
+Non-Mixer.nMUPA/piano:early reverb/out-4 |> Non-Mixer.nMUPA (reverbs):early bird/in-4
+Non-Mixer.nMUPA/piano:late reverb/out-1  |> Non-Mixer.nMUPA (reverbs):late bird/in-1
+Non-Mixer.nMUPA/piano:out-1              |> Non-Mixer.nMUPA/master:in-1
+Non-Mixer.nMUPA/piano:out-2              |> Non-Mixer.nMUPA/master:in-2
+Non-Mixer.nMUPA/piano:out-3              |> Non-Mixer.nMUPA/master:in-3
+Non-Mixer.nMUPA/piano:out-4              |> Non-Mixer.nMUPA/master:in-4
+Petri-Foo.nTQPT:out_left                 |> Non-Mixer.nMUPA (elec_synth):petri-samples/in-1
+Petri-Foo.nTQPT:out_right                |> Non-Mixer.nMUPA (elec_synth):petri-samples/in-1
+ZynAddSubFX:Audio Output 1               |> Non-Mixer.nMUPA (elec_synth):zynsub/in-1
+ZynAddSubFX:Audio Output 2               |> Non-Mixer.nMUPA (elec_synth):zynsub/in-1
 jack-keyboard:midi_out                   |> LinuxSampler:midi_in_0
 jamin:a.master.out_L                     |> system:playback_1
 jamin:a.master.out_R                     |> system:playback_2
-qmidiarp:out 1                           |> LinuxSampler:midi_in_0
+system:capture_1                         |> Gx Studio Preamp Mono:In

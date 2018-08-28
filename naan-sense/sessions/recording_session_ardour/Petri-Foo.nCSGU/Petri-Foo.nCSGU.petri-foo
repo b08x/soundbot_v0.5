@@ -1,0 +1,1204 @@
+<?xml version="1.0"?>
+<Petri-Foo-Dish save-type="full">
+  <Master level="0.559375" samplerate="48000"/>
+  <Patch name="Untitled Patch #1" channel="0">
+    <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/06trusteachother.wav" mode="singleshot" reverse="false" to_end="false">
+      <Play start="0" stop="282902" fade_samples="108"/>
+      <Loop start="108" stop="282794" xfade_samples="108"/>
+      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
+    </Sample>
+    <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Env source="OFF"/>
+    </Amplitude>
+    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pan>
+    <Pitch tuning="0.000000" tuning_range="2.000000" velocity_sensing="0.000000" key_tracking="1.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pitch>
+    <Lowpass>
+      <Cutoff value="1.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Cutoff>
+      <Resonance amount="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Resonance>
+    </Lowpass>
+    <Voice cut="0" cut_by="0" monophonic="false">
+      <Portamento active="true">
+        <Mod source="CC 65 - Portamento On/Off" threshold="0.500000"/>
+      </Portamento>
+      <Portamento_time value="0.050000">
+        <Mod source="CC 5 - Portamento Time" amount="1.000000"/>
+      </Portamento_time>
+      <Legato active="true">
+        <Mod source="CC 68 - Legato On/Off" threshold="0.500000"/>
+      </Legato>
+    </Voice>
+    <EG1 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG2 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG3 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG4 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG5 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <VLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO1>
+    <VLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO2>
+    <VLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO3>
+    <VLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO4>
+    <VLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO5>
+    <GLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO1>
+    <GLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO2>
+    <GLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO3>
+    <GLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO4>
+    <GLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO5>
+  </Patch>
+  <Patch name="Untitled Patch #2" channel="0">
+    <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/lookattheobjects.wav" mode="singleshot" reverse="false" to_end="false">
+      <Play start="0" stop="1345962" fade_samples="108"/>
+      <Loop start="100767" stop="1345854" xfade_samples="108"/>
+      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
+    </Sample>
+    <Amplitude level="0.444089" velocity_sensing="1.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Env source="OFF"/>
+    </Amplitude>
+    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pan>
+    <Pitch tuning="0.000000" tuning_range="2.000000" velocity_sensing="0.000000" key_tracking="1.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pitch>
+    <Lowpass>
+      <Cutoff value="1.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Cutoff>
+      <Resonance amount="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Resonance>
+    </Lowpass>
+    <Voice cut="0" cut_by="0" monophonic="false">
+      <Portamento active="true">
+        <Mod source="CC 65 - Portamento On/Off" threshold="0.500000"/>
+      </Portamento>
+      <Portamento_time value="0.050000">
+        <Mod source="CC 5 - Portamento Time" amount="1.000000"/>
+      </Portamento_time>
+      <Legato active="true">
+        <Mod source="CC 68 - Legato On/Off" threshold="0.500000"/>
+      </Legato>
+    </Voice>
+    <EG1 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG2 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG3 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG4 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG5 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <VLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO1>
+    <VLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO2>
+    <VLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO3>
+    <VLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO4>
+    <VLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO5>
+    <GLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO1>
+    <GLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO2>
+    <GLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO3>
+    <GLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO4>
+    <GLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO5>
+  </Patch>
+  <Patch name="Untitled Patch #3" channel="0">
+    <Sample file="samples/a3df6cff6165e2075bc206b385504055a48105eb/comeandrelaxnow.wav" mode="singleshot" reverse="false" to_end="false">
+      <Play start="0" stop="198906" fade_samples="108"/>
+      <Loop start="108" stop="198798" xfade_samples="108"/>
+      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
+    </Sample>
+    <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Env source="OFF"/>
+    </Amplitude>
+    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pan>
+    <Pitch tuning="0.000000" tuning_range="2.000000" velocity_sensing="0.000000" key_tracking="1.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pitch>
+    <Lowpass>
+      <Cutoff value="1.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Cutoff>
+      <Resonance amount="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Resonance>
+    </Lowpass>
+    <Voice cut="0" cut_by="0" monophonic="false">
+      <Portamento active="true">
+        <Mod source="CC 65 - Portamento On/Off" threshold="0.500000"/>
+      </Portamento>
+      <Portamento_time value="0.050000">
+        <Mod source="CC 5 - Portamento Time" amount="1.000000"/>
+      </Portamento_time>
+      <Legato active="true">
+        <Mod source="CC 68 - Legato On/Off" threshold="0.500000"/>
+      </Legato>
+    </Voice>
+    <EG1 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG2 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG3 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG4 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG5 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <VLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO1>
+    <VLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO2>
+    <VLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO3>
+    <VLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO4>
+    <VLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO5>
+    <GLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO1>
+    <GLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO2>
+    <GLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO3>
+    <GLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO4>
+    <GLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO5>
+  </Patch>
+  <Patch name="Untitled Patch #4" channel="0">
+    <Sample file="samples/a3df6cff6165e2075bc206b385504055a48105eb/goingupelevator.wav" mode="singleshot" reverse="false" to_end="false">
+      <Play start="0" stop="1803883" fade_samples="108"/>
+      <Loop start="108" stop="1803775" xfade_samples="108"/>
+      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
+    </Sample>
+    <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Env source="OFF"/>
+    </Amplitude>
+    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pan>
+    <Pitch tuning="0.000000" tuning_range="2.000000" velocity_sensing="0.000000" key_tracking="1.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pitch>
+    <Lowpass>
+      <Cutoff value="1.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Cutoff>
+      <Resonance amount="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Resonance>
+    </Lowpass>
+    <Voice cut="0" cut_by="0" monophonic="false">
+      <Portamento active="true">
+        <Mod source="CC 65 - Portamento On/Off" threshold="0.500000"/>
+      </Portamento>
+      <Portamento_time value="0.050000">
+        <Mod source="CC 5 - Portamento Time" amount="1.000000"/>
+      </Portamento_time>
+      <Legato active="true">
+        <Mod source="CC 68 - Legato On/Off" threshold="0.500000"/>
+      </Legato>
+    </Voice>
+    <EG1 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG2 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG3 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG4 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG5 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <VLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO1>
+    <VLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO2>
+    <VLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO3>
+    <VLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO4>
+    <VLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO5>
+    <GLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO1>
+    <GLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO2>
+    <GLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO3>
+    <GLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO4>
+    <GLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO5>
+  </Patch>
+  <Patch name="Untitled Patch #5" channel="0">
+    <Sample file="samples/a3df6cff6165e2075bc206b385504055a48105eb/888888-WhenIsThenNow.flac" mode="singleshot" reverse="false" to_end="false">
+      <Play start="0" stop="6364655" fade_samples="108"/>
+      <Loop start="108" stop="6364547" xfade_samples="108"/>
+      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
+    </Sample>
+    <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Env source="OFF"/>
+    </Amplitude>
+    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pan>
+    <Pitch tuning="0.000000" tuning_range="2.000000" velocity_sensing="0.000000" key_tracking="1.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pitch>
+    <Lowpass>
+      <Cutoff value="1.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Cutoff>
+      <Resonance amount="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Resonance>
+    </Lowpass>
+    <Voice cut="0" cut_by="0" monophonic="false">
+      <Portamento active="true">
+        <Mod source="CC 65 - Portamento On/Off" threshold="0.500000"/>
+      </Portamento>
+      <Portamento_time value="0.050000">
+        <Mod source="CC 5 - Portamento Time" amount="1.000000"/>
+      </Portamento_time>
+      <Legato active="true">
+        <Mod source="CC 68 - Legato On/Off" threshold="0.500000"/>
+      </Legato>
+    </Voice>
+    <EG1 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG2 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG3 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG4 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG5 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <VLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO1>
+    <VLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO2>
+    <VLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO3>
+    <VLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO4>
+    <VLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO5>
+    <GLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO1>
+    <GLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO2>
+    <GLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO3>
+    <GLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO4>
+    <GLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO5>
+  </Patch>
+  <Patch name="Untitled Patch #6" channel="0">
+    <Sample file="samples/a3df6cff6165e2075bc206b385504055a48105eb/888888-waking_life.flac" mode="singleshot" reverse="false" to_end="false">
+      <Play start="0" stop="21309695" fade_samples="108"/>
+      <Loop start="108" stop="21309587" xfade_samples="108"/>
+      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
+    </Sample>
+    <Amplitude level="0.991655" velocity_sensing="1.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Env source="OFF"/>
+    </Amplitude>
+    <Pan position="-0.020862" velocity_sensing="0.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pan>
+    <Pitch tuning="0.000000" tuning_range="2.000000" velocity_sensing="0.000000" key_tracking="1.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pitch>
+    <Lowpass>
+      <Cutoff value="1.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Cutoff>
+      <Resonance amount="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Resonance>
+    </Lowpass>
+    <Voice cut="0" cut_by="0" monophonic="false">
+      <Portamento active="true">
+        <Mod source="CC 65 - Portamento On/Off" threshold="0.500000"/>
+      </Portamento>
+      <Portamento_time value="0.050000">
+        <Mod source="CC 5 - Portamento Time" amount="1.000000"/>
+      </Portamento_time>
+      <Legato active="true">
+        <Mod source="CC 68 - Legato On/Off" threshold="0.500000"/>
+      </Legato>
+    </Voice>
+    <EG1 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG2 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG3 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG4 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG5 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <VLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO1>
+    <VLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO2>
+    <VLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO3>
+    <VLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO4>
+    <VLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO5>
+    <GLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO1>
+    <GLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO2>
+    <GLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO3>
+    <GLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO4>
+    <GLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO5>
+  </Patch>
+  <Patch name="Untitled Patch #7" channel="0">
+    <Sample file="samples/a3df6cff6165e2075bc206b385504055a48105eb/imapickle.wav" mode="singleshot" reverse="false" to_end="false">
+      <Play start="0" stop="517247" fade_samples="108"/>
+      <Loop start="108" stop="517139" xfade_samples="108"/>
+      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
+    </Sample>
+    <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Env source="OFF"/>
+    </Amplitude>
+    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pan>
+    <Pitch tuning="0.000000" tuning_range="2.000000" velocity_sensing="0.000000" key_tracking="1.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pitch>
+    <Lowpass>
+      <Cutoff value="1.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Cutoff>
+      <Resonance amount="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Resonance>
+    </Lowpass>
+    <Voice cut="0" cut_by="0" monophonic="false">
+      <Portamento active="true">
+        <Mod source="CC 65 - Portamento On/Off" threshold="0.500000"/>
+      </Portamento>
+      <Portamento_time value="0.050000">
+        <Mod source="CC 5 - Portamento Time" amount="1.000000"/>
+      </Portamento_time>
+      <Legato active="true">
+        <Mod source="CC 68 - Legato On/Off" threshold="0.500000"/>
+      </Legato>
+    </Voice>
+    <EG1 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG2 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG3 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG4 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG5 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <VLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO1>
+    <VLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO2>
+    <VLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO3>
+    <VLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO4>
+    <VLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO5>
+    <GLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO1>
+    <GLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO2>
+    <GLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO3>
+    <GLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO4>
+    <GLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO5>
+  </Patch>
+  <Patch name="Untitled Patch #1" channel="0">
+    <Sample file="samples/ce21d0d4ddd31021076ffbf9839f6681702379b2/donteattheeggs.wav" mode="singleshot" reverse="false" to_end="false">
+      <Play start="0" stop="2621013" fade_samples="108"/>
+      <Loop start="108" stop="2620905" xfade_samples="108"/>
+      <Note root="60" lower="60" upper="60" velocity_lower="0" velocity_upper="127"/>
+    </Sample>
+    <Amplitude level="0.700000" velocity_sensing="1.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Env source="OFF"/>
+    </Amplitude>
+    <Pan position="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pan>
+    <Pitch tuning="0.000000" tuning_range="2.000000" velocity_sensing="0.000000" key_tracking="1.000000">
+      <Mod1 source="OFF" amount="0.000000"/>
+      <Mod2 source="OFF" amount="0.000000"/>
+      <Mod3 source="OFF" amount="0.000000"/>
+    </Pitch>
+    <Lowpass>
+      <Cutoff value="1.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Cutoff>
+      <Resonance amount="0.000000" velocity_sensing="0.000000" key_tracking="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+        <Mod3 source="OFF" amount="0.000000"/>
+      </Resonance>
+    </Lowpass>
+    <Voice cut="0" cut_by="0" monophonic="false">
+      <Portamento active="true">
+        <Mod source="CC 65 - Portamento On/Off" threshold="0.500000"/>
+      </Portamento>
+      <Portamento_time value="0.050000">
+        <Mod source="CC 5 - Portamento Time" amount="1.000000"/>
+      </Portamento_time>
+      <Legato active="true">
+        <Mod source="CC 68 - Legato On/Off" threshold="0.500000"/>
+      </Legato>
+    </Voice>
+    <EG1 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG2 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG3 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG4 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <EG5 active="false" delay="0.000000" attack="0.005000" hold="0.000000" decay="0.000000" sustain="1.000000" release="0.025000" key_tracking="0.000000"/>
+    <VLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO1>
+    <VLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO2>
+    <VLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO3>
+    <VLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO4>
+    <VLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false" delay="0.000000" attack="0.000000">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </VLFO5>
+    <GLFO1 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO1>
+    <GLFO2 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO2>
+    <GLFO3 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO3>
+    <GLFO4 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO4>
+    <GLFO5 active="false">
+      <Frequency hrtz="1.000000" beats="1.000000" sync="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Frequency>
+      <Amplitude shape="Sine" positive="false">
+        <Mod1 source="OFF" amount="0.000000"/>
+        <Mod2 source="OFF" amount="0.000000"/>
+      </Amplitude>
+    </GLFO5>
+  </Patch>
+</Petri-Foo-Dish>

@@ -1,0 +1,5 @@
+Noise repellent:output                   |> x42-eq - Parametric Equalizer Mono:in
+jack-keyboard:midi_out                   |> Helm:lv2_events_in
+jamin:a.master.out_L                     |> headset:playback_1
+jamin:a.master.out_R                     |> headset:playback_2
+system:capture_1                         |> Noise repellent:input

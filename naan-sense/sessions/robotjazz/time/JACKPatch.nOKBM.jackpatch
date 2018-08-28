@@ -1,0 +1,21 @@
+Calf Reverb:Out L                        |> jamin:in_L
+Calf Reverb:Out R                        |> jamin:in_R
+Non-Sequencer.nXDJG:midi_out-1           |> ZynAddSubFX:events-in
+Non-Sequencer.nXDJG:midi_out-2           |> ZynAddSubFX:events-in
+Non-Sequencer.nXDJG:midi_out-3           |> ZynAddSubFX:events-in
+Non-Sequencer.nXDJG:midi_out-4           |> ZynAddSubFX:events-in
+Non-Sequencer.nXDJG:midi_out-5           |> ZynAddSubFX:events-in
+Non-Sequencer.nXDJG:midi_out-6           |> ZynAddSubFX:events-in
+Petri-Foo.nNXVG:out_left                 |> Calf Reverb:In L
+Petri-Foo.nNXVG:out_left                 |> Tal-Dub-3:input_1
+Petri-Foo.nNXVG:out_left                 |> jamin:in_L
+Petri-Foo.nNXVG:out_right                |> Calf Reverb:In R
+Petri-Foo.nNXVG:out_right                |> jamin:in_R
+Tal-Dub-3:output_1                       |> jamin:in_L
+ZynAddSubFX:Audio Output 1               |> Calf Reverb:In L
+ZynAddSubFX:Audio Output 2               |> Calf Reverb:In R
+jack-keyboard:midi_out                   |> ZynAddSubFX:events-in
+jamin:a.master.out_L                     |> headset:playback_1
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> headset:playback_2
+jamin:a.master.out_R                     |> system:playback_2

@@ -1,0 +1,36 @@
+# AmbDec configuration
+# Written by AmbDec-0.5.1 at Thu Jul 26 00:31:38 2018
+
+/description      testings
+
+/version          3
+
+/dec/chan_mask    0
+/dec/freq_bands   1
+/dec/speakers     4
+/dec/coeff_scale  fuma
+
+/opt/input_scale  n3d
+/opt/nfeff_comp   output
+/opt/delay_comp   on
+/opt/level_comp   on
+/opt/xover_freq    500
+/opt/xover_ratio   0.0
+
+/speakers/{
+add_spkr     1     1.000      0.0      0.0    
+add_spkr     2     1.000      0.0      0.0    
+add_spkr     3     1.000      0.0      0.0    
+add_spkr     4     1.000      0.0      0.0    
+/}
+
+/matrix/{
+order_gain     1.00000  1.00000  1.00000  1.00000
+add_row   
+add_row   
+add_row   
+add_row   
+/}
+
+
+/end
