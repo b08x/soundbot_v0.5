@@ -1,0 +1,7 @@
+Dragonfly Reverb:lv2_audio_out_1         |> jamin:in_L
+Dragonfly Reverb:lv2_audio_out_2         |> jamin:in_R
+jack_mixer:MAIN L                        |> Dragonfly Reverb:lv2_audio_in_1
+jack_mixer:MAIN R                        |> Dragonfly Reverb:lv2_audio_in_2
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> system:playback_2
+qmidiarp:out 2                           |> Helm:lv2_events_in

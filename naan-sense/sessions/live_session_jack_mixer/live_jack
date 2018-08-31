@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<jack_mixer geometry="1366x709">
+	<input_channel balance="-0.083333" balance_midi_cc="12" name="helm" type="mono" volume="-18.487585" volume_midi_cc="11"/>
+	<input_channel balance="0.470588" balance_midi_cc="14" name="perc01" type="mono" volume="-6.162528" volume_midi_cc="13"/>
+	<input_channel balance="0.000000" balance_midi_cc="16" name="perc02" type="mono" volume="-11.715576" volume_midi_cc="15"/>
+	<input_channel balance="-0.235294" balance_midi_cc="18" name="cello" type="mono" volume="1.693002" volume_midi_cc="17"/>
+	<input_channel balance="-0.222222" balance_midi_cc="20" name="piano" type="mono" volume="0.338600" volume_midi_cc="19"/>
+	<input_channel balance="-0.333333" balance_midi_cc="22" name="noize" type="mono" volume="-19.029345" volume_midi_cc="21"/>
+	<input_channel balance="-0.111111" balance_midi_cc="24" name="sysmic" type="mono" volume="0.236220" volume_midi_cc="10"/>
+	<output_channel balance="0.777778" balance_midi_cc="127" muted_channels="helm|perc02|piano|noize" name="delay" solo_buttons="true" type="stereo" volume="-5.551402"/>
+	<output_channel balance="0.000000" muted_channels="helm|perc01|perc02|cello|piano|noize|sysmic" name="echo" solo_buttons="true" type="stereo" volume="-16.630435"/>
+	<main_mix_channel balance="0.031746" balance_midi_cc="8" muted_channels="perc01|sysmic" volume="-11.281889" volume_midi_cc="7"/>
+</jack_mixer>

@@ -1,2 +1,4 @@
-jamin:a.master.out_L                     |> system:playback_1
-jamin:a.master.out_R                     |> system:playback_2
+QMidiArp Seq:MidiOut                     |> Helm:lv2_events_in
+jack-keyboard:midi_out                   |> system:midi_playback_4
+jamin:a.master.out_L                     |> headset:playback_1
+jamin:a.master.out_R                     |> headset:playback_2

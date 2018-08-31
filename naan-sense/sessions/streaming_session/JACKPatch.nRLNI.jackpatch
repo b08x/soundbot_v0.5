@@ -1,24 +1,28 @@
-Helm:lv2_audio_out_1                     |> jackEQ:c.3-in-L
-Helm:lv2_audio_out_2                     |> jackEQ:c.3-in-R
-L/C/R Delay:out_l                        |> jackEQ:e.fx2_return-in-L
-L/C/R Delay:out_r                        |> jackEQ:e.fx2_return-in-R
-LinuxSampler:0                           |> jackEQ:c.1-in-L
-LinuxSampler:1                           |> jackEQ:c.1-in-R
-MDA RoundPan:left_out                    |> jackEQ:e.fx1_return-in-L
-MDA RoundPan:right_out                   |> jackEQ:e.fx1_return-in-R
-Noize Mak3r:lv2_audio_out_1              |> jackEQ:c.4-in-L
-Noize Mak3r:lv2_audio_out_2              |> jackEQ:c.4-in-R
-Non-Sequencer:midi_out-1                 |> LinuxSampler:midi_in_0
-deadbeef:deadbeef_1                      |> jackEQ:c.2-in-L
-deadbeef:deadbeef_2                      |> jackEQ:c.2-in-R
-jack-keyboard-01:midi_out                |> Helm:lv2_events_in
-jack-keyboard:midi_out                   |> system:midi_playback_1
-jackEQ:a.master-L                        |> jamin:in_L
-jackEQ:a.master-R                        |> jamin:in_R
-jackEQ:d.fx1_send-L                      |> MDA RoundPan:left_in
-jackEQ:d.fx1_send-R                      |> MDA RoundPan:right_in
-jackEQ:d.fx2_send-L                      |> L/C/R Delay:in_l
-jackEQ:d.fx2_send-R                      |> L/C/R Delay:in_r
+Bode frequency shifter:Down out          |> C* Scape - Stereo delay with chromatic resonances:in
+Bode frequency shifter:Up out            |> C* Scape - Stereo delay with chromatic resonances:in
+C* Scape - Stereo delay with chromatic resonances:out.l |> Dragonfly Reverb:Audio Input 1
+C* Scape - Stereo delay with chromatic resonances:out.r |> Dragonfly Reverb:Audio Input 2
+Dragonfly Reverb:Audio Output 1          |> jamin:in_L
+Dragonfly Reverb:Audio Output 2          |> jamin:in_R
+Helm:lv2_audio_out_1                     |> jack_mixer:helm L
+Helm:lv2_audio_out_2                     |> jack_mixer:helm R
+LinuxSampler:0                           |> jack_mixer:piano
+LinuxSampler:1                           |> jack_mixer:cello
+LinuxSampler:5                           |> jack_mixer:hydro L
+LinuxSampler:6                           |> jack_mixer:hydro R
+Noise repellent:output                   |> jack_mixer:mics
+deadbeef:deadbeef_1                      |> jack_mixer:deadbeef L
+deadbeef:deadbeef_2                      |> jack_mixer:deadbeef R
+jack-keyboard:midi_out                   |> Helm:lv2_events_in
+jack_mixer:MAIN L                        |> Dragonfly Reverb:Audio Input 1
+jack_mixer:MAIN R                        |> Dragonfly Reverb:Audio Input 2
+jack_mixer:del L                         |> Bode frequency shifter:Input
+jack_mixer:del R                         |> Bode frequency shifter:Input
+jamin:a.master.out_L                     |> Stereo/Frequency Scope:InL
 jamin:a.master.out_L                     |> headset:playback_1
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> Stereo/Frequency Scope:InR
 jamin:a.master.out_R                     |> headset:playback_2
+jamin:a.master.out_R                     |> system:playback_2
+qmidiarp:out 1                           |> LinuxSampler:midi_in_0
 stickmic:capture_1                       |> Noise repellent:input

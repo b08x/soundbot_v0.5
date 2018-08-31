@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>false</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+ </EngineSettings>
+
+ <Transport>
+  <BeatsPerMinute>120</BeatsPerMinute>
+ </Transport>
+
+ <!-- C* Scape - Stereo delay with chromatic resonances -->
+ <Plugin>
+  <Info>
+   <Type>LADSPA</Type>
+   <Name>C* Scape - Stereo delay with chromatic resonances</Name>
+   <Binary>/usr/lib/ladspa/caps.so</Binary>
+   <Label>Scape</Label>
+   <UniqueID>2588</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>bpm</Name>
+    <Value>70.1999969482422</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>divider</Name>
+    <Value>3</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>feedback</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>dry</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>blend</Name>
+    <Value>0.25806450843811</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>tune</Name>
+    <Value>443.236572265625</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Stereo/Frequency Scope -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Stereo/Frequency Scope</Name>
+   <URI>http://gareus.org/oss/lv2/meters#stereoscope</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x0</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>FFT Size</Name>
+    <Symbol>fftsize</Symbol>
+    <Value>2048</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>N/Octave Bands</Name>
+    <Symbol>band</Symbol>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Screen Persistence</Name>
+    <Symbol>persistence</Symbol>
+    <Value>49</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Dragonfly Reverb -->
+ <Plugin>
+  <Info>
+   <Type>LV2</Type>
+   <Name>Dragonfly Reverb</Name>
+   <URI>https://github.com/michaelwillis/dragonfly-reverb</URI>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Dry Level</Name>
+    <Symbol>dry_level</Symbol>
+    <Value>85</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Early Level</Name>
+    <Symbol>early_level</Symbol>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Late Level</Name>
+    <Symbol>late_level</Symbol>
+    <Value>15</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Size</Name>
+    <Symbol>size</Symbol>
+    <Value>24</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Predelay</Name>
+    <Symbol>delay</Symbol>
+    <Value>12</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Diffuse</Name>
+    <Symbol>diffuse</Symbol>
+    <Value>30</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Low Cut</Name>
+    <Symbol>low_cut</Symbol>
+    <Value>20</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Low Crossover</Name>
+    <Symbol>low_xo</Symbol>
+    <Value>250</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Low Decay Mult</Name>
+    <Symbol>low_mult</Symbol>
+    <Value>2</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>High Cut</Name>
+    <Symbol>high_cut</Symbol>
+    <Value>5000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>High Crossover</Name>
+    <Symbol>high_xo</Symbol>
+    <Value>4000</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>High Decay Mult</Name>
+    <Symbol>high_mult</Symbol>
+    <Value>0.349999994039536</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+
+ <!-- Bode frequency shifter -->
+ <Plugin>
+  <Info>
+   <Type>LADSPA</Type>
+   <Name>Bode frequency shifter</Name>
+   <Binary>/usr/lib/ladspa/bode_shifter_1431.so</Binary>
+   <Label>bodeShifter</Label>
+   <UniqueID>1431</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>Frequency shift</Name>
+    <Value>0</Value>
+   </Parameter>
+  </Data>
+ </Plugin>
+</CARLA-PROJECT>

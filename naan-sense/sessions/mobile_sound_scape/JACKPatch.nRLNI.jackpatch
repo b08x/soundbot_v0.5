@@ -1,18 +1,18 @@
 Dragonfly Reverb:lv2_audio_out_1         |> jamin:in_L
 Dragonfly Reverb:lv2_audio_out_2         |> jamin:in_R
-MDA Piano:left_out                       |> jackEQ:c.2-in-L
-MDA Piano:right_out                      |> jackEQ:c.2-in-R
+L/C/R Delay:out_l                        |> MDA RoundPan:left_in
+L/C/R Delay:out_r                        |> MDA RoundPan:right_in
+MDA RoundPan:left_out                    |> jackEQ:e.fx1_return-in-L
+MDA RoundPan:right_out                   |> jackEQ:e.fx1_return-in-R
 Mono to Stereo splitter:out1             |> jackEQ:c.1-in-R
 Mono to Stereo splitter:out2             |> jackEQ:c.1-in-L
-QMidiArp Arp:MidiOut                     |> MDA Piano:event_in
-TAP Stereo Echo:outputleft               |> jackEQ:e.fx1_return-in-L
-TAP Stereo Echo:outputright              |> jackEQ:e.fx1_return-in-R
-jack-keyboard:midi_out                   |> QMidiArp Arp:MidiIn
+Noise repellent:output                   |> x42-eq - Parametric Equalizer Mono:in
 jackEQ:a.master-L                        |> Dragonfly Reverb:lv2_audio_in_1
 jackEQ:a.master-R                        |> Dragonfly Reverb:lv2_audio_in_2
-jackEQ:d.fx1_send-L                      |> TAP Stereo Echo:inputleft
-jackEQ:d.fx1_send-R                      |> TAP Stereo Echo:inputright
+jackEQ:d.fx1_send-L                      |> L/C/R Delay:in_l
+jackEQ:d.fx1_send-R                      |> L/C/R Delay:in_r
 jamin:a.master.out_L                     |> system:playback_1
 jamin:a.master.out_R                     |> system:playback_2
 system:capture_1                         |> Noise repellent:input
+system:capture_2                         |> Noise repellent:input
 x42-eq - Parametric Equalizer Mono:out   |> Mono to Stereo splitter:input
