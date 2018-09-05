@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<jack_mixer geometry="1920x1021">
+	<input_channel balance="0.000000" balance_midi_cc="12" name="hydro" type="stereo" volume="-inf" volume_midi_cc="11"/>
+	<input_channel balance="0.388889" balance_midi_cc="14" name="yoshi" type="stereo" volume="-23.793103" volume_midi_cc="13"/>
+	<input_channel balance="0.000000" balance_midi_cc="16" name="sounds01" type="mono" volume="-10.965517" volume_midi_cc="15"/>
+	<input_channel balance="0.166667" balance_midi_cc="18" name="samples" type="mono" volume="3.517241" volume_midi_cc="17"/>
+	<input_channel balance="0.214286" balance_midi_cc="20" name="piano" type="mono" volume="0.000000" volume_midi_cc="19"/>
+	<output_channel balance="0.000000" muted_channels="hydro|yoshi|piano" name="delay" solo_buttons="true" type="stereo" volume="-19.445100"/>
+	<output_channel balance="0.000000" name="reverb" solo_buttons="true" type="stereo" volume="-13.990555"/>
+	<output_channel balance="0.611111" muted_channels="hydro|sounds01|samples|piano" name="ringmod" solo_buttons="true" type="stereo" volume="-29.291617"/>
+	<main_mix_channel balance="0.000000" balance_midi_cc="8" volume="-4.923259" volume_midi_cc="7"/>
+</jack_mixer>

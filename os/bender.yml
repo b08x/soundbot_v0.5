@@ -1,0 +1,12 @@
+---
+
+- hosts: bender
+  gather_facts: yes
+
+# setup fstab, run updates, make sure stuff is cool.
+# setup my ssh keys to umm ya know...in other words, distribute keys
+
+  roles:
+    - { role: security, tags: ['security'] }
+    - { role: nginx, tags: ['nginx'] }
+    - { role: pxe, tags: ['pxe'] }

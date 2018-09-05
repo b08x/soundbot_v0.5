@@ -1,0 +1,4 @@
+jack-keyboard:midi_out                   |> yoshimi:midi in
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> system:playback_2
+qmidiarp:out 1                           |> yoshimi:midi in

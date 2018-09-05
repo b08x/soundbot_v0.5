@@ -1,0 +1,12 @@
+Hydrogen:out_L                           |> jack_mixer:hydro L
+Hydrogen:out_R                           |> jack_mixer:hydro R
+LinuxSampler:0                           |> jack_mixer:sounds01
+LinuxSampler:1                           |> jack_mixer:piano
+Petri-Foo.nCHOE:out_left                 |> jack_mixer:samples
+Petri-Foo.nCHOE:out_right                |> jack_mixer:samples
+jack-keyboard:midi_out                   |> LinuxSampler:midi_in_0
+jack_mixer:MAIN L                        |> jamin:in_L
+jack_mixer:MAIN R                        |> jamin:in_R
+jamin:a.master.out_L                     |> system:playback_1
+jamin:a.master.out_R                     |> system:playback_2
+qmidiarp:out 2                           |> LinuxSampler:midi_in_0

@@ -1,0 +1,33 @@
+Hydrogen:out_L                           |> Non-Mixer.nVBOY (percussion):hydrogen/in-1
+Hydrogen:out_R                           |> Non-Mixer.nVBOY (percussion):hydrogen/in-2
+LinuxSampler:0                           |> Non-Mixer.nVBOY (percussion):sounds01/in-1
+Non-Mixer.nVBOY (effects):delay/out-1    |> Non-Mixer.nVBOY/master:in-1
+Non-Mixer.nVBOY (effects):delay/out-2    |> Non-Mixer.nVBOY/master:in-2
+Non-Mixer.nVBOY (effects):ringmod/out-1  |> Non-Mixer.nVBOY/master:in-1
+Non-Mixer.nVBOY (effects):ringmod/out-2  |> Non-Mixer.nVBOY/master:in-2
+Non-Mixer.nVBOY (percussion):hydrogen/out-1 |> Non-Mixer.nVBOY/master:in-1
+Non-Mixer.nVBOY (percussion):hydrogen/out-2 |> Non-Mixer.nVBOY/master:in-2
+Non-Mixer.nVBOY (percussion):sounds01/out-1 |> Non-Mixer.nVBOY/master:in-1
+Non-Mixer.nVBOY (percussion):sounds01/out-2 |> Non-Mixer.nVBOY/master:in-2
+Non-Mixer.nVBOY/master:out-1             |> jamin:in_L
+Non-Mixer.nVBOY/master:out-2             |> jamin:in_R
+Non-Mixer.nVBOY/samples:out-1            |> Non-Mixer.nVBOY/master:in-1
+Non-Mixer.nVBOY/samples:out-2            |> Non-Mixer.nVBOY/master:in-2
+Non-Mixer.nVBOY/sysmic:out-1             |> Non-Mixer.nVBOY/master:in-1
+Non-Mixer.nVBOY/sysmic:out-2             |> Non-Mixer.nVBOY/master:in-2
+Non-Mixer.nVBOY/triceratops:out-1        |> Non-Mixer.nVBOY/master:in-1
+Non-Mixer.nVBOY/triceratops:out-2        |> Non-Mixer.nVBOY/master:in-2
+Non-Mixer.nVBOY/yoshi:out-1              |> Non-Mixer.nVBOY/master:in-1
+Non-Mixer.nVBOY/yoshi:out-2              |> Non-Mixer.nVBOY/master:in-2
+Petri-Foo.nGWQR:out_left                 |> Non-Mixer.nVBOY/samples:in-1
+Petri-Foo.nGWQR:out_right                |> Non-Mixer.nVBOY/samples:in-2
+PulseAudio JACK Sink:front-left          |> system:playback_1
+PulseAudio JACK Sink:front-right         |> system:playback_2
+jamin:a.master.out_L                     |> headset:playback_1
+jamin:a.master.out_R                     |> headset:playback_2
+qmidiarp:out 1                           |> yoshimi:midi in
+qmidiarp:out 2                           |> LinuxSampler:midi_in_0
+wmic:capture_1                           |> PulseAudio JACK Source:front-left
+wmic:capture_1                           |> PulseAudio JACK Source:front-right
+yoshimi:left                             |> Non-Mixer.nVBOY/yoshi:in-1
+yoshimi:right                            |> Non-Mixer.nVBOY/yoshi:in-2

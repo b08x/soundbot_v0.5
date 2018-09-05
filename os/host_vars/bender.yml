@@ -2,7 +2,7 @@
 
 hostname: bender
 
-make_hard: True
+make_hard: False
 
 sshd_allow_groups: b08x
 
@@ -15,3 +15,19 @@ docker_host: True
 docker_selinux: disabled
 
 sysctl_ip_forward: True
+
+# the url from which kickstart files will be served
+ks_url: http://192.168.0.27/kickstart/
+
+nginx_official_repo: False
+nginx_passenger: False
+
+nginx_sites:
+  00_default:
+    - listen 80 default_server
+    - server_name _
+    - root "{% if ansible_os_family == 'FreeBSD' %}/usr/local/www/nginx-dist{% else %}/usr/share/nginx/html{% endif %}"
+    - index index.html
+  01_fedora:
+    - location /fedora
+    - root /stor/fedora/28

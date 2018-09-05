@@ -1,6 +1,6 @@
 ---
 
-hostname: jambot
+hostname: soundbot01
 
 make_hard: False
 
@@ -28,7 +28,7 @@ selinux_state: disabled
 sshd_port: 22
 sshd_allow_groups: b08x
 
-sysctl_ip_forward: True
+sysctl_ip_forward: False
 
 user:
   name: b08x
@@ -36,6 +36,9 @@ user:
   gid: 1041
   group: b08x
   shell: /bin/bash
-  email: b08x@syncopatedtech.org
+  email: b08x@loaf.org
   home: /home/b08x
   password: $1$ynx7axf8$D/jA4ELwCCtvToD9tcmDq.
+
+netdev: eth0
+nameservers: [ "208.67.222.222", "208.67.220.220" ]
