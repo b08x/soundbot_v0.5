@@ -26,13 +26,14 @@
 
   <Data>
    <Active>Yes</Active>
+   <Volume>1.162252</Volume>
    <ControlChannel>1</ControlChannel>
    <Options>0x0</Options>
 
    <Parameter>
     <Index>0</Index>
     <Name>bpm</Name>
-    <Value>70.1999969482422</Value>
+    <Value>54.9689903259277</Value>
    </Parameter>
 
    <Parameter>
@@ -44,25 +45,25 @@
    <Parameter>
     <Index>2</Index>
     <Name>feedback</Name>
-    <Value>1</Value>
+    <Value>0.761459648609161</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
     <Name>dry</Name>
-    <Value>0.5</Value>
+    <Value>0.719975471496582</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>blend</Name>
-    <Value>0.25806450843811</Value>
+    <Value>0.688517928123474</Value>
    </Parameter>
 
    <Parameter>
     <Index>5</Index>
     <Name>tune</Name>
-    <Value>443.236572265625</Value>
+    <Value>428.053985595703</Value>
    </Parameter>
   </Data>
  </Plugin>
@@ -120,84 +121,84 @@
     <Index>0</Index>
     <Name>Dry Level</Name>
     <Symbol>dry_level</Symbol>
-    <Value>85</Value>
+    <Value>80</Value>
    </Parameter>
 
    <Parameter>
     <Index>1</Index>
     <Name>Early Level</Name>
     <Symbol>early_level</Symbol>
-    <Value>0</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
     <Index>2</Index>
     <Name>Late Level</Name>
     <Symbol>late_level</Symbol>
-    <Value>15</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
     <Index>3</Index>
     <Name>Size</Name>
     <Symbol>size</Symbol>
-    <Value>24</Value>
+    <Value>10</Value>
    </Parameter>
 
    <Parameter>
     <Index>4</Index>
     <Name>Predelay</Name>
     <Symbol>delay</Symbol>
-    <Value>12</Value>
+    <Value>4</Value>
    </Parameter>
 
    <Parameter>
     <Index>5</Index>
     <Name>Diffuse</Name>
     <Symbol>diffuse</Symbol>
-    <Value>30</Value>
+    <Value>90</Value>
    </Parameter>
 
    <Parameter>
     <Index>6</Index>
     <Name>Low Cut</Name>
     <Symbol>low_cut</Symbol>
-    <Value>20</Value>
+    <Value>4</Value>
    </Parameter>
 
    <Parameter>
     <Index>7</Index>
     <Name>Low Crossover</Name>
     <Symbol>low_xo</Symbol>
-    <Value>250</Value>
+    <Value>500</Value>
    </Parameter>
 
    <Parameter>
     <Index>8</Index>
     <Name>Low Decay Mult</Name>
     <Symbol>low_mult</Symbol>
-    <Value>2</Value>
+    <Value>0.899999976158142</Value>
    </Parameter>
 
    <Parameter>
     <Index>9</Index>
     <Name>High Cut</Name>
     <Symbol>high_cut</Symbol>
-    <Value>5000</Value>
+    <Value>16000</Value>
    </Parameter>
 
    <Parameter>
     <Index>10</Index>
     <Name>High Crossover</Name>
     <Symbol>high_xo</Symbol>
-    <Value>4000</Value>
+    <Value>6000</Value>
    </Parameter>
 
    <Parameter>
     <Index>11</Index>
     <Name>High Decay Mult</Name>
     <Symbol>high_mult</Symbol>
-    <Value>0.349999994039536</Value>
+    <Value>0.5</Value>
    </Parameter>
   </Data>
  </Plugin>

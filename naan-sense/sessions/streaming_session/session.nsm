@@ -1,7 +1,6 @@
 JACKPatch:jackpatch:nRLNI
-NSM Proxy:nsm-proxy:nPHWO
-NSM Proxy:nsm-proxy:nBTXK
 jamin:jamin:nQHAD
 qsampler:qsampler:nMUIV
 jack-keyboard:jack-keyboard:nKIVK
-Carla:carla:nKIPP
+jack_mixer:jack_mixer:nVNYK
+obs:obs:nGICG

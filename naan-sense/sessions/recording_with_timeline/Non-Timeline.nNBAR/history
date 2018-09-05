@@ -17,3 +17,236 @@ Track 0x5 set :name "helm_bass" << :name "Audio"
 Track 0x7 set :name "piano" << :name "Audio"
 Audio_Region 0x9 create :source "intro01-1535460080.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 60 :length 827904 :start 0 :sequence 0x4 :selected 0 :offset 1024 :loop 0
 Control_Sequence 0xA create :track 0x3 :name "Control" :color 1970766336
+{
+	Control_Sequence 0xA destroy << :track 0x3 :name "Control" :color 1970766336
+	Audio_Region 0x9 destroy << :source "intro01-1535460080.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 60 :length 827904 :start 0 :sequence 0x4 :selected 0 :offset 1024 :loop 0
+	Audio_Sequence 0x4 destroy << :track 0x3 :name "Tue Aug 28 08:32:48 2018"
+	Track 0x3 destroy << :name "intro01" :sequence 0x0 :selected 0 :color 769845504
+}
+{
+	Audio_Sequence 0x6 destroy << :track 0x5 :name "Tue Aug 28 08:34:10 2018"
+	Track 0x5 destroy << :name "helm_bass" :sequence 0x0 :selected 0 :color 529420544
+}
+{
+	Audio_Sequence 0x8 destroy << :track 0x7 :name "Tue Aug 28 08:34:28 2018"
+	Track 0x7 destroy << :name "piano" :sequence 0x0 :selected 0 :color 1460164096
+}
+{
+	Track 0x11 create :name "Audio" :sequence 0x0 :selected 0 :color 2804373248
+	Audio_Sequence 0x12 create :track 0x11 :name "Sat Sep  1 08:00:18 2018"
+}
+{
+	Track 0x13 create :name "Audio.1" :sequence 0x0 :selected 0 :color 3503555840
+	Audio_Sequence 0x14 create :track 0x13 :name "Sat Sep  1 08:00:18 2018"
+}
+{
+	Track 0x15 create :name "Audio.2" :sequence 0x0 :selected 0 :color 2005029376
+	Audio_Sequence 0x16 create :track 0x15 :name "Sat Sep  1 08:00:19 2018"
+}
+{
+	Track 0x17 create :name "Audio.3" :sequence 0x0 :selected 0 :color 2568713472
+	Audio_Sequence 0x18 create :track 0x17 :name "Sat Sep  1 08:00:19 2018"
+}
+{
+	Track 0x19 create :name "Audio.4" :sequence 0x0 :selected 0 :color 1491945984
+	Audio_Sequence 0x1A create :track 0x19 :name "Sat Sep  1 08:00:20 2018"
+}
+{
+	Track 0x1B create :name "Audio.5" :sequence 0x0 :selected 0 :color 1382694144
+	Audio_Sequence 0x1C create :track 0x1B :name "Sat Sep  1 08:00:20 2018"
+}
+Track 0x11 set :name "kick" << :name "Audio"
+Track 0x13 set :name "snare" << :name "Audio.1"
+Track 0x15 set :name "cymbals" << :name "Audio.2"
+Track 0x17 set :name "misc01" << :name "Audio.3"
+Track 0x19 set :name "misc02" << :name "Audio.4"
+Track 0x1B set :name "misc03" << :name "Audio.5"
+{
+	Track 0x1D create :name "Audio" :sequence 0x0 :selected 0 :color 617952768
+	Audio_Sequence 0x1E create :track 0x1D :name "Sat Sep  1 08:07:51 2018"
+}
+{
+	Track 0x1F create :name "Audio.1" :sequence 0x0 :selected 0 :color 2389199360
+	Audio_Sequence 0x20 create :track 0x1F :name "Sat Sep  1 08:07:54 2018"
+}
+Track 0x1D set :name "helm_bass01" << :name "Audio"
+Track 0x1F set :name "stickmic01" << :name "Audio.1"
+Audio_Region 0x21 create :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 60481 :start 176128 :sequence 0x12 :selected 0 :offset 0 :loop 0
+Audio_Region 0x21 set :start 0 << :start 176128
+{
+	Audio_Region 0x22 create :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 60481 :start 0 :sequence 0x12 :selected 0 :offset 0 :loop 0
+	Audio_Region 0x21 set :length 0 << :length 60481
+}
+{
+	Audio_Region 0x23 create :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 60481 :start 0 :sequence 0x12 :selected 0 :offset 0 :loop 0
+	Audio_Region 0x22 set :length 0 << :length 60481
+}
+{
+	Audio_Region 0x24 create :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 60481 :start 0 :sequence 0x12 :selected 0 :offset 0 :loop 0
+	Audio_Region 0x24 set :length 39233 :start 21248 :offset 21248 << :length 60481 :start 0 :offset 0
+	Audio_Region 0x23 set :length 21248 << :length 60481
+}
+Audio_Region 0x24 set :start 27904 << :start 21248
+{
+	Audio_Region 0x25 create :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 39233 :start 27904 :sequence 0x12 :selected 0 :offset 21248 :loop 0
+	Audio_Region 0x25 set :length 33217 :start 33920 :offset 27264 << :length 39233 :start 27904 :offset 21248
+	Audio_Region 0x24 set :length 6016 << :length 39233
+}
+Audio_Region 0x25 set :start 49664 << :start 33920
+{
+	Audio_Region 0x26 create :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 33217 :start 49664 :sequence 0x12 :selected 0 :offset 27264 :loop 0
+	Audio_Region 0x26 set :length 23745 :start 59136 :offset 36736 << :length 33217 :start 49664 :offset 27264
+	Audio_Region 0x25 set :length 9472 << :length 33217
+}
+Audio_Region 0x26 set :start 72576 << :start 59136
+{
+	Audio_Region 0x27 create :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 21248 :start 0 :sequence 0x12 :selected 0 :offset 0 :loop 0
+	Audio_Region 0x27 set :length 6528 :start 14720 :offset 14720 << :length 21248 :start 0 :offset 0
+	Audio_Region 0x23 set :length 14720 << :length 21248
+}
+Audio_Region 0x27 set :start 16768 << :start 14720
+Audio_Region 0x27 set :start 19072 << :start 16768
+Audio_Region 0x27 set :start 37504 << :start 19072
+Audio_Region 0x27 set :loop 4294921216 << :loop 0
+Audio_Region 0x27 set :loop 10496 << :loop 4294921216
+Cursor_Region 0x28 create :start 0 :length 0 :label "" :type "Edit"
+Cursor_Region 0x28 set :start 37504 :length 4294929792 << :start 0 :length 0
+Cursor_Region 0x28 set :length 6528 << :length 4294929792
+Audio_Region 0x27 set :start 37376 << :start 37504
+Cursor_Region 0x28 set :start 43520 << :start 37504
+Cursor_Region 0x28 set :start 38144 << :start 43520
+Cursor_Region 0x28 set :label "this is test" << :label ""
+Audio_Region 0x27 set :start 38016 << :start 37376
+Control_Sequence 0x29 create :track 0x11 :name "Control" :color 1012897024
+Control_Point 0x2A create :start 9984 :sequence 0x29 :selected 0 :y 0.386667
+Control_Point 0x2A set :y 0.393333 << :y 0.386667
+Control_Sequence 0x29 set :color 810317568 << :color 1012897024
+Control_Point 0x2A set :start 0 :y 0.793333 << :start 9984 :y 0.393333
+Audio_Region 0x26 set :loop 23424 << :loop 0
+Audio_Region 0x23 set :loop 4294960640 << :loop 0
+Audio_Region 0x23 set :loop 0 << :loop 4294960640
+Audio_Region 0x23 set :start 1 << :start 0
+Audio_Region 0x27 set :loop 0 << :loop 10496
+Audio_Region 0x26 set :start 67456 << :start 72576
+Audio_Region 0x26 set :loop 28544 << :loop 23424
+Audio_Region 0x26 set :start 68992 << :start 67456
+Audio_Region 0x26 set :length 60481 :start 32256 :offset 0 << :length 23745 :start 68992 :offset 36736
+Audio_Region 0x26 set :length 23745 :start 68992 :offset 36736 << :length 60481 :start 32256 :offset 0
+Audio_Region 0x23 set :loop 4294967295 << :loop 0
+{
+	Cursor_Region 0x2B create :start 38144 :length 6528 :label "" :type "Playback"
+	Cursor_Region 0x28 destroy << :start 38144 :length 6528 :label "this is test" :type "Edit"
+}
+Cursor_Region 0x2B set :start 77440 << :start 38144
+Cursor_Region 0x2B set :start 33280 << :start 77440
+Control_Point 0x2C create :start 49280 :sequence 0x29 :selected 0 :y 0.793333
+Control_Sequence 0x29 set :color 810317568 << :color 1012897024
+Control_Point 0x2C set :start 23424 :y 0.380000 << :start 49280 :y 0.793333
+Cursor_Region 0x2B set :start 0 << :start 33280
+Cursor_Region 0x2D create :start 0 :length 0 :label "" :type "Edit"
+Cursor_Region 0x2D set :start 18944 :length 4294948352 << :start 0 :length 0
+Cursor_Region 0x2D set :length 0 << :length 4294948352
+Cursor_Region 0x2D set :start 0 :length 18944 << :start 18944 :length 0
+Cursor_Region 0x2D set :start 18944 :length 0 << :start 0 :length 18944
+Cursor_Region 0x2D set :start 4352 :length 14592 << :start 18944 :length 0
+Cursor_Region 0x2D set :start 4608 :length 14336 << :start 4352 :length 14592
+Cursor_Region 0x2D set :start 31616 << :start 4608
+Cursor_Region 0x2D set :start 8576 << :start 31616
+Cursor_Region 0x2B set :start 44672 << :start 0
+Control_Sequence 0x29 set :color 810317568 << :color 1012897024
+Control_Point 0x2C set :start 1025 :y 0.626667 << :start 23424 :y 0.380000
+Control_Point 0x2C set :start 19969 :y 0.546667 << :start 1025 :y 0.626667
+Control_Point 0x2E create :start 8064 :sequence 0x29 :selected 0 :y 0.460000
+Control_Point 0x2F create :start 66560 :sequence 0x29 :selected 0 :y 0.393333
+Control_Point 0x30 create :start 48640 :sequence 0x29 :selected 0 :y 0.146667
+Control_Sequence 0x31 create :track 0x11 :name "Control.1" :color 3300209920
+Control_Point 0x32 create :start 48896 :sequence 0x31 :selected 0 :y 0.146667
+Control_Point 0x33 create :start 42240 :sequence 0x31 :selected 0 :y 0.153333
+Control_Point 0x34 create :start 51968 :sequence 0x31 :selected 0 :y 0.153333
+Control_Point 0x34 set :start 63360 :y 0.613333 << :start 51968 :y 0.153333
+Control_Point 0x35 create :start 48896 :sequence 0x31 :selected 0 :y 0.153333
+Control_Point 0x36 create :start 48256 :sequence 0x31 :selected 0 :y 0.133333
+Control_Point 0x37 create :start 48768 :sequence 0x31 :selected 0 :y 0.173333
+Control_Sequence 0x31 set :color 2626693632 << :color 3300209920
+Control_Point 0x35 set :start 51971 :y 0.520000 << :start 48896 :y 0.153333
+Audio_Region 0x24 destroy << :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 6016 :start 27904 :sequence 0x12 :selected 0 :offset 21248 :loop 0
+Audio_Region 0x27 destroy << :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 6528 :start 38016 :sequence 0x12 :selected 0 :offset 14720 :loop 0
+Audio_Region 0x25 set :start 18656 << :start 49664
+Audio_Region 0x25 destroy << :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 9472 :start 18656 :sequence 0x12 :selected 0 :offset 27264 :loop 0
+Audio_Region 0x23 destroy << :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 14720 :start 1 :sequence 0x12 :selected 0 :offset 0 :loop 4294967295
+Audio_Region 0x38 create :source "000248ghostsofthingstcome.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 198 :length 4490136 :start 8256 :sequence 0x12 :selected 0 :offset 0 :loop 0
+Audio_Region 0x38 set :start 2752 << :start 8256
+Control_Sequence 0x29 set :name "gain" << :name "Control"
+Control_Sequence 0x31 set :name "pan" << :name "Control.1"
+Control_Sequence 0x31 set :color 2626693632 << :color 3300209920
+Control_Point 0x33 set :start 1536000 :y 0.433333 << :start 42240 :y 0.153333
+{
+	Control_Point 0x37 destroy << :start 48768 :sequence 0x31 :selected 0 :y 0.173333
+	Control_Point 0x36 destroy << :start 48896 :sequence 0x31 :selected 0 :y 0.140000
+	Control_Point 0x32 destroy << :start 50946 :sequence 0x31 :selected 0 :y 0.233333
+	Control_Point 0x35 destroy << :start 51971 :sequence 0x31 :selected 0 :y 0.520000
+	Control_Point 0x34 destroy << :start 63360 :sequence 0x31 :selected 0 :y 0.613333
+	Control_Point 0x33 destroy << :start 1536000 :sequence 0x31 :selected 0 :y 0.433333
+	Control_Sequence 0x31 destroy << :track 0x11 :name "pan" :color 2626693632
+}
+Control_Sequence 0x39 create :track 0x11 :name "Control" :color 1826458624
+Control_Point 0x3A create :start 270336 :sequence 0x39 :selected 0 :y 0.653333
+Control_Sequence 0x39 set :color 1454403584 << :color 1826458624
+Control_Point 0x3A set :start 192000 :y 0.513333 << :start 270336 :y 0.653333
+Control_Point 0x3B create :start 184320 :sequence 0x39 :selected 0 :y 0.513333
+Control_Point 0x3A set :start 672000 :y 0.040000 << :start 192000 :y 0.513333
+Control_Point 0x3C create :start 1310720 :sequence 0x39 :selected 0 :y 0.713333
+Control_Point 0x3D create :start 2023424 :sequence 0x39 :selected 0 :y 0.053333
+Cursor_Region 0x2D destroy << :start 8576 :length 14336 :label "" :type "Edit"
+Audio_Region 0x38 set :start 768000 << :start 2752
+Audio_Region 0x26 destroy << :source "Funktastik Break.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 172 :length 23745 :start 68992 :sequence 0x12 :selected 0 :offset 36736 :loop 28544
+Cursor_Region 0x3E create :start 0 :length 0 :label "" :type "Edit"
+Cursor_Region 0x3E set :start 983040 :length 4293984256 << :start 0 :length 0
+Cursor_Region 0x3E set :length 0 << :length 4293984256
+Cursor_Region 0x3E set :start 0 :length 983040 << :start 983040 :length 0
+Cursor_Region 0x3E set :length 1609728 << :length 983040
+Audio_Region 0x38 set :length 864000 << :length 4490136
+Audio_Region 0x38 set :start 192000 << :start 768000
+{
+	Audio_Region 0x3F create :source "000248ghostsofthingstcome.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 198 :length 864000 :start 192000 :sequence 0x12 :selected 0 :offset 0 :loop 0
+	Audio_Region 0x38 set :length 0 << :length 864000
+}
+Audio_Region 0x3F set :start 576000 << :start 192000
+{
+	Audio_Region 0x40 create :source "000248ghostsofthingstcome.wav" :gain 1.000000 :fade-in-type 1 :fade-in-duration 256 :fade-out-type 1 :fade-out-duration 256 :color 198 :length 864000 :start 576000 :sequence 0x12 :selected 0 :offset 0 :loop 0
+	Audio_Region 0x40 set :length 480000 :start 960000 :offset 384000 << :length 864000 :start 576000 :offset 0
+	Audio_Region 0x3F set :length 384000 << :length 864000
+}
+Audio_Region 0x40 set :start 1824000 << :start 960000
+Audio_Region 0x3F set :gain 1.803264 << :gain 1.000000
+Audio_Region 0x3F set :gain 1.000000 << :gain 1.803264
+Audio_Region 0x3F set :fade-out-duration 1308160 << :fade-out-duration 256
+Audio_Region 0x40 set :fade-out-duration 358400 << :fade-out-duration 256
+Audio_Region 0x40 set :fade-out-duration 88064 << :fade-out-duration 358400
+Audio_Region 0x40 set :fade-out-duration 235520 << :fade-out-duration 88064
+Audio_Region 0x3F set :fade-out-duration 169472 << :fade-out-duration 1308160
+Audio_Region 0x3F set :fade-in-duration 214528 << :fade-in-duration 256
+Audio_Region 0x3F set :start 672000 << :start 576000
+Audio_Region 0x3F set :loop 4294303872 << :loop 0
+Audio_Region 0x3F set :start 480000 << :start 672000
+Cursor_Region 0x3E destroy << :start 0 :length 1609728 :label "" :type "Edit"
+Audio_Region 0x40 set :start 960000 << :start 1824000
+Audio_Sequence 0x41 create :track 0x11 :name "Sat Sep  1 08:29:25 2018"
+Track 0x11 set :sequence 0x41 << :sequence 0x12
+{
+	Control_Point 0x3B destroy << :start 224769 :sequence 0x39 :selected 0 :y 0.513333
+	Control_Point 0x3A destroy << :start 672000 :sequence 0x39 :selected 0 :y 0.040000
+	Control_Point 0x3C destroy << :start 1310720 :sequence 0x39 :selected 0 :y 0.713333
+	Control_Point 0x3D destroy << :start 2023424 :sequence 0x39 :selected 0 :y 0.053333
+	Control_Sequence 0x39 destroy << :track 0x11 :name "Control" :color 1826458624
+}
+{
+	Control_Point 0x2A destroy << :start 0 :sequence 0x29 :selected 0 :y 0.793333
+	Control_Point 0x2E destroy << :start 8064 :sequence 0x29 :selected 0 :y 0.460000
+	Control_Point 0x2C destroy << :start 19969 :sequence 0x29 :selected 0 :y 0.546667
+	Control_Point 0x30 destroy << :start 48640 :sequence 0x29 :selected 0 :y 0.146667
+	Control_Point 0x2F destroy << :start 66560 :sequence 0x29 :selected 0 :y 0.393333
+	Control_Sequence 0x29 destroy << :track 0x11 :name "gain" :color 1012897024
+}
+Audio_Sequence 0x42 create :track 0x11 :name "Sat Sep  1 08:29:51 2018"
+Track 0x11 set :sequence 0x42 << :sequence 0x12

@@ -1,7 +1,21 @@
 Dragonfly Reverb:lv2_audio_out_1         |> jamin:in_L
 Dragonfly Reverb:lv2_audio_out_2         |> jamin:in_R
+Helm:lv2_audio_out_1                     |> jack_mixer:helm
+Helm:lv2_audio_out_2                     |> jack_mixer:helm
+Hydrogen:out_L                           |> jack_mixer:perc01
+Hydrogen:out_R                           |> jack_mixer:perc02
+LinuxSampler:2                           |> jack_mixer:cello
+LinuxSampler:3                           |> jack_mixer:piano
+a-Delay:out_1                            |> Dragonfly Reverb:lv2_audio_in_1
+a-Delay:out_1                            |> Dragonfly Reverb:lv2_audio_in_2
+jack-keyboard:midi_out                   |> LinuxSampler:midi_in_0
 jack_mixer:MAIN L                        |> Dragonfly Reverb:lv2_audio_in_1
 jack_mixer:MAIN R                        |> Dragonfly Reverb:lv2_audio_in_2
+jack_mixer:delay L                       |> a-Delay:in_1
+jack_mixer:delay R                       |> a-Delay:in_1
 jamin:a.master.out_L                     |> system:playback_1
 jamin:a.master.out_R                     |> system:playback_2
+qmidiarp:out 1                           |> LinuxSampler:midi_in_0
 qmidiarp:out 2                           |> Helm:lv2_events_in
+system:capture_1                         |> x42-eq - Parametric Equalizer Mono:in
+x42-eq - Parametric Equalizer Mono:out   |> jack_mixer:sysmic

@@ -1,4 +1,15 @@
-0x3 set :height 3 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 0
+0x3 set :height 3 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 2
 0x5 set :height 2 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 1
-0x7 set :height 1 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 2
+0x7 set :height 1 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 0
 0xA set :interpolation 1 :mode 1
+0x11 set :height 3 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 0
+0x13 set :height 1 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 1
+0x15 set :height 1 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 2
+0x17 set :height 1 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 3
+0x19 set :height 1 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 4
+0x1B set :height 1 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 5
+0x1D set :height 1 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 6
+0x1F set :height 1 :inputs 1 :outputs 1 :show-all-takes 0 :overlay-controls 0 :armed 0 :mute 0 :solo 0 :row 7
+0x29 set :interpolation 1 :mode 1
+0x31 set :interpolation 1 :mode 1
+0x39 set :interpolation 1 :mode 1

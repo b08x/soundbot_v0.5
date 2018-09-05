@@ -1,3 +1,3 @@
-jack-keyboard:midi_out                   |> Helm:lv2_events_in
 jamin:a.master.out_L                     |> system:playback_1
 jamin:a.master.out_R                     |> system:playback_2
+qmidiarp:out 1                           |> LinuxSampler:midi_in_0

@@ -1,0 +1,4 @@
+PulseAudio JACK Sink:front-left          |> headset:playback_1
+PulseAudio JACK Sink:front-right         |> headset:playback_2
+system:capture_1                         |> PulseAudio JACK Source:front-left
+system:capture_2                         |> PulseAudio JACK Source:front-right
