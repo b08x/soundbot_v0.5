@@ -1,6 +1,6 @@
 ---
 
-local_src_dir: "{{ user.home }}/src"
+local_src_dir: "{{ user.home }}/source"
 local_bin_dir: "{{ user.home }}/bin"
 temp_dir: /tmp
 
@@ -11,10 +11,10 @@ gnupg:
 dotfiles:
   url: git@github.com:b08x/dotfiles.git
   branch: master
-  destination: "{{ user.home }}/.dotfiles"
+  destination: "{{ user.home }}/workspace/dotfiles"
   rcup_flags: -fx README.md
 
 bashit:
   url: git@github.com:b08x/bash-it.git
   branch: master
-  destination: "{{ user.home }}/.bash_it"	
+  destination: "{{ user.home }}/.bash_it"

@@ -1,15 +1,15 @@
 ---
 
-hostname: soundbot01
+hostname: soundbot
 
 make_hard: False
 
 host_environment_paths:
-  PATH: /home/b08x/.rvm/gems/ruby-2.5.0/bin:/home/b08x/.rvm/gems/ruby-2.5.0@global/bin:/home/b08x/.rvm/rubies/ruby-2.5.0/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/b08x/.rvm/bin:/home/b08x/.local/bin:/home/b08x/bin
-  GEM_PATH: /home/b08x/.rvm/gems/ruby-2.5.0
+  PATH: /home/b08x/.rvm/gems/ruby-2.5.1/bin:/home/b08x/.rvm/gems/ruby-2.5.1@global/bin:/home/b08x/.rvm/rubies/ruby-2.5.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/b08x/.rvm/bin:/home/b08x/.local/bin:/home/b08x/bin
+  GEM_PATH: /home/b08x/.rvm/gems/ruby-2.5.1
 
 rvm1_rubies:
-  - 'ruby-2.5.0'
+  - 'ruby-2.5.1'
 
 rvm1_install_flags: '--user-install'
 

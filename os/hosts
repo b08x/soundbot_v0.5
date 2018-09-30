@@ -24,7 +24,7 @@ netargs='--noipv6'
 bootargs='ksdevice=bootif ipv6.disable=1 vga=791 net.ifnames=0 biosdevname=0'
 
 [soundbots]
-soundbot01 ansible_connection=local ansible_user=b08x ansible_become=true os=soundbot osver=1
+soundbot ansible_connection=local ansible_user=b08x ansible_become=true os=soundbot osver=1
 
 [all:vars]
 nameservers=[ "208.67.222.222", "208.67.220.220" ]
