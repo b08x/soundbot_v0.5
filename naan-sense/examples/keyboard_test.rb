@@ -32,6 +32,7 @@ while true #main loop, runs until stopped by ctrl-c
   c = char_if_pressed
   k= "#{c}".ord if c #work out ascii value of key
 
+
   if k>0 then
     note="#{nV[k]}".to_i #use the hash to get the correspending midi note (if any is mapped)
     if note > 0 then #only process mapped notes

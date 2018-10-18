@@ -31,6 +31,7 @@ GEM
     commander (4.4.4)
       highline (~> 1.7.2)
     equatable (0.5.0)
+    eventmachine (1.2.7)
     facets (3.1.0)
     ffi (1.9.18)
     ffi-bit_masks (0.1.1)
@@ -66,6 +67,8 @@ GEM
       equatable (~> 0.5.0)
       tty-color (~> 0.4.0)
     pedrozath-mercenary (0.3.8)
+    ruby-osc (0.40.0)
+      eventmachine (~> 1.2)
     ruby-sox (0.0.3)
     sonic-pi-cli (0.1.1)
       osc-ruby
@@ -113,6 +116,7 @@ DEPENDENCIES
   childprocess
   coltrane
   commander
+  eventmachine
   forkoff
   gir_ffi
   god
@@ -121,6 +125,7 @@ DEPENDENCIES
   jack-ffi
   mercenary
   musicxml
+  ruby-osc
   ruby-sox
   sonic-pi-cli
   streamio-ffmpeg
@@ -131,4 +136,4 @@ DEPENDENCIES
   unimidi
 
 BUNDLED WITH
-   1.16.1
+   1.16.5

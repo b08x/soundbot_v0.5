@@ -4,7 +4,7 @@
   tags: ['alsa']
 
 - include: jack.yml
-  tags: ['jack-audio']
+  tags: ['jack']
 
 - include: sonicpi.yml
   tags: ['sonic']
@@ -15,14 +15,14 @@
 - include: utils.yml
   tags: ['audio_tools']
 
-- include: rosegarden.yml
-  tags: ['rosegarden']
+#- include: rosegarden.yml
+#  tags: ['rosegarden']
 
-- include: zita.yml
-  tags: ['zita']
+- #include: zita.yml
+  #tags: ['zita']
 
-- include: linuxsampler.yml
-  tags: ['linuxsampler']
+#- include: linuxsampler.yml
+#  tags: ['linuxsampler']
 
 - include: effects.yml
   tags: ['effects']
@@ -38,3 +38,20 @@
 
 - include: realtime.yml
   tags: ['realtime']
+
+- name: install these things
+  dnf: name={{ item }} state=present
+  with_items:
+    - guitarix
+    - hydrogen
+    - non-sequencer
+    - qmidiarp
+    - qsynth
+    - rakarrack
+    - sooperlooper
+    - vmpk
+    - zynaddsubfx
+    - lv2-swh-plugins
+    - python3-rdflib
+    - mixxx
+  tags: ['core']

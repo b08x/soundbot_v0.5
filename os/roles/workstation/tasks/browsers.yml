@@ -6,12 +6,6 @@
     - w3m
     - surf
 
-- name: install chrome
-  dnf:
-    name: google-chrome
-    enablerepo: google-chrome
-    state: present
-  tags: ['browsers']
 
 - name: install surfraw
   dnf: name=surfraw state=present

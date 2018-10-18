@@ -8,13 +8,13 @@
 
 - name: install rpmfusion nonfree repo
   dnf: >
-    name='http://download1.rpmfusion.org/nonfree/fedora/releases/27/Everything/x86_64/os/Packages/r/rpmfusion-nonfree-release-27-1.noarch.rpm'
+    name='http://download1.rpmfusion.org/nonfree/fedora/releases/28/Everything/x86_64/os/Packages/r/rpmfusion-nonfree-release-28-1.noarch.rpm'
     state=present
   tags: ['rpmfusion']
 
 - name: install rpmfusion free repo
   dnf: >
-    name='http://download1.rpmfusion.org/free/fedora/releases/27/Everything/x86_64/os/Packages/r/rpmfusion-free-release-27-1.noarch.rpm'
+    name='http://download1.rpmfusion.org/free/fedora/releases/28/Everything/x86_64/os/Packages/r/rpmfusion-free-release-28-1.noarch.rpm'
     state=present
   tags: ['rpmfusion']
 

@@ -27,3 +27,7 @@
     - liblo-devel
     - python3-pyliblo
     - audacity-freeworld
+
+- name: install obs
+  dnf: name=obs-studio state=present
+  tags: ['obs']

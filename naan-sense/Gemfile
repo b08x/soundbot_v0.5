@@ -34,3 +34,6 @@ gem 'coltrane'
 gem 'mercenary'
 
 gem 'commander'
+
+gem 'ruby-osc'
+gem 'eventmachine'

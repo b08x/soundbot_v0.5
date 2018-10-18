@@ -5,5 +5,9 @@
   with_items:
     - jack-audio-connection-kit
     - jack-audio-connection-kit-example-clients
-    - qjackctl
+    - jack-audio-connection-kit-dbus
+    - jack-keyboard
+    - jack-rack
+    - jack_capture
+    - pulseaudio-module-jack
   tags: ['jack-audio']
