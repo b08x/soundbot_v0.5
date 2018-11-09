@@ -1,7 +1,7 @@
 # Before running this file, first run helpers/sequencer.rb to load the seq function
-run_file "/home/b08x/workspace/projects/seshmon/examples/helpers/sequencer.rb"
+run_file "/home/b08x/workspace/soundbot/naan-sense/examples/helpers/sequencer.rb"
 
-run_file "/home/b08x/workspace/projects/seshmon/examples/helpers/play-helper.rb"
+run_file "/home/b08x/workspace/soundbot/naan-sense/examples/helpers/play-helper.rb"
 
 use_bpm 110
 

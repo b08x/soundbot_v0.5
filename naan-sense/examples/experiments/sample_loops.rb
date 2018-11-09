@@ -26,7 +26,7 @@ with_fx :reverb, room: 0.9 do
     sample "guit", pick
     sleep 4
   end
-  
+
   live_loop :bd do
     use_random_seed 333
     sleep 0.25
@@ -78,9 +78,9 @@ with_fx :reverb, room: 0.9 do
 
 live_loop :acoustic do
   use_random_seed 332
-  6.times do
+  4.times do
 
-    sample "/home/b08x/studio/resources/samples/drums/drumkits/swell_acoustic01/**", pick, amp: 0.5
+    sample "/home/b08x/studio/library/sfz/drums/acous/**", pick, amp: 0.5
     sleep 0.35
   end
 end
