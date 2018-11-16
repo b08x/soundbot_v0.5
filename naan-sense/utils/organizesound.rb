@@ -18,7 +18,7 @@ require 'tty-which'
 require 'tty-prompt'
 require 'tty-pager'
 
-drum_kits = Pathname.new("/home/b08x/studio/sound_library/instruments/drumsandpercussion/drums")
+drum_kits = Pathname.new("/home/b08x/studio/library/instruments/percussions")
 
 #drum_kits.map { |x| x.to_s }.each do |y|
 
@@ -28,7 +28,9 @@ drum_kits.children.each do |y|
 
   FileUtils.cd(y, verbose: true) do
     cmd = TTY::Command.new(printer: :pretty)
-    cmd.run("makesfz -s -k c3 -m all -f flac -n #{drumdir}")
+    if cmd.run!("makesfz -s -k c3 -m all -f flac -n #{drumdir}").failure?
+      next
+    end
   end
 
 end

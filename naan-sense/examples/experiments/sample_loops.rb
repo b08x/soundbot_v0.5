@@ -8,7 +8,7 @@ with_fx :reverb, room: 0.9 do
   live_loop :tab do
     use_random_seed 328
     16.times do
-      sample "tabla_", pick, amp: 1-(tick % 2)
+      sample PERCS, "groove", pick, amp: 1-(tick % 2)
       sleep 0.325
     end
   end
