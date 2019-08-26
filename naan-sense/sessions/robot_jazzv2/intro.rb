@@ -1,6 +1,6 @@
 #introduction
 
-set_mixer_control! hpf: 21
+
 
 #for decent bass just set the low values to postive, for less bass just set them to negative. it sounds fine
 #the way it is now, dont fuck with it. (guitarix isn't necessary for this)
@@ -12,7 +12,7 @@ high_shelf: 0, high_shelf_note: 119, high_shelf_slope: 0.5, pre_amp: 1 do
   use_bpm 60
   use_debug true
   #set_sched_ahead_time! 0
-  set_volume! 2
+  #set_volume! 2
 
   #########################################
   # Metronome Helper Functions for synching
@@ -116,7 +116,7 @@ sleep 4
       with_fx :reverb, room: 0.8, damp: 0.4 do
         live_loop :repeating_melody do
           #stop
-          sync :four_bars
+          sync :every_two_bars
           use_synth :mod_pulse
           use_random_seed 780
           64.times do |x|
@@ -172,7 +172,7 @@ sleep 4
           with_fx :echo, decay: 4, phase: 1 do
             with_fx :slicer, probability: 0.85, smooth_down: 0.5 do
 
-              play :d2, amp: 0.75, attack: 0.45, sustain: 0.50, release: 0.25, pitch: 0, slide: 16 do |x|
+              play :d2, amp: 0.55, attack: 0.45, sustain: 0.50, release: 0.25, pitch: 0, slide: 16 do |x|
 
                 control x, pitch: -36, note: :a3
               end
@@ -203,7 +203,7 @@ sleep 4
           tick
           with_fx :ixi_techno, cutoff_min: 24, cutoff_max: 42, res: 0.8, phase: 0.25 do
             with_fx :band_eq, freq: 41, db: 8, res: 0.25 do
-              sample SAMPLES, "we_are_floating", amp: 1, start: 0.56, finish: 1, beat_strech: 4, attack: 0.25, sustain: 4, release: 0.25, pan: 0, pan_slide: 4 do |p|
+              sample SAMPLES, "we_are_floating", amp: 0.5, start: 0.56, finish: 1, beat_strech: 4, attack: 0.25, sustain: 4, release: 0.25, pan: 0, pan_slide: 4 do |p|
                 control p, pan: rrand(-0.8,0.8)
               end
             end

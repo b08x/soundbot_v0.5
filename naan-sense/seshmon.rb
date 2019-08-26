@@ -47,7 +47,7 @@ include Logging
 def start_jack
 
   cmd = TTY::Command.new(printer: :pretty)
-  cmd.run("jack_control start \
+  cmd.run("#jack_control start \
   dps device 'hw:0' \
   dps rate 48000 \
   dps period 512 \
@@ -61,6 +61,16 @@ def start_jack
 
 end
 
+jack_control start \
+dps rate 48000 \
+dps period 512 \
+dps nperiods 2 \
+dps midi-driver seq \
+eps driver alsa \
+eps realtime True \
+eps realtime-priority 80 \
+eps verbose True \
+eps client-timeout 1000
 
 def start_sonic
 

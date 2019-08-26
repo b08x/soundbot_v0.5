@@ -316,7 +316,7 @@ at 75 do
       end
       sleep 8
     end
-    stop
+    #stop
   end
 
 end
@@ -353,17 +353,17 @@ end
 
 live_loop :ahee do
 
-  sample SAMPLES, "EE_Hat_Op_Dirty" if spread(1,8).tick
+  sample PERCS, "EE_Hat_Op_Dirty" if spread(1,8).tick
 
   # sample electric_empire, "EE_Hat_Cl_Dirty" if spread(5,11).look
   #
-  sample DRUM_KITS, "35bass" if spread(3,8).look
+  sample PERCS, "35bass" if spread(3,8).look
 
-  sample DRUM_KITS, "35bass" if spread(7,11).look
+  sample PERCS, "35bass" if spread(7,11).look
 
-  sample DRUM_KITS, "35bass" if spread(1,4).look
+  sample PERCS, "35bass" if spread(1,4).look
 
-  sleep 0.25
+  sleep S
 
 end
 
@@ -431,7 +431,7 @@ with_fx :level, amp: 0.8 do
 
         live_loop :ghostface do
           # load_sample SAMPLES, "000248ghostsofthingstcome"
-          sync :heartbeatx
+          #sync :heartbeatx
 
           range(1,8,inclusive:true).each do |x|
 
@@ -454,7 +454,7 @@ with_fx :level, amp: 0.8 do
             end
 
          end
-         stop
+         #stop
         end
       end
     end
@@ -492,11 +492,11 @@ at 122 do
       with_fx :panslicer, amp_min: 0.1, amp_max: 0.4, pan_min: -0.8, pan_max: 0.8,
       smooth_up: 1.5, smooth_down: 1.5 do
         with_fx :mono do
-          sample SAMPLES, "SCSS-Sequence-08", attack: 2, release: 0.25, pre_amp: 0.05
+          sample EFFECTS, "SCSS-Sequence-08", attack: 2, release: 0.25, pre_amp: 0.05
         end
       end
 
-      sleep sample_duration SAMPLES, "SCSS-Sequence-08", attack: 2, release: 0.25
+      sleep sample_duration EFFECTS, "SCSS-Sequence-08", attack: 2, release: 0.25
       sleep 4
 
   end

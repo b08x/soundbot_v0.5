@@ -4,12 +4,12 @@ use_debug false
 
 with_fx :reverb, room: 0.9 do
 
-
+use_bpm 90
   live_loop :tab do
-    use_random_seed 328
+    use_random_seed 1508
     16.times do
       sample PERCS, "groove", pick, amp: 1-(tick % 2)
-      sleep 0.325
+      sleep S
     end
   end
 
@@ -61,7 +61,7 @@ with_fx :reverb, room: 0.9 do
   end
 
   live_loop :elec do
-    use_random_seed 285
+    use_random_seed 601
     3.times do
       sample "loop", pick, attack: 2, release: 2, amp: 1
       sleep 4

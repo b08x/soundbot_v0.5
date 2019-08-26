@@ -16,7 +16,7 @@ def hellofriend01
   with_fx :rhpf, cutoff: 80 do
     with_fx :level, amp: 1 do
       with_fx :reverb, mix: 0.2, room: 1 do
-          sample SAMPLES, "01hellofriend", start: 0, finish: 0.125, rate: 0.95, pan: -1, pan_slide: 4 do |p|
+          sample SAMPLES, "hellofriend", start: 0, finish: 0.125, rate: 0.95, pan: -1, pan_slide: 4 do |p|
             control p, pan: 1
           end
       end

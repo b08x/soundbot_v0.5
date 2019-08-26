@@ -95,7 +95,7 @@ end
 
 with_fx :sound_out_stereo, output: 3, amp: 0 do
 
-at 20 do
+#at 20 do
 
   with_fx :level, amp: 0.075 do
 
@@ -114,7 +114,7 @@ at 20 do
       end
     end
 
-  end
+  #end
 
 
 

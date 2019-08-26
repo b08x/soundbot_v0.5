@@ -21,6 +21,7 @@ def drums_mid02
              sample ace, "63conga_high", attack: 0.01, sustain: 0.2, release: 0.02, amp: 0.3, rate: -1, pan: rrand(-0.9,0.9)
            end
          else
+           
            #sample electric_empire, "EE_Hat_Cl_Dirty", amp: 0.5
         end
 

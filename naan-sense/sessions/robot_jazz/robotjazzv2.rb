@@ -652,7 +652,7 @@ at 246 do
     end#end eq high shelf
   end
 
-  cue :moreghosts
+  #cue :moreghosts
 
 end
 

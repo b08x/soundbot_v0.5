@@ -12,6 +12,7 @@ use_debug true
 # Metronome Helper Functions for synching
 #########################################
 
+
 # Count every beat
 live_loop :bar do
   cue :tick

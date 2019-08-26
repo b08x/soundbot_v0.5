@@ -85,15 +85,16 @@ use_bpm 90
 with_fx :level, amp: 0.6 do
 
   live_loop :basshit do
+    use_random_seed 6010
     #sync :drumloop
     4.times do
-      sample SAMPLES, "808_Kick_long", attack: 0.005
-      sleep 1
+      sample PERCS, "kick", pick, attack: 0.005
+      sleep Q
     end
 
     2.times do
-      sample SAMPLES, "808_Kick_long", attack: 0.005
-      sleep 0.5
+      sample PERCS, "kick", pick, attack: 0.005
+      sleep S
     end
 
   end

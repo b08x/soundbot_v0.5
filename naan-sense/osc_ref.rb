@@ -66,6 +66,8 @@ oscsend localhost 9090 '/strip/master/C*%20Eq4p%20-%204-band%20parametric%20equa
 oscsend localhost 9090 '/strip/master/C*%20Eq4p%20-%204-band%20parametric%20equaliser/a.f%20(Hz)' f 0
 oscsend localhost 9090 '/strip/master/C*%20Eq4p%20-%204-band%20parametric%20equaliser/a.f%20(Hz)' f 0.01
 
+oscsend localhost 19340 '/strip/effects01/Rate%20shifter/Rate' f 4.0
+
 #TODO some sort of conversion e.g. 0.01 to Hz
 # perhaps not....
 # add 'usncaled at the end followed by the specifc number (insead of a float between 0.0 and 1.0)'
