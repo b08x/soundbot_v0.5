@@ -76,12 +76,6 @@ use_bpm 90
 
 
 
-
-
-
-
-
-
 with_fx :level, amp: 0.6 do
 
   live_loop :basshit do

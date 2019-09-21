@@ -16,7 +16,7 @@ for audio production.
 a playbook for;
 
 a laptop; which will sometimes be used as a manager (of sessions, using i3) and other times
-a personal pleasure device (using kde)
+a personal pleasure device
 
 a robust host with a large processing and graphical capacity
 mostly for studio work
@@ -54,3 +54,6 @@ enhanced enjoyment through sound
 
 # todo
 [ ] configure auditd to not be so verbose
+[ ] use nodm & configure xinit/i3
+[ ] update fedora stuff to 30
+[ ] configure alsa to set default device order
