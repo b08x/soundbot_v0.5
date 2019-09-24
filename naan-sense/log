@@ -1,7 +1,0 @@
-slgui: our URL is osc.udp://qubert:12192/
-Changing our url to be : osc.udp://localhost:12192/
-execing: 'sooperlooper -q -U osc.udp://localhost:12192/ -p 9951 -l 4 -c 1 -t 40 -m "/home/b08x/.sooperlooper/default_midi.slb"'
-
-slgui: spawned new engine
-slgui: remote looper is at osc.udp://qubert:9951/ version=1.7.3   loopcount=4  id=1524882810
-  but treating the engine URL as osc.udp://localhost:9951/
