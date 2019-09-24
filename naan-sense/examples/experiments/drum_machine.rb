@@ -11,13 +11,13 @@ live_loop :drums do
     16.times do
       tick
       if cymbals.look then
-        sample HYDRO_KITS, "48-SabianRockHatSwish-3", attack: 0.01, sustain: 0.2, release: 0.02, amp: 0.3
+        sample PERCS, "alesis_future_54_plunk", attack: 0.01, sustain: 0.2, release: 0.02, amp: 0.3
       else
-        sample HYDRO_KITS, "42-SabianRockHatClosed-3", amp: 0.5
+        sample PERCS, "alesis_future_56cowbell_fx", amp: 0.5
       end
-      sample HYDRO_KITS, "38-PorkpieSnare-3", on: hard.look
-      sample HYDRO_KITS, "38-PorkpieSnareEdge-3", on: soft.look
-      sample HYDRO_KITS, "36-Ludwig26Kick-3", on: kick.look
+      sample PERCS, "alesis_future_38snare", on: hard.look
+      sample PERCS, "alesis_future_40snare", on: soft.look
+      sample PERCS, "alesis_future_35kick", on: kick.look
       sleep 0.25
     end
   end

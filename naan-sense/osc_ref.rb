@@ -56,8 +56,8 @@ recordings = File.join(studio, "recordings")
 
 # "%20" represents a space between words (as is this a url apparently)
 oscsend localhost 9090 /strip/master/Mono%20Pan/Pan f 0.4
-oscsend localhost 9090 /strip/master/Mono%20Pan/Pan f 0.2
-oscsend localhost 9090 '/strip/master/Gain/Gain%20(dB)' f 1
+oscsend localhost 16093 /strip/master/Mono%20Pan/Pan f 0.2
+oscsend localhost 17676 '/strip/master/Gain/Gain%20(dB)' f 0.9
 oscsend localhost 9090 '/strip/master/Gain/Gain%20(dB)' f 0.9
 oscsend localhost 9090 '/strip/master/Gain/Gain%20(dB)' f 0.98
 oscsend localhost 9090 '/strip/master/Gain/Gain%20(dB)' f 0.91
@@ -73,5 +73,12 @@ oscsend localhost 19340 '/strip/effects01/Rate%20shifter/Rate' f 4.0
 # add 'usncaled at the end followed by the specifc number (insead of a float between 0.0 and 1.0)'
 oscsend localhost 9090 '/strip/master/C*%20Eq4p%20-%204-band%20parametric%20equaliser/a.f%20(Hz)/unscaled' f 1400
 # http://non.tuxfamily.org/wiki/UsingMidiWithNon
+oscsend localhost 16093 '/strip/master/Gain/Mute' f 1.0
+
+# mute on
+oscsend localhost 18390 'Non-Mixer.nAKCP/strip/master/Gain/Mute' f 1
+# mute off
+oscsend localhost 18390 'Non-Mixer.nAKCP/strip/master/Gain/Mute' f 0
+
 
 # TODO consistent strip names and effect chaining...

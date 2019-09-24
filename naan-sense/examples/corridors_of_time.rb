@@ -3,7 +3,7 @@
 
 set_mixer_control! hpf: 21
 
-run_file "/home/b08x/workspace/seshmon/lib/bass/wooble.rb"
+run_file "/home/b08x/workspace/soundbot_v0.5/naan-sense/lib/bass/wooble.rb"
 
 # global config
 use_bpm 110
@@ -84,7 +84,7 @@ def bass_e
   sleep 1.5
   play :e2, release: 1.5
   sleep 1.5
-  play :b2pppppppppppppppppppp
+  play :b2
   sleep 0.5
   play :e3
   sleep 0.5
